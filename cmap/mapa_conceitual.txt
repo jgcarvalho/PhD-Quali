@@ -1,0 +1,48 @@
+Zeca	
+	Parte 1
+		Introdução
+			Proteinas
+				Estruturas
+					Primária
+					Secundária
+					Terciária
+					Quaternária
+				Enovelamento
+					Hipóteses do enovelamento
+				Modelos teóricos e predição estrutural
+					Modelos teóricos para a formação da estrutura secundária
+						Hélices
+						Fitas
+					Predição da estrutura secundária
+						Propensão dos aminoácidos
+						Aprendizado de máquina
+			Automatos celulares
+				Automato celular elementar
+				Outros tipos de automatos celulares
+				Problema inverso
+		Objetivos
+		Justificativa
+	Parte 2
+		Desenvolvimento
+			Dados
+				--para--
+					teste de conceito #1
+					aprendizado de regras gerais
+			Implementação 
+				Automato celular
+					Estados do AC
+						não utilizando hidrofobicidade
+						utilizando hidrofobicidade
+							variantes
+					Características das regras de transição
+				EDA distribuído
+	Parte 3
+		Resultados
+			Teste de conceito #1
+				Casos de hélices
+				Casos de fitas
+			Aprendizado de regra gerais
+		Conclusão
+	Parte 4
+		Perspectivas futuras
+
