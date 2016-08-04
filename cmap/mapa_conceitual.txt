@@ -38,6 +38,7 @@ Zeca
 				EDA distribuído
 	Parte 3
 		Resultados
+			Análise dos conjuntos de dados
 			Teste de conceito #1
 				Casos de hélices
 				Casos de fitas
