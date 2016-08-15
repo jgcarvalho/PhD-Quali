@@ -39,10 +39,15 @@ Zeca
 	Parte 3
 		Resultados
 			Análise dos conjuntos de dados
+				Camaleonicas
+				Conjunto geral
+					Distribuição de estruturas secundárias
+					Relação estruturas secundárias x ângulos da cadeia principal
 			Teste de conceito #1
 				Casos de hélices
 				Casos de fitas
 			Aprendizado de regra gerais
+			Análise das regras gerais
 		Conclusão
 	Parte 4
 		Perspectivas futuras
