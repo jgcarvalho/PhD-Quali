@@ -11,7 +11,7 @@
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language brazilian
 \language_package default
 \inputencoding utf8
 \fontencoding global
@@ -28,7 +28,7 @@
 \graphics default
 \default_output_format default
 \output_sync 0
-\bibtex_command biber
+\bibtex_command default
 \index_command default
 \paperfontsize default
 \spacing single
@@ -148,14 +148,14 @@ Document
 \SpecialChar \menuseparator
 
 \family default
-\lang american
+\lang brazilian
 Settings
 \family sans
 \lang english
 \SpecialChar \menuseparator
 
 \family default
-\lang american
+\lang brazilian
 LaTeX preamble
 \color inherit
  for biblatex/biber to work AND through the dialog provided by LyX so that
@@ -167,7 +167,7 @@ Insert
 \SpecialChar \menuseparator
 
 \family default
-\lang american
+\lang brazilian
 Citation
 \color inherit
 :
@@ -239,58 +239,7 @@ filename "Titleback.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Dedication.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage cleardoublepage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
 filename "Abstract.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage cleardoublepage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Publications.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage cleardoublepage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Acknowledgments.lyx"
 
 \end_inset
 
@@ -354,7 +303,7 @@ pagenumbering{arabic}
 \end_layout
 
 \begin_layout Part
-Some Kind of Manual
+Fundamentos teóricos
 \end_layout
 
 \begin_layout Standard
@@ -388,7 +337,7 @@ Errem omnium ea per, pro congue populo ornatus cu, ex qui dicant nemore
 \end_layout
 
 \begin_layout Part
-The Showcase
+Desenvolvimento
 \end_layout
 
 \begin_layout Standard
@@ -412,7 +361,7 @@ filename "Chapter03.lyx"
 \end_layout
 
 \begin_layout Part
-The Lyx Port
+Resultados
 \end_layout
 
 \begin_layout Standard
@@ -423,6 +372,10 @@ filename "Chapter04.lyx"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Part
+Perspectivas futuras
 \end_layout
 
 \begin_layout Standard
