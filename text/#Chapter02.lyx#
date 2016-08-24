@@ -73,6 +73,41 @@
 Dados
 \end_layout
 
+\begin_layout Standard
+Neste trabalho foram utilizados dois conjuntos de dados consistindo de proteínas
+ com estrutura resolvida experimentalmente e a estrutura secundária atribuída
+ a seus resíduos por quatro diferentes algoritmos.
+\end_layout
+
+\begin_layout Standard
+O primeiro conjunto selecionado é formado por um grande número de estruturas
+ de alta qualidade cuja utilização tem a finalidade de encontrar regras
+ gerais para o autômato celular.
+ Essas regras gerais são um dos elementos mais importantes desse trabalho,
+ pois permitem avaliar a generalização do autômato celular, isto é, qual
+ o grau de sucesso da aplicação do autômato para o universo de proteínas
+ existentes.
+\end_layout
+
+\begin_layout Standard
+O segundo conjunto selecionado, mas que muitas vezes será discutido primeiro
+ ao longo desse trabalho, é composto de quatro proteínas denominadas de
+ camaleônicas.
+ Esse conjunto foi selecionado por ser, possivelmente, o exemplo experimental
+ de maior complexidade.
+ Como discutiremos ao longo do texto, todos os métodos de predição de estrutura
+ secundária e de modelagem por homologia tendem a falhar em proteínas desse
+ tipo devido à limitações teóricas.
+\end_layout
+
+\begin_layout Section
+Proteínas camaleônicas
+\end_layout
+
+\begin_layout Section
+Proteinas diversas
+\end_layout
+
 \begin_layout Chapter
 Implementação
 \end_layout
