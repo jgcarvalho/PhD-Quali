@@ -74,14 +74,15 @@ Dados
 \end_layout
 
 \begin_layout Standard
-Neste trabalho foram utilizados dois conjuntos de dados consistindo de proteínas
+Neste trabalho foram utilizados dois conjuntos de dados compostos de proteínas
  com estrutura resolvida experimentalmente e a estrutura secundária atribuída
- a elas por quatro diferentes algoritmos.
+ aos seus resíduos por quatro diferentes algoritmos, DSSP, Stride, Kaksi
+ e Pross.
 \end_layout
 
 \begin_layout Standard
-O primeiro conjunto selecionado é formado por um grande número estruturas
- de alta resolução cuja utilização tem a finalidade de encontrar regras
+O primeiro conjunto selecionado é formado por um grande número de estruturas
+ de alta qualidade cuja utilização tem a finalidade de encontrar regras
  gerais para o autômato celular.
  Essas regras gerais são um dos elementos mais importantes desse trabalho,
  pois permitem avaliar a generalização do autômato celular, isto é, qual
@@ -98,6 +99,51 @@ O segundo conjunto selecionado, mas que muitas vezes será discutido primeiro
  Como discutiremos ao longo do texto, todos os métodos de predição de estrutura
  secundária e de modelagem por homologia tendem a falhar em proteínas desse
  tipo devido à limitações teóricas.
+\end_layout
+
+\begin_layout Section
+Proteínas camaleônicas
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/jgcarvalho/Documentos/PhD-Quali/figures/chameleonic_resume.pdf
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Proteínas camaleonicas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Proteinas diversas
 \end_layout
 
 \begin_layout Chapter

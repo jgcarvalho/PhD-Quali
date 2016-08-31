@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ClassicThesis.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: FrontBackmatter/DirtyTitlepage.aux
+A level-1 auxiliary file: FrontBackmatter/Titlepage.aux
+A level-1 auxiliary file: FrontBackmatter/Titleback.aux
+A level-1 auxiliary file: FrontBackmatter/Dedication.aux
+A level-1 auxiliary file: FrontBackmatter/Abstract.aux
+A level-1 auxiliary file: FrontBackmatter/Publications.aux
+A level-1 auxiliary file: FrontBackmatter/Acknowledgments.aux
+A level-1 auxiliary file: FrontBackmatter/Contents.aux
+A level-1 auxiliary file: Chapters/Chapter01.aux
+A level-1 auxiliary file: Chapters/Chapter02.aux
+A level-1 auxiliary file: Chapters/Chapter03.aux
+A level-1 auxiliary file: Chapters/Chapter0A.aux
+A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
+A level-1 auxiliary file: FrontBackmatter/Declaration.aux
+A level-1 auxiliary file: FrontBackmatter/Colophon.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ClassicThesis-blx.bib
+Database file #2: Bibliography.bib
+Database file #3: AMiede_Publications.bib
+Biblatex version: 3.3
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 9 entries,
+            6047 wiz_defined-function locations,
+            1197 strings with 9514 characters,
+and the built_in function-call counts, 30953 in all, are:
+= -- 1713
+> -- 959
+< -- 425
++ -- 405
+- -- 233
+* -- 1609
+:= -- 1783
+add.period$ -- 0
+call.type$ -- 9
+change.case$ -- 8
+chr.to.int$ -- 34
+cite$ -- 16
+duplicate$ -- 3353
+empty$ -- 3063
+format.name$ -- 441
+if$ -- 7283
+int.to.chr$ -- 0
+int.to.str$ -- 33
+missing$ -- 0
+newline$ -- 215
+num.names$ -- 606
+pop$ -- 2579
+preamble$ -- 1
+purify$ -- 327
+quote$ -- 0
+skip$ -- 2369
+stack$ -- 0
+substring$ -- 1446
+swap$ -- 1084
+text.length$ -- 216
+text.prefix$ -- 8
+top$ -- 1
+type$ -- 330
+warning$ -- 0
+while$ -- 199
+width$ -- 0
+write$ -- 205

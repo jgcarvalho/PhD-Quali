@@ -74,9 +74,10 @@ Dados
 \end_layout
 
 \begin_layout Standard
-Neste trabalho foram utilizados dois conjuntos de dados consistindo de proteínas
+Neste trabalho foram utilizados dois conjuntos de dados compostos de proteínas
  com estrutura resolvida experimentalmente e a estrutura secundária atribuída
- a seus resíduos por quatro diferentes algoritmos.
+ aos seus resíduos por quatro diferentes algoritmos, DSSP, Stride, Kaksi
+ e Pross.
 \end_layout
 
 \begin_layout Standard
@@ -104,8 +105,55 @@ O segundo conjunto selecionado, mas que muitas vezes será discutido primeiro
 Proteínas camaleônicas
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/jgcarvalho/Documentos/PhD-Quali/figures/chameleonic_resume.pdf
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Proteínas camaleonicas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Proteinas diversas
+\end_layout
+
+\begin_layout Standard
+O conjunto de proteínas diversas utilizado para o treinamento do autômato
+ foi obtido do banco de dados 
+\begin_inset Quotes eld
+\end_inset
+
+Top8000
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Esse banco de dados foi 
 \end_layout
 
 \begin_layout Chapter

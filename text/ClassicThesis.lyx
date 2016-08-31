@@ -350,6 +350,10 @@ filename "Chapter02.lyx"
 
 \end_layout
 
+\begin_layout Part
+Resultados
+\end_layout
+
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
@@ -361,7 +365,7 @@ filename "Chapter03.lyx"
 \end_layout
 
 \begin_layout Part
-Resultados
+Perspectivas futuras
 \end_layout
 
 \begin_layout Standard
@@ -372,10 +376,6 @@ filename "Chapter04.lyx"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Part
-Perspectivas futuras
 \end_layout
 
 \begin_layout Standard
