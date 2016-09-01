@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.15)  31 AUG 2016 19:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.15)  1 SEP 2016 15:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2023,24 +2023,9 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 10.
 )
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 120.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 120.
-[33
 
+LaTeX Warning: Empty bibliography on input line 12.
 
-
-]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 121.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 121.
-[34
-
-
-
-]
 \openout2 = `FrontBackmatter/Declaration.aux'.
 
 
@@ -2053,7 +2038,11 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 121.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 121.
-[35
+[33
+
+
+
+
 
 
 
@@ -2062,7 +2051,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 122.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 122.
-[36
+[34
 
 
 
@@ -2078,7 +2067,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 122.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 122.
-[37
+[35
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
@@ -2306,10 +2295,10 @@ Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
  )
 (\end occurred when \iftrue on line 55 was incomplete) 
 Here is how much of TeX's memory you used:
- 23234 strings out of 493029
- 406399 string characters out of 6136234
+ 23118 strings out of 493029
+ 404336 string characters out of 6136234
  756124 words of memory out of 5000000
- 26091 multiletter control sequences out of 15000+600000
+ 25979 multiletter control sequences out of 15000+600000
  70642 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,22n,90p,1188b,2698s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2325,10 +2314,10 @@ texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
 Output written on /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/ClassicThes
-is.pdf (45 pages, 235754 bytes).
+is.pdf (43 pages, 233259 bytes).
 PDF statistics:
- 494 PDF objects out of 1000 (max. 8388607)
- 427 compressed objects within 5 object streams
- 109 named destinations out of 1000 (max. 500000)
+ 483 PDF objects out of 1000 (max. 8388607)
+ 418 compressed objects within 5 object streams
+ 105 named destinations out of 1000 (max. 500000)
  14139 words of extra memory for PDF output out of 14400 (max. 10000000)
 

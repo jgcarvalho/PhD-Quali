@@ -1,8 +1,8 @@
 \chapter{Dados}
 
-Neste trabalho foram utilizados dois conjuntos de dados compostos de proteínas com estruturas resolvidas experimentalmente e da estrutura secundária atribuída aos seus resíduos por quatro diferentes algoritmos, DSSP, Stride, Kaksi e Pross.
+Neste trabalho foram utilizados dois conjuntos de dados compostos de proteínas com estruturas resolvidas experimentalmente e da estrutura secundária atribuída aos seus resíduos por quatro diferentes algoritmos: DSSP, Stride, Kaksi e Pross.
 
-O primeiro conjunto selecionado é formado por um grande número de estruturas de alta qualidade tem como finalidade ser utilizado na busca de regras gerais para o autômato celular. Essas regras gerais são um dos elementos mais importantes desse trabalho, pois permitem avaliar a generalização do autômato celular, isto é, qual o grau de sucesso da aplicação do autômato para o universo de proteínas existentes.
+O primeiro conjunto selecionado é formado por um grande número de estruturas de alta qualidade e tem como finalidade ser utilizado na busca de regras gerais para o autômato celular. Essas regras gerais são um dos elementos mais importantes desse trabalho, pois permitem avaliar a generalização do autômato celular, isto é, qual o grau de sucesso da aplicação do autômato para o universo de proteínas existentes.
 
 O segundo conjunto selecionado é composto de quatro proteínas denominadas de camaleônicas. Esse conjunto foi selecionado por ser, possivelmente, o exemplo experimental mais desafiador para os métodos de predição de estrutura secundária. Como discutiremos ao longo do texto, todos os métodos de predição de estrutura secundária, assim como os de modelagem comparativa, tendem a falhar nesse conjunto devido à limitações teóricas dos métodos.
 
@@ -16,7 +16,7 @@ O segundo conjunto selecionado é composto de quatro proteínas denominadas de c
 
 \section{Proteínas diversas}
 
-O conjunto de proteínas diversas utilizado para o treinamento do autômato foi obtido do banco de dados “Top8000” ( versão de 2015). Esse banco de dados foi organizado pelo Richardson Lab da Universidade de Duke (disponível em \href{https://github.com/rlabduke/reference_data}{github.com/rlabduke/reference\_data}). As cadeias selecionadas atendem aos seguintes critérios:
+O conjunto de proteínas diversas utilizado para o treinamento do autômato foi obtido do banco de dados “Top8000” (versão de 2015). Esse banco de dados foi organizado pelo Richardson Lab da Universidade de Duke (disponível em \href{https://github.com/rlabduke/reference_data}{github.com/rlabduke/reference\_data}). As cadeias selecionadas atendem aos seguintes critérios:
 
 \begin{itemize}
 	\item{Resolução < 2.0 \AA}
@@ -26,7 +26,7 @@ O conjunto de proteínas diversas utilizado para o treinamento do autômato foi 
 	\item{$\le 5 \%$ dos resíduos com desvios anormais do  $C_\beta$ ( > 0.25 \AA)}
 \end{itemize}
 
-As cadeias selecionadas pelos critérios acima são subagrupadas de acordo com o grau de identidade sequencial (homologia): < 50\%, <70\% e <95\%.  Cadeias que apresentavam resíduos indeterminados na estrutura ou que apresentaram algum erro durante a atribuição da estrutura secundária por algum dos quatro métodos foram removidos do conjunto. A tabela (?) mostra o número de cadeias utilizadas.
+As cadeias selecionadas pelos critérios acima são subagrupadas de acordo com o grau de identidade sequencial (homologia): < 50\%, <70\% e <95\%.  Cadeias que apresentavam resíduos indeterminados na estrutura ou que apresentaram algum erro durante a atribuição da estrutura secundária por algum dos quatro métodos foram removidos do conjunto. A tabela \ref{tab:example} mostra o número de cadeias utilizadas.
 
 \begin{table}
     \myfloatalign
@@ -40,7 +40,6 @@ As cadeias selecionadas pelos critérios acima são subagrupadas de acordo com o
     %usu mucius iisque & studio & sanctificatef \\
     \bottomrule
   \end{tabularx}
-  \caption[Autem timeam deleniti usu id]{Autem timeam deleniti usu
-  id. \citeauthor{knuth:1976}}  \label{tab:example}
+  \caption[Autem timeam deleniti usu id]{Número de cadeias presentes no banco de dados Top8000 (Richardson Lab) e número de cadeias utilizadas neste trabalho após a exclusão de cadeias que apresentaram algum problema durante a atribuição da estrutura secundária ou que possuiam resíduos indeterminados.}  \label{tab:example}
 \end{table}
 

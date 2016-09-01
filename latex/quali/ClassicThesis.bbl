@@ -16,31 +16,6 @@
   {}
 \endgroup
 
-\entry{knuth:1976}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Knuth}{K.}%
-     {Donald~E.}{D.~E.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {ACM Press}%
-  }
-  \strng{namehash}{KDE1}
-  \strng{fullhash}{KDE1}
-  \field{sortinit}{K}
-  \field{number}{2}
-  \field{pages}{18\bibrangedash 24}
-  \field{title}{{B}ig {O}micron and {B}ig {O}mega and {B}ig {T}heta}
-  \field{volume}{8}
-  \list{location}{1}{%
-    {New York, NY, USA}%
-  }
-  \field{journaltitle}{SIGACT News}
-  \field{year}{1976}
-\endentry
-
 \lossort
 \endlossort
 
