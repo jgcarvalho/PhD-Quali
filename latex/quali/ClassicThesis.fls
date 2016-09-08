@@ -464,6 +464,16 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 OUTPUT /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo05.aux
 INPUT /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo05.tex
 INPUT /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo05.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/eulervm/zeurm7.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/eulervm/zeusm7.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm7.tfm
 OUTPUT /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo06.aux
 INPUT /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo06.tex
 INPUT /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo06.tex
@@ -544,6 +554,7 @@ INPUT /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/ClassicThesis.run.xml
 OUTPUT /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/ClassicThesis.run.xml
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb

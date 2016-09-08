@@ -4,6 +4,15 @@
 
 \subsection{Modelo inicial}
 
-O modelo inicial que desenvolvemos é composto de 
+O autômato celular inicialmente proposto possui 24 estados discretos. Esses estados correspondem aos 20 aminoácidos, as 3 estruturas secundárias (hélice, fita e random coil) e mais um estado que indica o início/fim da cadeia polipeptídica (\textit{estado=\#}). A vizinhança deste autômato celular é igual a 1 (\textit{r}=1),  o que indica que as regras de transição são dependentes dos vizinhos mais próximos, a esquerda e a direita. Cada transição pode ocorrer para apenas quatro estados, ou um dos 3 estados que representam os elementos de estrutura secundária ou para o aminoácido inicial.
+
+Logo, temos que o total de elementos na regra desse autômato é $24^3$ ou 13824, das quais 24 são elementos estáticos, pois células no estado \textit{\#} sempre permanecerão nesse estado durante a evolução do autômato. Assim temos $4^{24^3-24}$ regras possíveis para esse autômato celular.
+
+\subsection{Modelos extendidos}
+
+Uma das limitações do modelo proposto inicialmente é a perda de informação que ocorre durante a evolução do autômato celular quando as células transitam de estados correpondentes aos aminoácidos para estados de elementos de estrutura secundária. Por exemplo, quando uma lisina evolui para uma hélice, o estado de hélice não possui mais a informação de qual aminoácido havia naquela posição. Acreditamos que essa perda de informação possa ser um fator crítico para o modelo. Consequentemente, avaliamos modelos alternativos que pudessem manter essa informação. 
+
+Uma possibilidade seria manter a informação do resíduo juntamente com o elemento de estrutura secundária. Esse modelo teria 20 estados para os aminoácidos, 20 estados para hélices (um estado diferente para cada aminoácido), 20 estados para fitas e 20 estados para random coils, além do estado de início/fim da cadeia polipeptídica, totalizando 81 estados. Cada regra para esse autômato celular teria $81^3$  ou 531441 elementos, o que seria aproximadamente 38 vezes maior que uma regra do modelo proposto inicialmente, resultando em um aumento significativo da complexidade e da dificuldade na busca por regras.
+
 
 \section{EDA}

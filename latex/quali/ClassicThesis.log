@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.15)  1 SEP 2016 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.15)  8 SEP 2016 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1505,7 +1505,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 
-] <gfx/TFZsuperellipse_bw.pdf, id=169, 260.5755pt x 203.14595pt>
+] <gfx/TFZsuperellipse_bw.pdf, id=185, 260.5755pt x 203.14595pt>
 File: gfx/TFZsuperellipse_bw.pdf Graphic file (type pdf)
 <use gfx/TFZsuperellipse_bw.pdf>
 Package pdftex.def Info: gfx/TFZsuperellipse_bw.pdf used on input line 22.
@@ -1775,7 +1775,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 9.
-<figures/chameleonic_resume.pdf, id=290, 512.314pt x 328.50494pt>
+<figures/chameleonic_resume.pdf, id=311, 512.314pt x 328.50494pt>
 File: figures/chameleonic_resume.pdf Graphic file (type pdf)
 <use figures/chameleonic_resume.pdf>
 Package pdftex.def Info: figures/chameleonic_resume.pdf used on input line 13.
@@ -1803,6 +1803,14 @@ me.pdf>]
 chapter 5.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 5.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 11.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 18.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 96.
@@ -2288,36 +2296,37 @@ FrontBackmatter/Colophon.tex
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: EE9D4D361588A1E167576516B11BD028;2354.
+(rerunfilecheck)             Checksum: B2B5E897AFAED4018A9FFC02B494DCB3;2630.
 Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 \openout1 = `ClassicThesis.run.xml'.
 
  )
 (\end occurred when \iftrue on line 55 was incomplete) 
 Here is how much of TeX's memory you used:
- 23118 strings out of 493029
- 404336 string characters out of 6136234
+ 23135 strings out of 493029
+ 404506 string characters out of 6136234
  756124 words of memory out of 5000000
- 25979 multiletter control sequences out of 15000+600000
- 70642 words of font info for 99 fonts, out of 8000000 for 9000
+ 25984 multiletter control sequences out of 15000+600000
+ 72795 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,22n,90p,1188b,2698s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf
 -dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/euler/eurb10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/euler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/euler/eurm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrc8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/palatino/uplri8a.pfb>
+msfonts/euler/eufm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/euler/eurb10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/euler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/eu
+ler/eurm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/palatino/uplri8a.pfb>
 Output written on /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/ClassicThes
-is.pdf (43 pages, 233259 bytes).
+is.pdf (43 pages, 238558 bytes).
 PDF statistics:
- 483 PDF objects out of 1000 (max. 8388607)
- 418 compressed objects within 5 object streams
- 105 named destinations out of 1000 (max. 500000)
- 14139 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 509 PDF objects out of 1000 (max. 8388607)
+ 443 compressed objects within 5 object streams
+ 109 named destinations out of 1000 (max. 500000)
+ 14171 words of extra memory for PDF output out of 14400 (max. 10000000)
 
