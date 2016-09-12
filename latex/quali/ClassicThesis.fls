@@ -554,6 +554,7 @@ INPUT /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/ClassicThesis.run.xml
 OUTPUT /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/ClassicThesis.run.xml
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb
