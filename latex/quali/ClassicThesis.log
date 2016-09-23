@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.15)  12 SEP 2016 08:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.15)  22 SEP 2016 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -101,8 +101,8 @@ LaTeX Info: Redefining \textsubscript on input line 4652.
 \c@figure=\count87
 \c@table=\count88
 \bibindent=\dimen102
-) (/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/classicthesis-config.tex (
-/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+) (./classicthesis-config.tex (/usr/share/texlive/texmf-dist/tex/latex/base/inp
+utenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
@@ -1514,8 +1514,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 36.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 36.
-[3 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/gfx/TFZsuperellipse_bw.pd
-f>])
+[3 <./gfx/TFZsuperellipse_bw.pdf>])
 \openout2 = `FrontBackmatter/Titleback.aux'.
 
 
@@ -1795,8 +1794,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 95.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 95.
-[12 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/chameleonic_resu
-me.pdf>]
+[12 <./figures/chameleonic_resume.pdf>]
 \openout2 = `Capitulos/capitulo05.aux'.
 
 (/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo05.tex
@@ -1823,21 +1821,22 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 23.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 29.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 29.
+[14]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 29.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 96.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 96.
-[14]
+[15]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 99.
+(babel)             in language append on input line 98.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 99.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 99.
-[15
-
-
+(babel)             in language append on input line 98.
+[16
 
 
 
@@ -1846,7 +1845,17 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 99.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 99.
-[16]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 99.
+[17
+
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 99.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 99.
+[18]
 \openout2 = `Capitulos/capitulo06.aux'.
 
 (/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo06.tex
@@ -1858,7 +1867,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 100.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 100.
-[17
+[19
 
 
 
@@ -1870,7 +1879,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
-[18
+[20
 
 
 
@@ -1879,12 +1888,28 @@ Package babel Info: Redefining portuges shorthand "|
 chapter 7.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 11.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 11.
+[21]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 11.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 11.
+[22
+
+
+]
+chapter 8.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 11.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 101.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 101.
-[19]
+[23]
 \openout2 = `Capitulos/capitulo08.aux'.
 
 (/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo08.tex
@@ -1892,66 +1917,66 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
-[20
+[24
 
 
 
 
 ]
-chapter 8.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1.
-)
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 102.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 102.
-[21]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 105.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 105.
-[22
-
-
-
-]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 105.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 105.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 105.
-[23]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 105.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 105.
-[24]
-\openout2 = `Capitulos/capitulo09.aux'.
-
-(/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo09.tex
 chapter 9.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
+)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 3.
+(babel)             in language append on input line 102.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 3.
-[25
-
-
-
-]
+(babel)             in language append on input line 102.
+[25]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 3.
+(babel)             in language append on input line 105.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 3.
+(babel)             in language append on input line 105.
 [26
 
 
+
 ]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 105.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 105.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 105.
+[27]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 105.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 105.
+[28]
+\openout2 = `Capitulos/capitulo09.aux'.
+
+(/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo09.tex
 chapter 10.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 3.
+[29
+
+
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 3.
+[30
+
+
+]
+chapter 11.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 3.
 )
@@ -1959,12 +1984,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 107.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 107.
-[27]
+[31]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 114.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 114.
-[28
+[32
 
 
 
@@ -1975,7 +2000,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 115.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 115.
-[29
+[33
 
 
 ]
@@ -1983,7 +2008,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 115.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 115.
-[30]
+[34]
 \openout2 = `Chapters/Chapter0A.aux'.
 
 (/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Chapters/Chapter0A.tex
@@ -2010,7 +2035,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 116.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 116.
-[31
+[35
 
 
 
@@ -2019,7 +2044,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 120.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 120.
-[32
+[36
 
 
 
@@ -2047,7 +2072,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 121.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 121.
-[33
+[37
 
 
 
@@ -2060,7 +2085,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 122.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 122.
-[34
+[38
 
 
 
@@ -2076,7 +2101,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 122.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 122.
-[35
+[39
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
@@ -2106,7 +2131,12 @@ o/Documentos/PhD-Quali/latex/quali/Chapters/Chapter0A.aux)
 (/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/FrontBackmatter/Declaration.
 aux)
 (/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/FrontBackmatter/Colophon.aux
-))
+)
+
+Package mparhack Warning: Marginpars may have changed.
+(mparhack)                Rerun to get them right.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
 
  *File List*
@@ -2296,21 +2326,30 @@ FrontBackmatter/Colophon.tex
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
-Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 882FFF1ECFD62002D03DF998DAC9F747;2713.
+
+Package rerunfilecheck Warning: File `ClassicThesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ClassicThesis.out':
+(rerunfilecheck)             Before: 882FFF1ECFD62002D03DF998DAC9F747;2713
+(rerunfilecheck)             After:  D765E5D03217B75D1D2183F8E17D4104;2779.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 \openout1 = `ClassicThesis.run.xml'.
 
  )
 (\end occurred when \iftrue on line 55 was incomplete) 
 Here is how much of TeX's memory you used:
- 23137 strings out of 493029
- 404540 string characters out of 6136234
+ 23146 strings out of 493029
+ 404536 string characters out of 6136234
  756124 words of memory out of 5000000
- 25985 multiletter control sequences out of 15000+600000
+ 25989 multiletter control sequences out of 15000+600000
  72795 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,22n,90p,1188b,2698s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,22n,96p,1188b,2698s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf
 -dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
@@ -2325,10 +2364,10 @@ ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/palatino/uplri8a.pfb>
 Output written on /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/ClassicThes
-is.pdf (43 pages, 245297 bytes).
+is.pdf (47 pages, 249085 bytes).
 PDF statistics:
- 518 PDF objects out of 1000 (max. 8388607)
- 451 compressed objects within 5 object streams
- 110 named destinations out of 1000 (max. 500000)
+ 536 PDF objects out of 1000 (max. 8388607)
+ 465 compressed objects within 5 object streams
+ 115 named destinations out of 1000 (max. 500000)
  14179 words of extra memory for PDF output out of 14400 (max. 10000000)
 
