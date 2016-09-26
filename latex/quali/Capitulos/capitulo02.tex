@@ -1,1 +1,41 @@
 \chapter{Objetivos}
+
+O objetivo geral deste trabalho será desenvolver um método de reconhecimento de
+enovelamento capaz de identificar, a partir da sequência de aminoácidos da proteína a qual se
+deseja modelar, estruturas proteicas resolvidas semelhantes a sua estrutura nativa. Tais
+estruturas podem ser tanto de proteínas que tenham evoluído divergentemente quanto
+convergentemente uma vez que não há uma comparação direta entre os resíduos das
+sequências, mas sim entre estruturas e padrões locais que emergem dessa estrutura primária.
+Para atingir tal objetivo, delineamos especificamente os objetivos a seguir.
+
+Objetivos específicos
+1. Criar um alfabeto com estados discretos e em menor número possível, para
+representar a conformações dos resíduos na estrutura proteica, buscando
+minimizar a perda de informação estrutural durante a redução de dimensões (3D
+%→ 1D). Exemplos de alfabetos 3D → 1D são os presentes: (1) no programa
+Enviroments (Verify3D) onde a redução é feita utilizando estados que combinam
+a estrutura secundária, a polaridade do ambiente e o grau de exposição ao
+solvente, totalizando 18 estados; (2) no programa FUGUE, onde há 4 classes para
+estruturas secundárias, 2 para acessibilidade ao solvente e 8 para ligações de
+hidrogênio, totalizando 64 estados; (3) no trabalho de Chellapa e Rose (2012) onde são utilizados 11 estados que representam regiões de ângulos diédricos da
+cadeia principal;
+
+2. Aplicar este alfabeto a domínios proteicos obtidos do CATH e/ ou SCOP para
+criar uma representação das estruturas em dimensões reduzidas – 1D;
+
+3. Utilizar a representação 1D de parte dos domínios obtidos do CATH/SCOP e
+assim criar um conjunto de treinamento para ser usado na busca de regras de
+transição para um autômato celular. Essas regras devem ser capazes de guiar a
+evolução do autômato celular de um estado inicial correspondente a sequência
+de aminoácidos da proteína até um estado que simbolize a estrutura
+tridimensional, mas representada unidimensionalmente, utilizando o alfabeto
+criado;
+
+4. Testar as regras de transição selecionadas por apresentar melhor desempenho em
+proteínas não incluídas no conjunto de treinamento e assim, analisar a eficácia do
+autômato celular em obter informação estrutural a partir da sequência de
+aminoácidos das proteínas;
+
+5. Utilizar o método de autômato celular com a melhor regra de transição para,
+quando aplicado em sequências de aminoácidos de proteínas sem estrutura
+conhecida, identificar domínios com enovelamento similar.

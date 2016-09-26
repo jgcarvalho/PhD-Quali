@@ -1,0 +1,7 @@
+PWD /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo07.tex
+OUTPUT /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo07.log

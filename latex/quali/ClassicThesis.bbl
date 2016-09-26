@@ -16,6 +16,396 @@
   {}
 \endgroup
 
+\entry{KENDREW:1953}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {KENDREW}{K.}%
+     {C.~J.}{C.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {BODO}{B.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {DINTZIS}{D.}%
+     {M.~H.}{M.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {PARRISH}{P.}%
+     {G.~R.}{G.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {WYCKOFF}{W.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {PHILLIPS}{P.}%
+     {C.~D.}{C.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KCJ+1}
+  \strng{fullhash}{KCJBGDMHPGRWHPCD1}
+  \verb{doi}
+  \verb 10.1038/181662a0
+  \endverb
+  \field{issn}{00280836}
+  \field{pages}{662\bibrangedash 666}
+  \field{title}{A Three-Dimensional Model of the Myoglobin Molecule Obtained by
+  X-Ray Analysis}
+  \verb{url}
+  \verb http://dx.doi.org/10.1038/181662a0
+  \endverb
+  \field{journaltitle}{Nature}
+  \field{year}{1952}
+\endentry
+
+\entry{Anfinsen:1968}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Anfinsen}{A.}%
+     {B.~C.}{B.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{amino acid sequence; animals; antigen-antibody reactions; cattle;
+  epitopes; exonucleases; goats; goats: immunology; models, structural;
+  pancreas; pancreas: enzymology; peptides; proinsulin; protein conformation;
+  protein denaturation; ribonucleases; spectrometry, fluorescence;
+  staphylococcus; staphylococcus: enzymology; swine; viscosity}
+  \strng{namehash}{ABC1}
+  \strng{fullhash}{ABC1}
+  \field{issn}{00368075}
+  \field{pages}{223\bibrangedash 30}
+  \field{title}{Principles that govern the folding of protein chains}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/4124164
+  \endverb
+  \field{journaltitle}{Science (New York, N.Y.)}
+  \field{year}{1967}
+\endentry
+
+\entry{Rose:2001}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Rose}{R.}%
+     {D.~George}{D.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fleming}{F.}%
+     {J.~Patrick}{J.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Banavar}{B.}%
+     {R.~Jayanth}{R.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maritan}{M.}%
+     {Amos}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{animals; humans; hydrogen bonding; models, molecular; protein
+  denaturation; protein folding; protein structure, secondary; protein
+  structure, tertiary; thermodynamics}
+  \strng{namehash}{RDG+1}
+  \strng{fullhash}{RDGFJPBRJMA1}
+  \field{abstract}{%
+  Under physiological conditions, a protein undergoes a spontaneous disorder
+  order transition called ``folding.'' The protein polymer is highly flexible
+  when unfolded but adopts its unique native, three-dimensional structure when
+  folded. Current experimental knowledge comes primarily from thermodynamic
+  measurements in solution or the structures of individual molecules,
+  elucidated by either x-ray crystallography or NMR spectroscopy. From the
+  former, we know the enthalpy, entropy, and free energy differences between
+  the folded and unfolded forms of hundreds of proteins under a variety of
+  solvent/cosolvent conditions. From the latter, we know the structures of
+  approximately 35,000 proteins, which are built on scaffolds of
+  hydrogen-bonded structural elements, alpha-helix and beta-sheet. Anfinsen
+  showed that the amino acid sequence alone is sufficient to determine a
+  protein's structure, but the molecular mechanism responsible for
+  self-assembly remains an open question, probably the most fundamental open
+  question in biochemistry. This perspective is a hybrid: partly review, partly
+  proposal. First, we summarize key ideas regarding protein folding developed
+  over the past half-century and culminating in the current mindset. In this
+  view, the energetics of side-chain interactions dominate the folding process,
+  driving the chain to self-organize under folding conditions. Next, having
+  taken stock, we propose an alternative model that inverts the prevailing
+  side-chain/backbone paradigm. Here, the energetics of backbone hydrogen bonds
+  dominate the folding process, with preorganization in the unfolded state.
+  Then, under folding conditions, the resultant fold is selected from a limited
+  repertoire of structural possibilities, each corresponding to a distinct
+  hydrogen-bonded arrangement of alpha-helices and/or strands of beta-sheet%
+  }
+  \verb{doi}
+  \verb 10.1073/pnas.0606843103
+  \endverb
+  \field{issn}{00278424}
+  \field{pages}{16623\bibrangedash 33}
+  \field{title}{A backbone-based theory of protein folding}
+  \verb{url}
+  \verb http://www.pnas.org/content/103/45/16623.long
+  \endverb
+  \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+  \field{year}{2000}
+\endentry
+
+\entry{Levinthal:1963}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Levinthal}{L.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{1 - folding; folder - protein folding; lev68; pbs record: 320; the 53;
+  enw; folding; pathway; pathways; protein; protein folding; protein-folding;
+  read; review; teaching; time; times}
+  \strng{namehash}{LC1}
+  \strng{fullhash}{LC1}
+  \field{abstract}{%
+  Models of protein energetics that neglect interactions between amino acids
+  that are not adjacent in the native state, such as the Go model, encode or
+  underlie many influential ideas on protein folding. Implicit in this
+  simplification is a crucial assumption that has never been critically
+  evaluated in a broad context: Detailed mechanisms of protein folding are not
+  biased by nonnative contacts, typically argued to be a consequence of
+  sequence design and/or topology. Here we present, using computer simulations
+  of a well-studied lattice heteropolymer model, the first systematic test of
+  this oft-assumed correspondence over the statistically significant range of
+  hundreds of thousands of amino acid sequences that fold to the same native
+  structure. Contrary to previous conjectures, we find a multiplicity of
+  folding mechanisms, suggesting that Go-like models cannot be justified by
+  considerations of topology alone. Instead, we find that the crucial factor in
+  discriminating among topological pathways is the heterogeneity of native
+  contact energies: The order in which native contacts accumulate is profoundly
+  insensitive to omission of nonnative interactions, provided that native
+  contact heterogeneity is retained. This robustness holds over a surprisingly
+  wide range of folding rates for our designed sequences. Mirroring predictions
+  based on the principle of minimum frustration, fast-folding sequences match
+  their Go-like counterparts in both topological mechanism and transit times.
+  Less optimized sequences dwell much longer in the unfolded state and/or
+  off-pathway intermediates than do Go-like models. For dynamics that bridge
+  unfolded and unfolded states, however, even slow folders exhibit topological
+  mechanisms and transit times nearly identical with those of their Go-like
+  counterparts. Our results do not imply a direct correspondence between
+  folding trajectories of Go-like models and those of real proteins, but they
+  do help to clarify key topological and energetic assumptions that are
+  commonly used to justify such caricatures%
+  }
+  \field{isbn}{088173182X}
+  \field{issn}{00217689}
+  \field{pages}{44\bibrangedash 45}
+  \field{title}{Are there pathways for protein folding?}
+  \verb{url}
+  \verb http://www.biochem.wisc.edu/courses/biochem704/Reading/Levinthal1968.pd
+  \verb f
+  \endverb
+  \field{volume}{65}
+  \field{journaltitle}{Journal de Chimie Physique et de Physico-Chimie
+  Biologique}
+  \field{year}{1962}
+\endentry
+
+\entry{Levinthal:}{proceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Levinthal}{L.}%
+     {Cyrus}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{energetics; protein folding}
+  \strng{namehash}{LC2}
+  \strng{fullhash}{LC2}
+  \field{abstract}{%
+  The fact that many naturally-occurring proteins fold reliably and quickly to
+  their native state despite the astronomical number of possible configurations
+  has come to be known as Levinthal's Paradox. The paper usually cited has
+  proved remarkably difficult to get hold of, which is itself a paradox given
+  the frequency of citation. It is reproduced verbatim below, in the hope that
+  it will be of use and interest to people working in the field of protein
+  folding or relaxation dynamics in general. The diagrams are scanned from the
+  hand-drawn figures in the paper%
+  }
+  \field{pages}{22\bibrangedash 24}
+  \field{series}{M{\"o}ssbaun Spectroscopy in Biological Systems Proceedings}
+  \field{title}{How to fold graciously}
+  \verb{url}
+  \verb http://www.cc.gatech.edu/~turk/bio_sim/articles/proteins_levinthal_1969
+  \verb .pdf
+  \endverb
+  \field{volume}{24}
+\endentry
+
+\entry{Ben-Naim:2007}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ben-Naim}{B.-N.}%
+     {Arieh}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{hydrophobic and hydrophilic interactions; models, theoretical; protein
+  conformation; protein folding; proteins; proteins: chemistry; thermodynamics}
+  \strng{namehash}{BNA1}
+  \strng{fullhash}{BNA1}
+  \field{abstract}{%
+  Attempts to answer the Levinthal question ``How proteins fold to give such a
+  unique structure'' are discussed. In the first part of this article, we focus
+  on a few reasons as to why the solution to the protein-folding problem (PFP)
+  has been elusive for a very long time. One is a result of the
+  misinterpretation of Anfinsen's Thermodynamic hypothesis which led to the
+  conclusion that the native structure of a protein must be at a global minimum
+  of the Gibbs energy. The second is the result of the adherence to the
+  hydrophobic paradigm, and at the same time ignoring a whole repertoire of
+  hydrophilic effects. It is argued that switching from a target-based to a
+  caused-based approach, and adopting the hydrophilic paradigm leads
+  straightforwardly to a simple answer to Levinthal's question, as well as to a
+  solution of the PFP%
+  }
+  \verb{doi}
+  \verb 10.1080/07391102.2012.674286
+  \endverb
+  \field{issn}{15380254}
+  \field{pages}{113\bibrangedash 24}
+  \field{title}{Levinthal's question revisited, and answered}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/22571437
+  \endverb
+  \field{journaltitle}{Journal of biomolecular structure \& dynamics}
+  \field{year}{2006}
+\endentry
+
+\entry{Moult:2009}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Moult}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fidelis}{F.}%
+     {Krzysztof}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kryshtafovych}{K.}%
+     {Andriy}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schwede}{S.}%
+     {Torsten}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tramontano}{T.}%
+     {Anna}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MJ+1}
+  \strng{fullhash}{MJFKKASTTA1}
+  \field{abstract}{%
+  This article is an introduction to the special issue of the journal PROTEINS,
+  dedicated to the tenth Critical Assessment of Structure Prediction (CASP)
+  experiment to assess the state of the art in protein structure modeling. The
+  article describes the conduct of the experiment, the categories of prediction
+  included, and outlines the evaluation and assessment procedures. The 10 CASP
+  experiments span almost 20 years of progress in the field of protein
+  structure modeling, and there have been enormous advances in methods and
+  model accuracy in that period. Notable in this round is the first sustained
+  improvement of models with refinement methods, using molecular dynamics. For
+  the first time, we tested the ability of modeling methods to make use of
+  sparse experimental three-dimensional contact information, such as may be
+  obtained from new experimental techniques, with encouraging results. On the
+  other hand, new contact prediction methods, though holding considerable
+  promise, have yet to make an impact in CASP testing. The nature of CASP
+  targets has been changing in recent CASPs, reflecting shifts in experimental
+  structural biology, with more irregular structures, more multi-domain and
+  multi-subunit structures, and less standard versions of known folds. When
+  allowance is made for these factors, we continue to see steady progress in
+  the overall accuracy of models, particularly resulting from improvement of
+  non-template regions%
+  }
+  \verb{doi}
+  \verb 10.1002/prot.24452
+  \endverb
+  \field{issn}{10970134}
+  \field{pages}{1\bibrangedash 6}
+  \field{title}{Critical assessment of methods of protein structure prediction
+  (CASP)--round x}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/24344053
+  \endverb
+  \field{volume}{82 Suppl 2}
+  \field{journaltitle}{Proteins}
+  \field{year}{2008}
+\endentry
+
+\entry{Baker:1996}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Baker}{B.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sali}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{amino acid sequence; animals; binding sites; computational biology;
+  computer simulation; databases; factual; genetic; genomics; humans; internet;
+  models; molecular; protein conformation; protein folding; protein structure;
+  proteins; proteins: chemistry; proteins: genetics; proteins: physiology;
+  sequence alignment; software; templates; tertiary}
+  \strng{namehash}{BDSA1}
+  \strng{fullhash}{BDSA1}
+  \field{abstract}{%
+  Genome sequencing projects are producing linear amino acid sequences, but
+  full understanding of the biological role of these proteins will require
+  knowledge of their structure and function. Although experimental structure
+  determination methods are providing high-resolution structure information
+  about a subset of the proteins, computational structure prediction methods
+  will provide valuable information for the large fraction of sequences whose
+  structures will not be determined experimentally. The first class of protein
+  structure prediction methods, including threading and comparative modeling,
+  rely on detectable similarity spanning most of the modeled sequence and at
+  least one known structure. The second class of methods, de novo or ab initio
+  methods, predict the structure from sequence alone, without relying on
+  similarity at the fold level between the modeled sequence and any of the
+  known structures. In this Viewpoint, we begin by describing the essential
+  features of the methods, the accuracy of the models, and their application to
+  the prediction and understanding of protein function, both for single
+  proteins and on the scale of whole genomes. We then discuss the important
+  role that protein structure prediction methods play in the growing worldwide
+  effort in structural genomics%
+  }
+  \verb{doi}
+  \verb 10.1126/science.1065659
+  \endverb
+  \field{issn}{00368075}
+  \field{pages}{93\bibrangedash 6}
+  \field{title}{Protein structure prediction and structural genomics}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/11588250
+  \endverb
+  \field{journaltitle}{Science (New York, N.Y.)}
+  \field{year}{1995}
+\endentry
+
 \lossort
 \endlossort
 

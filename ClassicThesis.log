@@ -1,0 +1,46 @@
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=luatex 2016.6.15)  26 SEP 2016 10:42
+ restricted \write18 enabled.
+**latex/quali/ClassicThesis.tex
+(./latex/quali/ClassicThesis.tex
+! Undefined control sequence.
+l.29 \RequirePackage
+                  {fix-cm} % fix some latex issues see: http://texdoc.net/te...
+? 
+! Interruption.
+<to be read again> 
+{
+l.29 \RequirePackage{
+                   fix-cm} % fix some latex issues see: http://texdoc.net/te...
+? 
+! Undefined control sequence.
+l.30 \documentclass
+                 [ twoside,openright,titlepage,numbers=noenddot,headinclude,...
+? 
+
+Overfull \hbox (44.35722pt too wide) in paragraph at lines 29--35
+[][]\tenrm fix-cm [ two-side,open-right,ti-tlepage,num-bers=noend-dot,head-in-c
+lude,foot-in-clude=true,clear-dou-blepage=empty,ab-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0, direction TLT
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x20.0, direction TLT
+.\tenrm  (ligature fi)
+.\tenrm x
+.\tenrm -
+.etc.
+
+! I can't find file `classicthesis-config'.
+l.39 \input{classicthesis-config}
+                               
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! Emergency stop.
+l.39 \input{classicthesis-config}
+                               
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
