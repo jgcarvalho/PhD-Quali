@@ -14,21 +14,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introdu\IeC {\c c}\IeC {\~a}o}}{3}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Prote\IeC {\'\i }nas}{5}{section.1.1}
+\contentsline {section}{\numberline {1.1}M\IeC {\'e}todos computacionais de modelagem estrutural}{4}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Estruturas}{5}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.2}Prote\IeC {\'\i }nas}{6}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Enovelamento}{5}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Estruturas}{6}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Modelos te\IeC {\'o}ricos para a forma\IeC {\c c}\IeC {\~a}o da estrutura secund\IeC {\'a}ria}{5}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.2.2}Enovelamento}{6}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Aut\IeC {\^o}matos celulares}{5}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.3}Modelos te\IeC {\'o}ricos para a forma\IeC {\c c}\IeC {\~a}o da estrutura secund\IeC {\'a}ria}{6}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Aut\IeC {\^o}mato celular elementar}{5}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.3}Aut\IeC {\^o}matos celulares}{6}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Outros tipos de aut\IeC {\^o}matos celulares}{5}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.3.1}Aut\IeC {\^o}mato celular elementar}{6}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Problema inverso}{5}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.3.2}Outros tipos de aut\IeC {\^o}matos celulares}{6}{subsection.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.3}Problema inverso}{6}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Objetivos}}{7}{chapter.2}
 \defcounter {refsection}{0}\relax 

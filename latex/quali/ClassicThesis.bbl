@@ -406,6 +406,552 @@
   \field{year}{1995}
 \endentry
 
+\entry{Helles:2003}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Helles}{H.}%
+     {Glennie}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{algorithms; computational biology; computational biology: methods;
+  computer simulation; models, chemical; protein conformation; protein folding}
+  \strng{namehash}{HG1}
+  \strng{fullhash}{HG1}
+  \field{abstract}{%
+  Protein structure prediction is one of the major challenges in bioinformatics
+  today. Throughout the past five decades, many different algorithmic
+  approaches have been attempted, and although progress has been made the
+  problem remains unsolvable even for many small proteins. While the general
+  objective is to predict the three-dimensional structure from primary
+  sequence, our current knowledge and computational power are simply
+  insufficient to solve a problem of such high complexity. Some prediction
+  algorithms do, however, appear to perform better than others, although it is
+  not always obvious which ones they are and it is perhaps even less obvious
+  why that is. In this review, the reported performance results from 18
+  different recently published prediction algorithms are compared. Furthermore,
+  the general algorithmic settings most likely responsible for the difference
+  in the reported performance are identified, and the specific settings of each
+  of the 18 prediction algorithms are also compared. The average normalized
+  r.m.s.d. scores reported range from 11.17 to 3.48. With a performance measure
+  including both r.m.s.d. scores and CPU time, the currently best-performing
+  prediction algorithm is identified to be the I-TASSER algorithm. Two of the
+  algorithmic settings--protein representation and fragment assembly--were
+  found to have definite positive influence on the running time and the
+  predicted structures, respectively. There thus appears to be a clear benefit
+  from incorporating this knowledge in the design of new prediction algorithms%
+  }
+  \verb{doi}
+  \verb 10.1098/rsif.2007.1278
+  \endverb
+  \field{issn}{17425689}
+  \field{pages}{387\bibrangedash 96}
+  \field{title}{A comparative study of the reported performance of ab initio
+  protein structure prediction algorithms}
+  \verb{url}
+  \verb http://rsif.royalsocietypublishing.org/content/5/21/387.full
+  \endverb
+  \field{journaltitle}{Journal of the Royal Society, Interface / the Royal
+  Society}
+  \field{year}{2002}
+\endentry
+
+\entry{Zhang:2003}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Zhang}{Z.}%
+     {Yang}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{amino acid sequence; computer simulation; internet; models, chemical;
+  models, molecular; molecular sequence data; protein conformation; proteins;
+  proteins: chemistry; proteins: ultrastructure; sequence alignment; sequence
+  analysis, protein; sequence analysis, protein: methods; software}
+  \strng{namehash}{ZY1}
+  \strng{fullhash}{ZY1}
+  \field{abstract}{%
+  BACKGROUND: Prediction of 3-dimensional protein structures from amino acid
+  sequences represents one of the most important problems in computational
+  structural biology. The community-wide Critical Assessment of Structure
+  Prediction (CASP) experiments have been designed to obtain an objective
+  assessment of the state-of-the-art of the field, where I-TASSER was ranked as
+  the best method in the server section of the recent 7th CASP experiment. Our
+  laboratory has since then received numerous requests about the public
+  availability of the I-TASSER algorithm and the usage of the I-TASSER
+  predictions. RESULTS: An on-line version of I-TASSER is developed at the KU
+  Center for Bioinformatics which has generated protein structure predictions
+  for thousands of modeling requests from more than 35 countries. A scoring
+  function (C-score) based on the relative clustering structural density and
+  the consensus significance score of multiple threading templates is
+  introduced to estimate the accuracy of the I-TASSER predictions. A
+  large-scale benchmark test demonstrates a strong correlation between the
+  C-score and the TM-score (a structural similarity measurement with values in
+  [0, 1]) of the first models with a correlation coefficient of 0.91. Using a
+  C-score cutoff \&gt; -1.5 for the models of correct topology, both false
+  positive and false negative rates are below 0.1. Combining C-score and
+  protein length, the accuracy of the I-TASSER models can be predicted with an
+  average error of 0.08 for TM-score and 2 A for RMSD. CONCLUSION: The I-TASSER
+  server has been developed to generate automated full-length 3D protein
+  structural predictions where the benchmarked scoring system helps users to
+  obtain quantitative assessments of the I-TASSER models. The output of the
+  I-TASSER server for each query includes up to five full-length models, the
+  confidence score, the estimated TM-score and RMSD, and the standard deviation
+  of the estimations. The I-TASSER server is freely available to the academic
+  community at http://zhang.bioinformatics.ku.edu/I-TASSER%
+  }
+  \verb{doi}
+  \verb 10.1186/1471-2105-9-40
+  \endverb
+  \field{issn}{14712105}
+  \field{pages}{40\bibrangedash 40}
+  \field{title}{I-TASSER server for protein 3D structure prediction}
+  \verb{url}
+  \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2245901&tool=
+  \verb pmcentrez&rendertype=abstract
+  \endverb
+  \field{volume}{9}
+  \field{journaltitle}{BMC bioinformatics}
+  \field{year}{2002}
+\endentry
+
+\entry{Rohl:1999}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Rohl}{R.}%
+     {A.~Carol}{A.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Strauss}{S.}%
+     {M.~Charlie~E.}{M.~C.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Misura}{M.}%
+     {S.~Kira~M.}{S.~K.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baker}{B.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RAC+1}
+  \strng{fullhash}{RACSMCEMSKMBD1}
+  \verb{doi}
+  \verb 10.1016/S0076-6879(04)83004-0
+  \endverb
+  \field{issn}{00766879}
+  \field{pages}{66\bibrangedash 93}
+  \field{title}{Protein structure prediction using Rosetta}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/15063647
+  \endverb
+  \field{volume}{383}
+  \field{journaltitle}{Methods in enzymology}
+  \field{year}{1998}
+\endentry
+
+\entry{Marti-Renom:1995}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Mart{\'i}-Renom}{M.-R.}%
+     {A.~M.}{A.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stuart}{S.}%
+     {C.~A.}{C.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fiser}{F.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {S{\'a}nchez}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Melo}{M.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sali}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{animals; biological; computer simulation; databases; factual; genetic;
+  genome; genomics; genomics: methods; humans; models; molecular; proteins;
+  proteins: chemistry}
+  \strng{namehash}{MRAM+1}
+  \strng{fullhash}{MRAMSCAFASRMFSA1}
+  \field{abstract}{%
+  Comparative modeling predicts the three-dimensional structure of a given
+  protein sequence (target) based primarily on its alignment to one or more
+  proteins of known structure (templates). The prediction process consists of
+  fold assignment, target-template alignment, model building, and model
+  evaluation. The number of protein sequences that can be modeled and the
+  accuracy of the predictions are increasing steadily because of the growth in
+  the number of known protein structures and because of the improvements in the
+  modeling software. Further advances are necessary in recognizing weak
+  sequence-structure similarities, aligning sequences with structures, modeling
+  of rigid body shifts, distortions, loops and side chains, as well as
+  detecting errors in a model. Despite these problems, it is currently possible
+  to model with useful accuracy significant parts of approximately one third of
+  all known protein sequences. The use of individual comparative models in
+  biology is already rewarding and increasingly widespread. A major new
+  challenge for comparative modeling is the integration of it with the torrents
+  of data from genome sequencing projects as well as from functional and
+  structural genomics. In particular, there is a need to develop an automated,
+  rapid, robust, sensitive, and accurate comparative modeling pipeline
+  applicable to whole genomes. Such large-scale modeling is likely to encourage
+  new kinds of applications for the many resulting models, based on their large
+  number and completeness at the level of the family, organism, or functional
+  network%
+  }
+  \verb{doi}
+  \verb 10.1146/annurev.biophys.29.1.291
+  \endverb
+  \field{issn}{10568700}
+  \field{pages}{291\bibrangedash 325}
+  \field{title}{Comparative protein structure modeling of genes and genomes}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/10940251
+  \endverb
+  \field{volume}{29}
+  \field{journaltitle}{Annual review of biophysics and biomolecular structure}
+  \field{year}{1994}
+\endentry
+
+\entry{Dunbrack:2001}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dunbrack}{D.}%
+     {L.~Roland}{L.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{computational biology; computational biology: methods; markov chains;
+  models, molecular; protein conformation; protein folding; sequence alignment;
+  sequence alignment: methods; sequence analysis, protein; sequence analysis,
+  protein: methods; sequence homology, amino acid; software; structural
+  homology, protein}
+  \strng{namehash}{DLR1}
+  \strng{fullhash}{DLR1}
+  \field{abstract}{%
+  Sequence comparison is a major step in the prediction of protein structure
+  from existing templates in the Protein Data Bank. The identification of
+  potentially remote homologues to be used as templates for modeling target
+  sequences of unknown structure and their accurate alignment remain
+  challenges, despite many years of study. The most recent advances have been
+  in combining as many sources of information as possible--including amino acid
+  variation in the form of profiles or hidden Markov models for both the target
+  and template families, known and predicted secondary structures of the
+  template and target, respectively, the combination of structure alignment for
+  distant homologues and sequence alignment for close homologues to build
+  better profiles, and the anchoring of certain regions of the alignment based
+  on existing biological data. Newer technologies have been applied to the
+  problem, including the use of support vector machines to tackle the fold
+  classification problem for a target sequence and the alignment of hidden
+  Markov models. Finally, using the consensus of many fold recognition methods,
+  whether based on profile-profile alignments, threading or other approaches,
+  continues to be one of the most successful strategies for both recognition
+  and alignment of remote homologues. Although there is still room for
+  improvement in identification and alignment methods, additional progress may
+  come from model building and refinement methods that can compensate for large
+  structural changes between remotely related targets and templates, as well as
+  for regions of misalignment%
+  }
+  \verb{doi}
+  \verb 10.1016/j.sbi.2006.05.006
+  \endverb
+  \field{issn}{0959440X}
+  \field{pages}{374\bibrangedash 84}
+  \field{title}{Sequence comparison and protein structure prediction}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/16713709
+  \endverb
+  \field{journaltitle}{Current opinion in structural biology}
+  \field{year}{2000}
+\endentry
+
+\entry{Overington:1984}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Overington}{O.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Johnson}{J.}%
+     {S.~M.}{S.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sali}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Blundell}{B.}%
+     {L.~T.}{L.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{amino acid sequence; animals; biological evolution; genetic variation;
+  humans; molecular sequence data; probability; protein conformation; proteins;
+  proteins: genetics}
+  \strng{namehash}{OJ+1}
+  \strng{fullhash}{OJJSMSABLT1}
+  \field{abstract}{%
+  The pattern of residue substitution in divergently evolving families of
+  globular proteins is highly variable. At each position in a fold there are
+  constraints on the identities of amino acids from both the three-dimensional
+  structure and the function of the protein. To characterize and quantify the
+  structural constraints, we have made a comparative analysis of families of
+  homologous globular proteins. Residues are classified according to amino acid
+  type, secondary structure, accessibility of the sidechain, and existence of
+  hydrogen bonds from sidechain to other sidechains or peptide carbonyl or
+  amide functions. There are distinct patterns of substitution especially where
+  residues are both solvent inaccessible and hydrogen bonded through their
+  sidechains. The patterns of residue substitution can be used to construct
+  templates or to identify 'key' residues if one or more structures are known.
+  Conversely, analysis of conversation and substitution across a large family
+  of aligned sequences in terms of substitution profiles can allow prediction
+  of tertiary environment or indicate a functional role. Similar analyses can
+  be used to test the validity of putative structures if several homologous
+  sequences are available%
+  }
+  \verb{doi}
+  \verb 10.1098/rspb.1990.0077
+  \endverb
+  \field{issn}{09628452}
+  \field{pages}{132\bibrangedash 45}
+  \field{title}{Tertiary structural constraints on protein evolutionary
+  diversity: templates, key residues and structure prediction}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/1978340
+  \endverb
+  \field{journaltitle}{Proceedings. Biological sciences / The Royal Society}
+  \field{year}{1983}
+\endentry
+
+\entry{Chothia:1987}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Chothia}{C.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{animals; base sequence; biological evolution; databases, factual;
+  humans; proteins; proteins: classification; proteins: genetics; sequence
+  homology, nucleic acid}
+  \strng{namehash}{CC1}
+  \strng{fullhash}{CC1}
+  \verb{doi}
+  \verb 10.1038/357543a0
+  \endverb
+  \field{issn}{00280836}
+  \field{pages}{543\bibrangedash 4}
+  \field{title}{Proteins. One thousand families for the molecular biologist}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/1608464
+  \endverb
+  \field{journaltitle}{Nature}
+  \field{year}{1986}
+\endentry
+
+\entry{Coulson:1997}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Coulson}{C.}%
+     {W.~Andrew~F.}{W.~A.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moult}{M.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{evolution, molecular; models, chemical; protein conformation; protein
+  folding}
+  \strng{namehash}{CWAFMJ1}
+  \strng{fullhash}{CWAFMJ1}
+  \field{abstract}{%
+  As more and more protein structures are determined, there is increasing
+  interest in the question of how many different folds have been used in
+  biology. The history of the rate of discovery of new folds and the
+  distribution of sequence families among known folds provide a means of
+  estimating the underlying distribution of fold use. Previous models
+  exploiting these data have led to rather different conclusions on the total
+  number of folds. We present a new model, based on the notion that the folds
+  used in biology fall naturally into three classes: unifolds, that is, folds
+  found only in a single narrow sequence family; mesofolds, found in an
+  intermediate number of families; and the previously noted superfolds, found
+  in many protein families. We show that this model fits the available data
+  well and has predicted the development of SCOP over the past 2 years. The
+  principle implications of the model are as follows: (1) The vast majority of
+  folds will be found in only a single sequence family; (2) the total number of
+  folds is at least 10,000; and (3) 80\% of sequence families have one of about
+  400 folds, most of which are already known%
+  }
+  \field{issn}{08873585}
+  \field{pages}{61\bibrangedash 71}
+  \field{title}{A unifold, mesofold, and superfold model of protein fold use}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/11746703
+  \endverb
+  \field{journaltitle}{Proteins}
+  \field{year}{1995}
+\endentry
+
+\entry{Kolodny:2008}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Kolodny}{K.}%
+     {Rachel}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pereyaslavets}{P.}%
+     {Leonid}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Samson}{S.}%
+     {O.~Abraham}{O.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Levitt}{L.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Annual Reviews}%
+  }
+  \keyw{animals; cluster analysis; evolution; humans; molecular; protein
+  folding; protein structure; proteins; proteins: chemistry; proteins:
+  genetics; tertiary}
+  \strng{namehash}{KR+1}
+  \strng{fullhash}{KRPLSOALM1}
+  \field{abstract}{%
+  In the fifty years since the first atomic structure of a protein was
+  revealed, tens of thousands of additional structures have been solved. Like
+  all objects in biology, proteins structures show common patterns that seem to
+  define family relationships. Classification of proteins structures, which
+  started in the 1970s with about a dozen structures, has continued with
+  increasing enthusiasm, leading to two main fold classifications, SCOP and
+  CATH, as well as many additional databases. Classification is complicated by
+  deciding what constitutes a domain, the fundamental unit of structure. Also
+  difficult is deciding when two given structures are similar. Like all of
+  biology, fold classification is beset by exceptions to all rules. Thus, the
+  perspectives of protein fold space that the fold classifications offer differ
+  from each other. In spite of these ambiguities, fold classifications are
+  useful for prediction of structure and function. Studying the characteristics
+  of fold space can shed light on protein evolution and the physical laws that
+  govern protein behavior%
+  }
+  \verb{doi}
+  \verb 10.1146/annurev-biophys-083012-130432
+  \endverb
+  \field{issn}{19361238}
+  \field{pages}{559\bibrangedash 82}
+  \field{title}{On the universe of protein folds}
+  \verb{url}
+  \verb http://www.annualreviews.org/doi/abs/10.1146/annurev-biophys-083012-130
+  \verb 432?url_ver=Z39.88-2003&rfr_dat=cr_pub=pubmed&rfr_id=ori:rid:crossref.o
+  \verb rg&journalCode=biophys
+  \endverb
+  \field{volume}{42}
+  \field{journaltitle}{Annual review of biophysics}
+  \field{year}{2007}
+\endentry
+
+\entry{Giri:2007}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Giri}{G.}%
+     {Rajanish}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morrone}{M.}%
+     {Angela}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Travaglini-Allocatelli}{T.-A.}%
+     {Carlo}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jemth}{J.}%
+     {Per}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brunori}{B.}%
+     {Maurizio}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gianni}{G.}%
+     {Stefano}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{amino acid sequence; models, molecular; molecular sequence data;
+  mutagenesis, site-directed; protein folding; proteins; proteins: chemistry;
+  proteins: genetics; proteins: metabolism; sequence homology, amino acid;
+  spectrometry, fluorescence; structure-activity relationship}
+  \strng{namehash}{GR+1}
+  \strng{fullhash}{GRMATACJPBMGS1}
+  \field{abstract}{%
+  Much experimental work has been devoted in comparing the folding behavior of
+  proteins sharing the same fold but different sequence. The recent design of
+  proteins displaying very high sequence identities but different 3D structure
+  allows the unique opportunity to address the protein-folding problem from a
+  complementary perspective. Here we explored by ?-value analysis the pathways
+  of folding of three different heteromorphic pairs, displaying increasingly
+  high-sequence identity (namely, 30\%, 77\%, and 88\%), but different
+  structures called G(A) (a 3-? helix fold) and G(B) (an ?/? fold). The
+  analysis, based on 132 site-directed mutants, is fully consistent with the
+  idea that protein topology is committed very early along the pathway of
+  folding. Furthermore, data reveals that when folding approaches a perfect
+  two-state scenario, as in the case of the G(A) domains, the structural
+  features of the transition state appear very robust to changes in sequence
+  composition. On the other hand, when folding is more complex and multistate,
+  as for the G(B)s, there are alternative nuclei or accessible pathways that
+  can be alternatively stabilized by altering the primary structure. The
+  implications of our results in the light of previous work on the folding of
+  different members belonging to the same protein family are discussed%
+  }
+  \verb{doi}
+  \verb 10.1073/pnas.1201794109
+  \endverb
+  \field{issn}{10916490}
+  \field{pages}{17772\bibrangedash 6}
+  \field{title}{Folding pathways of proteins with increasing degree of sequence
+  identities but different structure and function}
+  \verb{url}
+  \verb http://www.pnas.org/content/109/44/17772.full
+  \endverb
+  \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+  \field{year}{2006}
+\endentry
+
 \lossort
 \endlossort
 
