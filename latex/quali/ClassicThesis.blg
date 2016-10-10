@@ -33,48 +33,77 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ClassicThesis-blx.bib
 Database file #2: bibliografia.bib
+Warning--I'm ignoring West1995's extra "url" field
+--line 17 of file bibliografia.bib
+Warning--I'm ignoring West1995's extra "url" field
+--line 19 of file bibliografia.bib
+Warning--I'm ignoring Xiong07's extra "url" field
+--line 36 of file bibliografia.bib
+Warning--I'm ignoring 10.1016/j.str.2011.11.018's extra "url" field
+--line 152 of file bibliografia.bib
+Repeated entry---line 4195 of file bibliografia.bib
+ : @article{Kabsch:1978
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4911 of file bibliografia.bib
+ : @article{KENDREW:1953
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4927 of file bibliografia.bib
+ : @article{Levinthal:1963
+ :                        ,
+I'm skipping whatever remains of this entry
 Database file #3: AMiede_Publications.bib
+Warning--I didn't find a database entry for "Anfinsen:1968"
+Warning--I didn't find a database entry for "Rose:2001"
+Warning--I didn't find a database entry for "Baker:1996"
+Warning--I didn't find a database entry for "Zhang:2003"
+Warning--I didn't find a database entry for "Marti-Renom:1995"
+Warning--I didn't find a database entry for "17609385"
+Warning--I didn't find a database entry for "10.1073/pnas.0805857105"
+Warning--I didn't find a database entry for "10.1073/pnas.0906408106"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 19 entries,
+You've used 21 entries,
             6047 wiz_defined-function locations,
-            1349 strings with 35777 characters,
-and the built_in function-call counts, 53957 in all, are:
-= -- 1873
-> -- 1666
-< -- 320
-+ -- 492
-- -- 667
-* -- 4346
-:= -- 3368
+            1388 strings with 35253 characters,
+and the built_in function-call counts, 63407 in all, are:
+= -- 2364
+> -- 2007
+< -- 432
++ -- 646
+- -- 789
+* -- 5074
+:= -- 3904
 add.period$ -- 0
-call.type$ -- 19
+call.type$ -- 21
 change.case$ -- 0
-chr.to.int$ -- 34
-cite$ -- 36
-duplicate$ -- 6299
-empty$ -- 6117
-format.name$ -- 1229
-if$ -- 11859
+chr.to.int$ -- 37
+cite$ -- 40
+duplicate$ -- 7308
+empty$ -- 6991
+format.name$ -- 1433
+if$ -- 14004
 int.to.chr$ -- 0
-int.to.str$ -- 39
+int.to.str$ -- 47
 missing$ -- 0
-newline$ -- 660
-num.names$ -- 707
-pop$ -- 5757
+newline$ -- 751
+num.names$ -- 860
+pop$ -- 6407
 preamble$ -- 1
-purify$ -- 211
+purify$ -- 307
 quote$ -- 0
-skip$ -- 3055
+skip$ -- 3704
 stack$ -- 0
-substring$ -- 854
-swap$ -- 2252
-text.length$ -- 372
+substring$ -- 1300
+swap$ -- 2624
+text.length$ -- 425
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 710
+type$ -- 786
 warning$ -- 0
-while$ -- 373
+while$ -- 415
 width$ -- 0
-write$ -- 640
+write$ -- 729
+(There were 3 error messages)

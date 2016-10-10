@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.15)  3 OCT 2016 15:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.15)  10 OCT 2016 17:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1509,7 +1509,23 @@ Package biblatex Info: Data encoding 'ascii' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ClassicThesis.bbl' found.
 
-(/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/ClassicThesis.bbl)
+(/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/ClassicThesis.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with '10.1016/j.str.2011.11.018':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Xiong07':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'West1995':
+(biblatex)                - Invalid format of field 'month'.
+
+)
 Package biblatex Info: Reference section=0 on input line 53.
 Package biblatex Info: Reference segment=0 on input line 53.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1521,8 +1537,7 @@ Package caption Info: End \AtBeginDocument code.
 Package scrhack Info: undefining \float@addtolists on input line 53.
 \AtBeginShipoutBox=\box32
 Package hyperref Info: Link coloring ON on input line 53.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1618,7 +1633,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 
-] <gfx/TFZsuperellipse_bw.pdf, id=197, 260.5755pt x 203.14595pt>
+] <gfx/TFZsuperellipse_bw.pdf, id=206, 260.5755pt x 203.14595pt>
 File: gfx/TFZsuperellipse_bw.pdf Graphic file (type pdf)
 
 <use gfx/TFZsuperellipse_bw.pdf>
@@ -1723,7 +1738,15 @@ Overfull \hbox (11.68073pt too wide) in paragraph at lines 17--17
 u-ral []  
  []
 
-)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 89.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 89.
+[7
+
+
+
+])
 \tf@toc=\write6
 \openout6 = `ClassicThesis.toc'.
 
@@ -1736,11 +1759,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 18.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 18.
-[7
-
-
-
-]
+[8]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 30.
 Package tocbasic Info: character protrusion at lof deactivated on input line 31
@@ -1772,7 +1791,17 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 63.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 63.
- [8
+ [9
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 65.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 65.
+
+[10
+
+
 
 ]
 Package babel Info: Redefining portuges shorthand "|
@@ -1781,11 +1810,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 68.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 68.
-
-[1
-
-
-
+ [1
 
 
 
@@ -1803,6 +1828,14 @@ Package babel Info: Redefining portuges shorthand "|
 chapter 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
+
+LaTeX Warning: Citation 'Anfinsen:1968' on page 3 undefined on input line 3.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 3.
+
+LaTeX Warning: Citation 'Rose:2001' on page 3 undefined on input line 3.
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 9.
 Package babel Info: Redefining portuges shorthand "|
@@ -1812,18 +1845,32 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 ]
+
+LaTeX Warning: Citation 'Baker:1996' on page 4 undefined on input line 11.
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 13.
+
+LaTeX Warning: Citation 'Zhang:2003' on page 4 undefined on input line 15.
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 16.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 16.
- [4]
+[4]
+
+LaTeX Warning: Citation 'Marti-Renom:1995' on page 5 undefined on input line 17
+.
+
+
+LaTeX Warning: Citation 'Marti-Renom:1995' on page 5 undefined on input line 17
+.
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 22.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 22.
- [5]
+[5]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 35.
 Package babel Info: Redefining portuges shorthand "|
@@ -1921,33 +1968,78 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 9.
-<figures/chameleonic_resume.pdf, id=376, 512.314pt x 328.50494pt>
+
+LaTeX Warning: Citation '17609385' on page 13 undefined on input line 11.
+
+<figures/ga_gb.jpg, id=392, 721.94719pt x 515.67656pt>
+File: figures/ga_gb.jpg Graphic file (type jpg)
+ <use figures/ga_gb.jpg>
+Package pdftex.def Info: figures/ga_gb.jpg used on input line 15.
+(pdftex.def)             Requested size: 336.0pt x 239.99957pt.
+
+
+LaTeX Warning: Citation '10.1073/pnas.0805857105' on page 13 undefined on input
+ line 20.
+
+
+LaTeX Warning: Citation '10.1073/pnas.0906408106' on page 13 undefined on input
+ line 20.
+
+
+Overfull \hbox (67.73912pt too wide) in paragraph at lines 20--21
+\T1/pplj/m/n/10.95 dade se-quen-cial ainda mai-o-res [[], []].
+ []
+
+<figures/chameleonic_resume.pdf, id=395, 512.314pt x 328.50494pt>
 File: figures/chameleonic_resume.pdf Graphic file (type pdf)
 
 <use figures/chameleonic_resume.pdf>
-Package pdftex.def Info: figures/chameleonic_resume.pdf used on input line 13.
+Package pdftex.def Info: figures/chameleonic_resume.pdf used on input line 24.
 (pdftex.def)             Requested size: 336.0pt x 215.4455pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 17.
+(babel)             in language append on input line 29.
+
+Overfull \hbox (36.6827pt too wide) in paragraph at lines 31--32
+\T1/pplj/m/n/10.95 Uni-ver-si-dade de Duke (dis-po-ní-vel em [][]github.com/rla
+bduke/reference_data[][]).
+ []
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 30.
+(babel)             in language append on input line 32.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 30.
- [13
+(babel)             in language append on input line 32.
+[13
 
 
 
-])
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 32.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 32.
+ [14 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/ga_gb.jpg> </ho
+me/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/chameleonic_resume.pdf>]
+)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 81.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 81.
- [14 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/chameleonic_res
-ume.pdf>]
+ [15]
 \openout2 = `Capitulos/capitulo05.aux'.
 
 
 (/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo05.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 1.
+
+[16
+
+
+
+
+]
 chapter 5.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
@@ -1958,35 +2050,32 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 11.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 17.
+(babel)             in language append on input line 16.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 17.
-[15
-
-
-
-
-]
+(babel)             in language append on input line 16.
+[17]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 23.
+(babel)             in language append on input line 25.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 29.
+(babel)             in language append on input line 30.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 29.
- [16]
+(babel)             in language append on input line 30.
+ [18]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 29.
+(babel)             in language append on input line 31.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 37.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 82.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 82.
- [17]
+ [19]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 84.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 84.
- [18
+ [20
 
 
 
@@ -1997,7 +2086,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 85.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 85.
- [19
+ [21
 
 
 ]
@@ -2005,7 +2094,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 85.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 85.
- [20]
+ [22]
 \openout2 = `Capitulos/capitulo06.aux'.
 
 
@@ -2018,7 +2107,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 86.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 86.
- [21
+ [23
 
 
 
@@ -2032,7 +2121,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
 
-[22
+[24
 
 
 
@@ -2045,24 +2134,26 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 11.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 11.
-[23]
+[25]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 11.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 11.
- [24
+ [26
 
 
 ]
 chapter 8.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 11.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 16.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 87.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 87.
- [25]
+ [27]
 \openout2 = `Capitulos/capitulo08.aux'.
 
 
@@ -2072,7 +2163,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
 
-[26
+[28
 
 
 
@@ -2086,12 +2177,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 88.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 88.
- [27]
+ [29]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 91.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 91.
- [28
+ [30
 
 
 
@@ -2102,12 +2193,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 91.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 91.
- [29]
+ [31]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 91.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 91.
- [30]
+ [32]
 \openout2 = `Capitulos/capitulo09.aux'.
 
 
@@ -2119,7 +2210,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 3.
-[31
+[33
 
 
 
@@ -2128,7 +2219,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 3.
- [32
+ [34
 
 
 ]
@@ -2140,12 +2231,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 93.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 93.
- [33]
+ [35]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 100.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 100.
- [34
+ [36
 
 
 
@@ -2156,7 +2247,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 101.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 101.
- [35
+ [37
 
 
 ]
@@ -2164,7 +2255,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 101.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 101.
- [36]
+ [38]
 \openout2 = `Chapters/Chapter0A.aux'.
 
 
@@ -2192,7 +2283,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 102.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 102.
- [37
+ [39
 
 
 
@@ -2201,7 +2292,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 106.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 106.
- [38
+ [40
 
 
 
@@ -2216,58 +2307,50 @@ Package babel Info: Redefining portuges shorthand "|
 )
 Overfull \hbox (3.94203pt too wide) in paragraph at lines 106--106
 \T1/pplj/m/it/10.95 Jour-nal de Chi-mie Phy-si-que et de Physico-Chimie Bi-o-lo
--gi-que \T1/pplj/m/n/10.95 65 (1962),
+-gi-que \T1/pplj/m/n/10.95 65 (1961),
  []
 
 
 Overfull \hbox (17.05048pt too wide) in paragraph at lines 106--106
 \T1/pplj/m/n/10.95 red^^Q. Em: \T1/pplj/m/it/10.95 Jour-nal of bi-o-mo-le-cu-la
-r struc-ture & dy-na-mics \T1/pplj/m/n/10.95 (2006), pp. 113^^U
+r struc-ture & dy-na-mics \T1/pplj/m/n/10.95 (2005), pp. 113^^U
  []
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 12.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 12.
-[39
+[41
 
 
 
 ]
-Overfull \hbox (0.14128pt too wide) in paragraph at lines 106--106
-\T1/pplj/m/n/10.95 tion^^Q. Em: \T1/pplj/m/it/10.95 BMC bi-oin-for-ma-tics \T1/
-pplj/m/n/10.95 9 (2002), pp. 40^^U40. \T1/pplj/m/sc/10.95 issn\T1/pplj/m/n/10.9
-5 : 14712105.
+Overfull \hbox (8.32916pt too wide) in paragraph at lines 106--106
+[]\T1/pplj/m/n/10.95 Juliette Mar-tin, Guil-laume Le-tel-lier, An-toine Ma-rin,
+ Jean-François
  []
 
 
-Overfull \hbox (4.8876pt too wide) in paragraph at lines 106--106
-\T1/pplj/m/sc/10.95 doi\T1/pplj/m/n/10.95 : [][]$\T1/fvm/m/n/10.95 10 . 1186 / 
-1471 -[] 2105 -[] 9 -[] 40$[][]\T1/pplj/m/n/10.95 . \T1/pplj/m/sc/10.95 url\T1/
-pplj/m/n/10.95 : [][]$\T1/fvm/m/n/10.95 http : / / www . pubmedcentral .
- []
-
-
-Overfull \hbox (6.96906pt too wide) in paragraph at lines 106--106
-\T1/fvm/m/n/10.95 nih . gov / articlerender . fcgi ? artid = 2245901 & tool = p
-mcentrez &
+Overfull \hbox (24.99904pt too wide) in paragraph at lines 106--106
+\T1/pplj/m/n/10.95 00278424. \T1/pplj/m/sc/10.95 url\T1/pplj/m/n/10.95 : [][]$\
+T1/fvm/m/n/10.95 http : / / www . pubmedcentral . nih . gov / articlerender .
  []
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 12.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 12.
-[40]
+[42]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 106.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 106.
- [41]
+ [43]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 107.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 107.
- [42
+ [44
 
 
 
@@ -2284,7 +2367,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 107.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 107.
- [43
+ [45
 
 
 
@@ -2293,7 +2376,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 108.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 108.
- [44
+ [46
 
 
 
@@ -2309,7 +2392,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 108.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 108.
- [45
+ [47
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
@@ -2515,6 +2598,7 @@ Capitulos/capitulo01.tex
 Capitulos/capitulo02.tex
 Capitulos/capitulo03.tex
 Capitulos/capitulo04.tex
+figures/ga_gb.jpg
 figures/chameleonic_resume.pdf
 Capitulos/capitulo05.tex
 Capitulos/capitulo06.tex
@@ -2530,20 +2614,28 @@ FrontBackmatter/Colophon.tex
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3F0FE0371C2F60F085C1A568CEA3F788;2879.
+(rerunfilecheck)             Checksum: 410DD68D71DD8D618FC8B78657065237;3095.
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                ClassicThesis
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 \openout1 = `ClassicThesis.run.xml'.
 
  )
 (\end occurred when \iftrue on line 53 was incomplete) 
 Here is how much of TeX's memory you used:
- 23282 strings out of 493029
- 409610 string characters out of 6136234
- 782019 words of memory out of 5000000
+ 23297 strings out of 493029
+ 409440 string characters out of 6136234
+ 781697 words of memory out of 5000000
  26107 multiletter control sequences out of 15000+600000
- 72795 words of font info for 107 fonts, out of 8000000 for 9000
+ 75720 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,22n,96p,2133b,2698s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,22n,90p,2133b,2698s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf
 -dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
@@ -2551,17 +2643,19 @@ msfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/euler/eufm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /euler/eurb10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/eu
 ler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler
-/eurm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/palatino/uplri8a.pfb>
+/eurm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palati
+no/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.p
+fb>
 Output written on /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/ClassicThes
-is.pdf (53 pages, 280391 bytes).
+is.pdf (57 pages, 398219 bytes).
 PDF statistics:
- 670 PDF objects out of 1000 (max. 8388607)
- 592 compressed objects within 6 object streams
- 141 named destinations out of 1000 (max. 500000)
- 14195 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 722 PDF objects out of 1000 (max. 8388607)
+ 636 compressed objects within 7 object streams
+ 150 named destinations out of 1000 (max. 500000)
+ 14728 words of extra memory for PDF output out of 17280 (max. 10000000)
 

@@ -40,46 +40,50 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Dados}}{13}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Prote\IeC {\'\i }nas camale\IeC {\^o}nicas}{13}{section.4.1}
+\contentsline {section}{\numberline {4.1}Prote\IeC {\'\i }nas com alt\IeC {\'\i }ssima identidade sequ\IeC {\^e}ncial e diferentes estruturas terci\IeC {\'a}rias e secund\IeC {\'a}rias}{13}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Prote\IeC {\'\i }nas diversas}{13}{section.4.2}
+\contentsline {section}{\numberline {4.2}Prote\IeC {\'\i }nas diversas}{15}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Implementa\IeC {\c c}\IeC {\~a}o}}{15}{chapter.5}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Implementa\IeC {\c c}\IeC {\~a}o}}{17}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Aut\IeC {\^o}mato celular}{15}{section.5.1}
+\contentsline {section}{\numberline {5.1}Aut\IeC {\^o}mato celular}{17}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Modelo inicial}{15}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.1}Modelo inicial}{17}{subsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Modelos extendidos}{15}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.2}Modelos extendidos}{17}{subsection.5.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}EDA}{16}{section.5.2}
+\contentsline {section}{\numberline {5.2}EDA}{18}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Fun\IeC {\c c}\IeC {\~a}o de fitness}{17}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Fun\IeC {\c c}\IeC {\~a}o de fitness}{19}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Resultados}}{19}{part.3}
+\contentsline {section}{\numberline {5.3}Implementa\IeC {\c c}\IeC {\~a}o}{19}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {An\IeC {\'a}lise dos dados}}{21}{chapter.6}
+\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Resultados}}{21}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Aprendizado de regras}}{23}{chapter.7}
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {An\IeC {\'a}lise dos dados}}{23}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Aprendizado das regras gerais}}{25}{chapter.8}
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Aprendizado de regras}}{25}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {An\IeC {\'a}lise das regras gerais}}{27}{chapter.9}
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Aprendizado das regras gerais}}{27}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Perspectivas futuras}}{29}{part.4}
+\contentsline {section}{\numberline {8.1}contagem de aa}{27}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}\spacedlowsmallcaps {Desafios futuros}}{31}{chapter.10}
+\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {An\IeC {\'a}lise das regras gerais}}{29}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}\spacedlowsmallcaps {Alternativas em an\IeC {\'a}lise}}{33}{chapter.11}
+\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Perspectivas futuras}}{31}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Appendix}}{35}{part.5}
+\contentsline {chapter}{\numberline {10}\spacedlowsmallcaps {Desafios futuros}}{33}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{37}{appendix.A}
+\contentsline {chapter}{\numberline {11}\spacedlowsmallcaps {Alternativas em an\IeC {\'a}lise}}{35}{chapter.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Appendix Section Test}{37}{section.A.1}
+\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Appendix}}{37}{part.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{37}{section.A.2}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{39}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Appendix Section Test}{39}{section.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{39}{section.A.2}
 \defcounter {refsection}{0}\relax 
 \vspace {\beforebibskip }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliografia}}{39}{dummy.6}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliografia}}{41}{dummy.6}

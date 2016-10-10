@@ -62,101 +62,7 @@
   \verb http://dx.doi.org/10.1038/181662a0
   \endverb
   \field{journaltitle}{Nature}
-  \field{year}{1952}
-\endentry
-
-\entry{Anfinsen:1968}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Anfinsen}{A.}%
-     {B.~C.}{B.~C.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{amino acid sequence; animals; antigen-antibody reactions; cattle;
-  epitopes; exonucleases; goats; goats: immunology; models, structural;
-  pancreas; pancreas: enzymology; peptides; proinsulin; protein conformation;
-  protein denaturation; ribonucleases; spectrometry, fluorescence;
-  staphylococcus; staphylococcus: enzymology; swine; viscosity}
-  \strng{namehash}{ABC1}
-  \strng{fullhash}{ABC1}
-  \field{issn}{00368075}
-  \field{pages}{223\bibrangedash 30}
-  \field{title}{Principles that govern the folding of protein chains}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/4124164
-  \endverb
-  \field{journaltitle}{Science (New York, N.Y.)}
-  \field{year}{1967}
-\endentry
-
-\entry{Rose:2001}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Rose}{R.}%
-     {D.~George}{D.~G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Fleming}{F.}%
-     {J.~Patrick}{J.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Banavar}{B.}%
-     {R.~Jayanth}{R.~J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Maritan}{M.}%
-     {Amos}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{animals; humans; hydrogen bonding; models, molecular; protein
-  denaturation; protein folding; protein structure, secondary; protein
-  structure, tertiary; thermodynamics}
-  \strng{namehash}{RDG+1}
-  \strng{fullhash}{RDGFJPBRJMA1}
-  \field{abstract}{%
-  Under physiological conditions, a protein undergoes a spontaneous disorder
-  order transition called ``folding.'' The protein polymer is highly flexible
-  when unfolded but adopts its unique native, three-dimensional structure when
-  folded. Current experimental knowledge comes primarily from thermodynamic
-  measurements in solution or the structures of individual molecules,
-  elucidated by either x-ray crystallography or NMR spectroscopy. From the
-  former, we know the enthalpy, entropy, and free energy differences between
-  the folded and unfolded forms of hundreds of proteins under a variety of
-  solvent/cosolvent conditions. From the latter, we know the structures of
-  approximately 35,000 proteins, which are built on scaffolds of
-  hydrogen-bonded structural elements, alpha-helix and beta-sheet. Anfinsen
-  showed that the amino acid sequence alone is sufficient to determine a
-  protein's structure, but the molecular mechanism responsible for
-  self-assembly remains an open question, probably the most fundamental open
-  question in biochemistry. This perspective is a hybrid: partly review, partly
-  proposal. First, we summarize key ideas regarding protein folding developed
-  over the past half-century and culminating in the current mindset. In this
-  view, the energetics of side-chain interactions dominate the folding process,
-  driving the chain to self-organize under folding conditions. Next, having
-  taken stock, we propose an alternative model that inverts the prevailing
-  side-chain/backbone paradigm. Here, the energetics of backbone hydrogen bonds
-  dominate the folding process, with preorganization in the unfolded state.
-  Then, under folding conditions, the resultant fold is selected from a limited
-  repertoire of structural possibilities, each corresponding to a distinct
-  hydrogen-bonded arrangement of alpha-helices and/or strands of beta-sheet%
-  }
-  \verb{doi}
-  \verb 10.1073/pnas.0606843103
-  \endverb
-  \field{issn}{00278424}
-  \field{pages}{16623\bibrangedash 33}
-  \field{title}{A backbone-based theory of protein folding}
-  \verb{url}
-  \verb http://www.pnas.org/content/103/45/16623.long
-  \endverb
-  \field{journaltitle}{Proceedings of the National Academy of Sciences of the
-  United States of America}
-  \field{year}{2000}
+  \field{year}{1951}
 \endentry
 
 \entry{Levinthal:1963}{article}{}
@@ -213,7 +119,7 @@
   \field{volume}{65}
   \field{journaltitle}{Journal de Chimie Physique et de Physico-Chimie
   Biologique}
-  \field{year}{1962}
+  \field{year}{1961}
 \endentry
 
 \entry{Levinthal:}{proceedings}{}
@@ -255,7 +161,7 @@
      {}{}%
      {}{}}%
   }
-  \keyw{hydrophobic and hydrophilic interactions; models, theoretical; protein
+  \keyw{hydrophobic and hydrophilic interactions; models; theoretical; protein
   conformation; protein folding; proteins; proteins: chemistry; thermodynamics}
   \strng{namehash}{BNA1}
   \strng{fullhash}{BNA1}
@@ -283,7 +189,7 @@
   \verb http://www.ncbi.nlm.nih.gov/pubmed/22571437
   \endverb
   \field{journaltitle}{Journal of biomolecular structure \& dynamics}
-  \field{year}{2006}
+  \field{year}{2005}
 \endentry
 
 \entry{Moult:2009}{article}{}
@@ -314,7 +220,7 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{MJ+1}
+  \strng{namehash}{MJ+2}
   \strng{fullhash}{MJFKKASTTA1}
   \field{abstract}{%
   This article is an introduction to the special issue of the journal PROTEINS,
@@ -350,60 +256,7 @@
   \endverb
   \field{volume}{82 Suppl 2}
   \field{journaltitle}{Proteins}
-  \field{year}{2008}
-\endentry
-
-\entry{Baker:1996}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Baker}{B.}%
-     {D.}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Sali}{S.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{amino acid sequence; animals; binding sites; computational biology;
-  computer simulation; databases; factual; genetic; genomics; humans; internet;
-  models; molecular; protein conformation; protein folding; protein structure;
-  proteins; proteins: chemistry; proteins: genetics; proteins: physiology;
-  sequence alignment; software; templates; tertiary}
-  \strng{namehash}{BDSA1}
-  \strng{fullhash}{BDSA1}
-  \field{abstract}{%
-  Genome sequencing projects are producing linear amino acid sequences, but
-  full understanding of the biological role of these proteins will require
-  knowledge of their structure and function. Although experimental structure
-  determination methods are providing high-resolution structure information
-  about a subset of the proteins, computational structure prediction methods
-  will provide valuable information for the large fraction of sequences whose
-  structures will not be determined experimentally. The first class of protein
-  structure prediction methods, including threading and comparative modeling,
-  rely on detectable similarity spanning most of the modeled sequence and at
-  least one known structure. The second class of methods, de novo or ab initio
-  methods, predict the structure from sequence alone, without relying on
-  similarity at the fold level between the modeled sequence and any of the
-  known structures. In this Viewpoint, we begin by describing the essential
-  features of the methods, the accuracy of the models, and their application to
-  the prediction and understanding of protein function, both for single
-  proteins and on the scale of whole genomes. We then discuss the important
-  role that protein structure prediction methods play in the growing worldwide
-  effort in structural genomics%
-  }
-  \verb{doi}
-  \verb 10.1126/science.1065659
-  \endverb
-  \field{issn}{00368075}
-  \field{pages}{93\bibrangedash 6}
-  \field{title}{Protein structure prediction and structural genomics}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/11588250
-  \endverb
-  \field{journaltitle}{Science (New York, N.Y.)}
-  \field{year}{1995}
+  \field{year}{2007}
 \endentry
 
 \entry{Helles:2003}{article}{}
@@ -415,7 +268,7 @@
      {}{}}%
   }
   \keyw{algorithms; computational biology; computational biology: methods;
-  computer simulation; models, chemical; protein conformation; protein folding}
+  computer simulation; models; chemical; protein conformation; protein folding}
   \strng{namehash}{HG1}
   \strng{fullhash}{HG1}
   \field{abstract}{%
@@ -453,66 +306,7 @@
   \endverb
   \field{journaltitle}{Journal of the Royal Society, Interface / the Royal
   Society}
-  \field{year}{2002}
-\endentry
-
-\entry{Zhang:2003}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Zhang}{Z.}%
-     {Yang}{Y.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{amino acid sequence; computer simulation; internet; models, chemical;
-  models, molecular; molecular sequence data; protein conformation; proteins;
-  proteins: chemistry; proteins: ultrastructure; sequence alignment; sequence
-  analysis, protein; sequence analysis, protein: methods; software}
-  \strng{namehash}{ZY1}
-  \strng{fullhash}{ZY1}
-  \field{abstract}{%
-  BACKGROUND: Prediction of 3-dimensional protein structures from amino acid
-  sequences represents one of the most important problems in computational
-  structural biology. The community-wide Critical Assessment of Structure
-  Prediction (CASP) experiments have been designed to obtain an objective
-  assessment of the state-of-the-art of the field, where I-TASSER was ranked as
-  the best method in the server section of the recent 7th CASP experiment. Our
-  laboratory has since then received numerous requests about the public
-  availability of the I-TASSER algorithm and the usage of the I-TASSER
-  predictions. RESULTS: An on-line version of I-TASSER is developed at the KU
-  Center for Bioinformatics which has generated protein structure predictions
-  for thousands of modeling requests from more than 35 countries. A scoring
-  function (C-score) based on the relative clustering structural density and
-  the consensus significance score of multiple threading templates is
-  introduced to estimate the accuracy of the I-TASSER predictions. A
-  large-scale benchmark test demonstrates a strong correlation between the
-  C-score and the TM-score (a structural similarity measurement with values in
-  [0, 1]) of the first models with a correlation coefficient of 0.91. Using a
-  C-score cutoff \&gt; -1.5 for the models of correct topology, both false
-  positive and false negative rates are below 0.1. Combining C-score and
-  protein length, the accuracy of the I-TASSER models can be predicted with an
-  average error of 0.08 for TM-score and 2 A for RMSD. CONCLUSION: The I-TASSER
-  server has been developed to generate automated full-length 3D protein
-  structural predictions where the benchmarked scoring system helps users to
-  obtain quantitative assessments of the I-TASSER models. The output of the
-  I-TASSER server for each query includes up to five full-length models, the
-  confidence score, the estimated TM-score and RMSD, and the standard deviation
-  of the estimations. The I-TASSER server is freely available to the academic
-  community at http://zhang.bioinformatics.ku.edu/I-TASSER%
-  }
-  \verb{doi}
-  \verb 10.1186/1471-2105-9-40
-  \endverb
-  \field{issn}{14712105}
-  \field{pages}{40\bibrangedash 40}
-  \field{title}{I-TASSER server for protein 3D structure prediction}
-  \verb{url}
-  \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2245901&tool=
-  \verb pmcentrez&rendertype=abstract
-  \endverb
-  \field{volume}{9}
-  \field{journaltitle}{BMC bioinformatics}
-  \field{year}{2002}
+  \field{year}{2001}
 \endentry
 
 \entry{Rohl:1999}{article}{}
@@ -551,83 +345,7 @@
   \endverb
   \field{volume}{383}
   \field{journaltitle}{Methods in enzymology}
-  \field{year}{1998}
-\endentry
-
-\entry{Marti-Renom:1995}{article}{}
-  \name{author}{6}{}{%
-    {{}%
-     {Mart{\'i}-Renom}{M.-R.}%
-     {A.~M.}{A.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Stuart}{S.}%
-     {C.~A.}{C.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Fiser}{F.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {S{\'a}nchez}{S.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Melo}{M.}%
-     {F.}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Sali}{S.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{animals; biological; computer simulation; databases; factual; genetic;
-  genome; genomics; genomics: methods; humans; models; molecular; proteins;
-  proteins: chemistry}
-  \strng{namehash}{MRAM+1}
-  \strng{fullhash}{MRAMSCAFASRMFSA1}
-  \field{abstract}{%
-  Comparative modeling predicts the three-dimensional structure of a given
-  protein sequence (target) based primarily on its alignment to one or more
-  proteins of known structure (templates). The prediction process consists of
-  fold assignment, target-template alignment, model building, and model
-  evaluation. The number of protein sequences that can be modeled and the
-  accuracy of the predictions are increasing steadily because of the growth in
-  the number of known protein structures and because of the improvements in the
-  modeling software. Further advances are necessary in recognizing weak
-  sequence-structure similarities, aligning sequences with structures, modeling
-  of rigid body shifts, distortions, loops and side chains, as well as
-  detecting errors in a model. Despite these problems, it is currently possible
-  to model with useful accuracy significant parts of approximately one third of
-  all known protein sequences. The use of individual comparative models in
-  biology is already rewarding and increasingly widespread. A major new
-  challenge for comparative modeling is the integration of it with the torrents
-  of data from genome sequencing projects as well as from functional and
-  structural genomics. In particular, there is a need to develop an automated,
-  rapid, robust, sensitive, and accurate comparative modeling pipeline
-  applicable to whole genomes. Such large-scale modeling is likely to encourage
-  new kinds of applications for the many resulting models, based on their large
-  number and completeness at the level of the family, organism, or functional
-  network%
-  }
-  \verb{doi}
-  \verb 10.1146/annurev.biophys.29.1.291
-  \endverb
-  \field{issn}{10568700}
-  \field{pages}{291\bibrangedash 325}
-  \field{title}{Comparative protein structure modeling of genes and genomes}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/10940251
-  \endverb
-  \field{volume}{29}
-  \field{journaltitle}{Annual review of biophysics and biomolecular structure}
-  \field{year}{1994}
+  \field{year}{1997}
 \endentry
 
 \entry{Dunbrack:2001}{article}{}
@@ -639,10 +357,9 @@
      {}{}}%
   }
   \keyw{computational biology; computational biology: methods; markov chains;
-  models, molecular; protein conformation; protein folding; sequence alignment;
-  sequence alignment: methods; sequence analysis, protein; sequence analysis,
-  protein: methods; sequence homology, amino acid; software; structural
-  homology, protein}
+  models; molecular; protein conformation; protein folding; sequence alignment;
+  sequence alignment: methods; sequence analysis; protein; protein: methods;
+  sequence homology; amino acid; software; structural homology}
   \strng{namehash}{DLR1}
   \strng{fullhash}{DLR1}
   \field{abstract}{%
@@ -679,7 +396,7 @@
   \verb http://www.ncbi.nlm.nih.gov/pubmed/16713709
   \endverb
   \field{journaltitle}{Current opinion in structural biology}
-  \field{year}{2000}
+  \field{year}{1999}
 \endentry
 
 \entry{Overington:1984}{article}{}
@@ -751,9 +468,9 @@
      {}{}%
      {}{}}%
   }
-  \keyw{animals; base sequence; biological evolution; databases, factual;
+  \keyw{animals; base sequence; biological evolution; databases; factual;
   humans; proteins; proteins: classification; proteins: genetics; sequence
-  homology, nucleic acid}
+  homology; nucleic acid}
   \strng{namehash}{CC1}
   \strng{fullhash}{CC1}
   \verb{doi}
@@ -766,7 +483,7 @@
   \verb http://www.ncbi.nlm.nih.gov/pubmed/1608464
   \endverb
   \field{journaltitle}{Nature}
-  \field{year}{1986}
+  \field{year}{1985}
 \endentry
 
 \entry{Coulson:1997}{article}{}
@@ -875,7 +592,7 @@
   \endverb
   \field{volume}{42}
   \field{journaltitle}{Annual review of biophysics}
-  \field{year}{2007}
+  \field{year}{2006}
 \endentry
 
 \entry{Giri:2007}{article}{}
@@ -911,10 +628,10 @@
      {}{}%
      {}{}}%
   }
-  \keyw{amino acid sequence; models, molecular; molecular sequence data;
-  mutagenesis, site-directed; protein folding; proteins; proteins: chemistry;
-  proteins: genetics; proteins: metabolism; sequence homology, amino acid;
-  spectrometry, fluorescence; structure-activity relationship}
+  \keyw{amino acid sequence; models; molecular; molecular sequence data;
+  mutagenesis; site-directed; protein folding; proteins; proteins: chemistry;
+  proteins: genetics; proteins: metabolism; sequence homology; amino acid;
+  spectrometry; fluorescence; structure-activity relationship}
   \strng{namehash}{GR+1}
   \strng{fullhash}{GRMATACJPBMGS1}
   \field{abstract}{%
@@ -949,7 +666,361 @@
   \endverb
   \field{journaltitle}{Proceedings of the National Academy of Sciences of the
   United States of America}
-  \field{year}{2006}
+  \field{year}{2005}
+\endentry
+
+\entry{Kabsch:1978}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kabsch}{K.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sander}{S.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{amino acid sequence; hydrogen bonding; protein conformation; proteins}
+  \strng{namehash}{KWSC1}
+  \strng{fullhash}{KWSC1}
+  \verb{doi}
+  \verb 10.1002/bip.360221211
+  \endverb
+  \field{issn}{00063525}
+  \field{pages}{2577\bibrangedash 637}
+  \field{title}{Dictionary of protein secondary structure: pattern recognition
+  of hydrogen-bonded and geometrical features}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/6667333
+  \endverb
+  \field{journaltitle}{Biopolymers}
+  \field{year}{1976}
+\endentry
+
+\entry{Frishman:1990}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Frishman}{F.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Argos}{A.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{algorithms; amino acid sequence; hydrogen bonding; macromolecular
+  substances; models; molecular; probability; protein structure; proteins;
+  proteins: chemistry; secondary; software; theoretical; stride}
+  \strng{namehash}{FDAP1}
+  \strng{fullhash}{FDAP1}
+  \field{abstract}{%
+  We have developed an automatic algorithm STRIDE for protein secondary
+  structure assignment from atomic coordinates based on the combined use of
+  hydrogen bond energy and statistically derived backbone torsional angle
+  information. Parameters of the pattern recognition procedure were optimized
+  using designations provided by the crystallographers as a standard-of-truth.
+  Comparison to the currently most widely used technique DSSP by Kabsch and
+  Sander (Biopolymers 22:2577-2637, 1983) shows that STRIDE and DSSP assign
+  secondary structural states in 58 and 31\% of 226 protein chains in our data
+  sample, respectively, in greater agreement with the specific
+  residue-by-residue definitions provided by the discoverers of the structures
+  while in 11\% of the chains, the assignments are the same. STRIDE delineates
+  every 11th helix and every 32nd strand more in accord with published
+  assignments%
+  }
+  \verb{doi}
+  \verb 10.1002/prot.340230412
+  \endverb
+  \field{issn}{08873585}
+  \field{pages}{566\bibrangedash 79}
+  \field{title}{Knowledge-based protein secondary structure assignment}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/8749853
+  \endverb
+  \field{journaltitle}{Proteins}
+  \field{year}{1988}
+\endentry
+
+\entry{Martin:2000}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Martin}{M.}%
+     {Juliette}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Letellier}{L.}%
+     {Guillaume}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marin}{M.}%
+     {Antoine}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Taly}{T.}%
+     {Jean-Fran{\c{c}}ois}{J.-F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brevern}{B.}%
+     {G.~Alexandre}{G.~A.}%
+     {de}{d.}%
+     {}{}}%
+    {{}%
+     {Gibrat}{G.}%
+     {Jean-Fran{\c{c}}ois}{J.-F.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{algorithms; amino acid sequence; computational biology; computational
+  biology: methods; databases; protein; hydrogen bonding; magnetic resonance
+  spectroscopy; models; molecular; statistical; theoretical; molecular
+  structure; protein conformation; protein structure; secondary; proteins;
+  proteins: chemistry; proteomics; proteomics: methods; software}
+  \strng{namehash}{MJ+1}
+  \strng{fullhash}{MJLGMATJFBGAdGJF1}
+  \field{abstract}{%
+  BACKGROUND: A number of methods are now available to perform automatic
+  assignment of periodic secondary structures from atomic coordinates, based on
+  different characteristics of the secondary structures. In general these
+  methods exhibit a broad consensus as to the location of most helix and strand
+  core segments in protein structures. However the termini of the segments are
+  often ill-defined and it is difficult to decide unambiguously which residues
+  at the edge of the segments have to be included. In addition, there is a
+  ``twilight zone'' where secondary structure segments depart significantly
+  from the idealized models of Pauling and Corey. For these segments, one has
+  to decide whether the observed structural variations are merely distorsions
+  or whether they constitute a break in the secondary structure. METHODS: To
+  address these problems, we have developed a method for secondary structure
+  assignment, called KAKSI. Assignments made by KAKSI are compared with
+  assignments given by DSSP, STRIDE, XTLSSTR, PSEA and SECSTR, as well as
+  secondary structures found in PDB files, on 4 datasets (X-ray structures with
+  different resolution range, NMR structures). RESULTS: A detailed comparison
+  of KAKSI assignments with those of STRIDE and PSEA reveals that KAKSI assigns
+  slightly longer helices and strands than STRIDE in case of one-to-one
+  correspondence between the segments. However, KAKSI tends also to favor the
+  assignment of several short helices when STRIDE and PSEA assign longer,
+  kinked, helices. Helices assigned by KAKSI have geometrical characteristics
+  close to those described in the PDB. They are more linear than helices
+  assigned by other methods. The same tendency to split long segments is
+  observed for strands, although less systematically. We present a number of
+  cases of secondary structure assignments that illustrate this behavior.
+  CONCLUSION: Our method provides valuable assignments which favor the
+  regularity of secondary structure segments%
+  }
+  \verb{doi}
+  \verb 10.1186/1472-6807-5-17
+  \endverb
+  \field{issn}{14726807}
+  \field{pages}{17\bibrangedash 17}
+  \field{title}{Protein secondary structure assignment revisited: a detailed
+  analysis of different assignment methods}
+  \verb{url}
+  \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=1249586&tool=
+  \verb pmcentrez&rendertype=abstract
+  \endverb
+  \field{volume}{5}
+  \field{journaltitle}{BMC structural biology}
+  \field{year}{1998}
+\endentry
+
+\entry{Srinivasan:1994}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Srinivasan}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rose}{R.}%
+     {D.~G.}{D.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{protein conformation; protein folding; protein structure; secondary}
+  \strng{namehash}{SRRDG1}
+  \strng{fullhash}{SRRDG1}
+  \field{abstract}{%
+  A physical theory of protein secondary structure is proposed and tested by
+  performing exceedingly simple Monte Carlo simulations. In essence, secondary
+  structure propensities are predominantly a consequence of two competing local
+  effects, one favoring hydrogen bond formation in helices and turns, the other
+  opposing the attendant reduction in sidechain conformational entropy on helix
+  and turn formation. These sequence specific biases are densely dispersed
+  throughout the unfolded polypeptide chain, where they serve to preorganize
+  the folding process and largely, but imperfectly, anticipate the native
+  secondary structure%
+  }
+  \field{issn}{00278424}
+  \field{pages}{14258\bibrangedash 63}
+  \field{title}{A physical basis for protein secondary structure}
+  \verb{url}
+  \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=24424&tool=pm
+  \verb centrez&rendertype=abstract
+  \endverb
+  \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+  \field{year}{1992}
+\endentry
+
+\entry{10.1016/j.str.2011.11.018}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {He}{H.}%
+     {Yanan}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Yihong}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alexander}{A.}%
+     {Patrick A}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bryan}{B.}%
+     {Philip N}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Orban}{O.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{HY+1}
+  \strng{fullhash}{HYCYAPBPOJ1}
+  \verb{doi}
+  \verb 10.1016/j.str.2011.11.018
+  \endverb
+  \field{pages}{283\bibrangedash 291}
+  \field{title}{Mutational Tipping Points for Switching Protein Folds and
+  Functions}
+  \verb{url}
+  \verb http://www.cell.com/structure/fulltext/S0969-2126(11)00464-3
+  \endverb
+  \field{volume}{20}
+  \field{journaltitle}{Structure}
+  \field{year}{2012}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Xiong07}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Xiong}{X.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Buckwalter}{B.}%
+     {L.~B.}{L.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shieh}{S.}%
+     {M.~H.}{M.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hecht}{H.}%
+     {H.~M.}{H.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{XH+1}
+  \strng{fullhash}{XHBLBSMHHHM1}
+  \field{pages}{6349\bibrangedash 6353}
+  \field{title}{Periodicity of polar and nonpolar amino acids is the major
+  determinant of secondary structure in self-assembling oligomeric peptides}
+  \verb{url}
+  \verb http://www.pnas.org/content/92/14/6349
+  \endverb
+  \field{volume}{92}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{year}{1995}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{West1995}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {West}{W.}%
+     {W.~Michael}{W.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hecht}{H.}%
+     {H.~Michael}{H.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cold Spring Harbor Laboratory Press}%
+  }
+  \keyw{binary code; de novo proteins; polar/nonpolar patterns; protein design}
+  \strng{namehash}{WWMHHM1}
+  \strng{fullhash}{WWMHHM1}
+  \field{abstract}{%
+  Protein sequences can be represented as binary patterns of polar (○) and
+  nonpolar ({\textbullet}) amino acids. These binary sequence patterns are
+  categorized into two classes: Class A patterns match the structural repeat of
+  an idealized amphiphilic $\alpha$-helix (3.6 residues per turn), and class B
+  patterns match the structural repeat of an idealized amphiphilic
+  $\beta$-strand (2 residues per turn). The difference between these two
+  classes of sequence patterns has led to a strategy for de novo protein design
+  based on binary patterning of polar and nonpolar amino acids. Here we ask
+  whether similar binary patterning is incorporated in the sequences and
+  structures of natural proteins. Analysis of the Protein Data Bank
+  demonstrates the following. (1) Class A sequence patterns occur considerably
+  more frequently in the sequences of natural proteins than would be expected
+  at random, but class B patterns occur less often than expected. (2) Each
+  pattern is found predominantly in the secondary structure expected from the
+  binary strategy for protein design. Thus, class A patterns are found more
+  frequently in $\alpha$-helices than in $\beta$-strands, and class B patterns
+  are found more frequently in $\beta$-strands than in $\alpha$-helices. (3)
+  Among the $\alpha$-helices of natural proteins, the most commonly used binary
+  patterns are indeed the class A patterns. (4) Among all $\beta$-strands in
+  the database, the most commonly used binary patterns are not the expected
+  class B patterns. (5) However, for solvent-exposed $\beta$-strands, the
+  correlation is striking: All $\beta$-strands in the database that contain the
+  class B patterns are exposed to solvent. (6) The bias of class A patterns for
+  $\alpha$-structure over $\beta$-structure and the bias of class B patterns
+  for $\beta$-structure over $\alpha$-structure are significant, not merely
+  when compared to other binary patterns of polar (○) and nonpolar
+  ({\textbullet}) amino acids, but also when compared to the full range of
+  sequences in the database. The implications for the design of novel proteins
+  are discussed.%
+  }
+  \verb{doi}
+  \verb 10.1002/pro.5560041008
+  \endverb
+  \field{issn}{1469-896X}
+  \field{pages}{2032\bibrangedash 2039}
+  \field{title}{Binary patterning of polar and nonpolar amino acids in the
+  sequences and structures of native proteins}
+  \verb{url}
+  \verb http://dx.doi.org/10.1002/pro.5560041008
+  \endverb
+  \field{volume}{4}
+  \field{journaltitle}{Protein Science}
+  \field{year}{1995}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \lossort
