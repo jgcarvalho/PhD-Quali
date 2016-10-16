@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.6 $
+% $ biblatex bbl format version 2.7 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,70 +16,82 @@
   {}
 \endgroup
 
-\entry{KENDREW:1953}{article}{}
-  \name{author}{6}{}{%
-    {{}%
-     {KENDREW}{K.}%
-     {C.~J.}{C.~J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {BODO}{B.}%
-     {G.}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {DINTZIS}{D.}%
-     {M.~H.}{M.~H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {PARRISH}{P.}%
-     {G.~R.}{G.~R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {WYCKOFF}{W.}%
-     {H.}{H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {PHILLIPS}{P.}%
-     {C.~D.}{C.~D.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{KCJ+1}
-  \strng{fullhash}{KCJBGDMHPGRWHPCD1}
-  \verb{doi}
-  \verb 10.1038/181662a0
-  \endverb
-  \field{issn}{00280836}
-  \field{pages}{662\bibrangedash 666}
-  \field{title}{A Three-Dimensional Model of the Myoglobin Molecule Obtained by
-  X-Ray Analysis}
-  \verb{url}
-  \verb http://dx.doi.org/10.1038/181662a0
-  \endverb
-  \field{journaltitle}{Nature}
-  \field{year}{1951}
-\endentry
+\sortlist[entry]{none/global/}
+  \entry{KENDREW:1953}{article}{}
+    \name{author}{6}{}{%
+      {{hash=KCJ}{%
+         family={KENDREW},
+         family_i={K\bibinitperiod},
+         given={C.\bibnamedelima J.},
+         given_i={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={BODO},
+         family_i={B\bibinitperiod},
+         given={G.},
+         given_i={G\bibinitperiod},
+      }}%
+      {{hash=DMH}{%
+         family={DINTZIS},
+         family_i={D\bibinitperiod},
+         given={M.\bibnamedelima H.},
+         given_i={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=PGR}{%
+         family={PARRISH},
+         family_i={P\bibinitperiod},
+         given={G.\bibnamedelima R.},
+         given_i={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={WYCKOFF},
+         family_i={W\bibinitperiod},
+         given={H.},
+         given_i={H\bibinitperiod},
+      }}%
+      {{hash=PCD}{%
+         family={PHILLIPS},
+         family_i={P\bibinitperiod},
+         given={C.\bibnamedelima D.},
+         given_i={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KCJ+1}
+    \strng{fullhash}{KCJBGDMHPGRWHPCD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/181662a0
+    \endverb
+    \field{issn}{00280836}
+    \field{pages}{662\bibrangedash 666}
+    \field{title}{A Three-Dimensional Model of the Myoglobin Molecule Obtained
+  by X-Ray Analysis}
+    \verb{url}
+    \verb http://dx.doi.org/10.1038/181662a0
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{year}{1951}
+  \endentry
 
-\entry{Levinthal:1963}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Levinthal}{L.}%
-     {C.}{C.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{1 - folding; folder - protein folding; lev68; pbs record: 320; the 53;
-  enw; folding; pathway; pathways; protein; protein folding; protein-folding;
-  read; review; teaching; time; times}
-  \strng{namehash}{LC1}
-  \strng{fullhash}{LC1}
-  \field{abstract}{%
-  Models of protein energetics that neglect interactions between amino acids
+  \entry{Levinthal:1963}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LC}{%
+         family={Levinthal},
+         family_i={L\bibinitperiod},
+         given={C.},
+         given_i={C\bibinitperiod},
+      }}%
+    }
+    \keyw{1 - folding; folder - protein folding; lev68; pbs record: 320; the
+  53; enw; folding; pathway; pathways; protein; protein folding;
+  protein-folding; read; review; teaching; time; times}
+    \strng{namehash}{LC1}
+    \strng{fullhash}{LC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Models of protein energetics that neglect interactions between amino acids
   that are not adjacent in the native state, such as the Go model, encode or
   underlie many influential ideas on protein folding. Implicit in this
   simplification is a crucial assumption that has never been critically
@@ -107,69 +119,78 @@
   folding trajectories of Go-like models and those of real proteins, but they
   do help to clarify key topological and energetic assumptions that are
   commonly used to justify such caricatures%
-  }
-  \field{isbn}{088173182X}
-  \field{issn}{00217689}
-  \field{pages}{44\bibrangedash 45}
-  \field{title}{Are there pathways for protein folding?}
-  \verb{url}
-  \verb http://www.biochem.wisc.edu/courses/biochem704/Reading/Levinthal1968.pd
-  \verb f
-  \endverb
-  \field{volume}{65}
-  \field{journaltitle}{Journal de Chimie Physique et de Physico-Chimie
+    }
+    \field{isbn}{088173182X}
+    \field{issn}{00217689}
+    \field{pages}{44\bibrangedash 45}
+    \field{title}{Are there pathways for protein folding?}
+    \verb{url}
+    \verb
+  http://www.biochem.wisc.edu/courses/biochem704/Reading/Levinthal1968.pd
+    \verb f
+    \endverb
+    \field{volume}{65}
+    \field{journaltitle}{Journal de Chimie Physique et de Physico-Chimie
   Biologique}
-  \field{year}{1961}
-\endentry
+    \field{year}{1961}
+  \endentry
 
-\entry{Levinthal:}{proceedings}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Levinthal}{L.}%
-     {Cyrus}{C.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{energetics; protein folding}
-  \strng{namehash}{LC2}
-  \strng{fullhash}{LC2}
-  \field{abstract}{%
-  The fact that many naturally-occurring proteins fold reliably and quickly to
-  their native state despite the astronomical number of possible configurations
-  has come to be known as Levinthal's Paradox. The paper usually cited has
-  proved remarkably difficult to get hold of, which is itself a paradox given
-  the frequency of citation. It is reproduced verbatim below, in the hope that
-  it will be of use and interest to people working in the field of protein
-  folding or relaxation dynamics in general. The diagrams are scanned from the
-  hand-drawn figures in the paper%
-  }
-  \field{pages}{22\bibrangedash 24}
-  \field{series}{M{\"o}ssbaun Spectroscopy in Biological Systems Proceedings}
-  \field{title}{How to fold graciously}
-  \verb{url}
-  \verb http://www.cc.gatech.edu/~turk/bio_sim/articles/proteins_levinthal_1969
-  \verb .pdf
-  \endverb
-  \field{volume}{24}
-\endentry
+  \entry{Levinthal:}{proceedings}{}
+    \name{author}{1}{}{%
+      {{hash=LC}{%
+         family={Levinthal},
+         family_i={L\bibinitperiod},
+         given={Cyrus},
+         given_i={C\bibinitperiod},
+      }}%
+    }
+    \keyw{energetics; protein folding}
+    \strng{namehash}{LC2}
+    \strng{fullhash}{LC2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The fact that many naturally-occurring proteins fold reliably and quickly
+  to their native state despite the astronomical number of possible
+  configurations has come to be known as Levinthal's Paradox. The paper usually
+  cited has proved remarkably difficult to get hold of, which is itself a
+  paradox given the frequency of citation. It is reproduced verbatim below, in
+  the hope that it will be of use and interest to people working in the field
+  of protein folding or relaxation dynamics in general. The diagrams are
+  scanned from the hand-drawn figures in the paper%
+    }
+    \field{pages}{22\bibrangedash 24}
+    \field{series}{M{\"o}ssbaun Spectroscopy in Biological Systems Proceedings}
+    \field{title}{How to fold graciously}
+    \verb{url}
+    \verb
+  http://www.cc.gatech.edu/~turk/bio_sim/articles/proteins_levinthal_1969
+    \verb .pdf
+    \endverb
+    \field{volume}{24}
+  \endentry
 
-\entry{Ben-Naim:2007}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Ben-Naim}{B.-N.}%
-     {Arieh}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{hydrophobic and hydrophilic interactions; models; theoretical; protein
-  conformation; protein folding; proteins; proteins: chemistry; thermodynamics}
-  \strng{namehash}{BNA1}
-  \strng{fullhash}{BNA1}
-  \field{abstract}{%
-  Attempts to answer the Levinthal question ``How proteins fold to give such a
-  unique structure'' are discussed. In the first part of this article, we focus
-  on a few reasons as to why the solution to the protein-folding problem (PFP)
-  has been elusive for a very long time. One is a result of the
+  \entry{Ben-Naim:2007}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BNA}{%
+         family={Ben-Naim},
+         family_i={B\bibinitperiod-N\bibinitperiod},
+         given={Arieh},
+         given_i={A\bibinitperiod},
+      }}%
+    }
+    \keyw{hydrophobic and hydrophilic interactions; models; theoretical;
+  protein conformation; protein folding; proteins; proteins: chemistry;
+  thermodynamics}
+    \strng{namehash}{BNA1}
+    \strng{fullhash}{BNA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Attempts to answer the Levinthal question ``How proteins fold to give such
+  a unique structure'' are discussed. In the first part of this article, we
+  focus on a few reasons as to why the solution to the protein-folding problem
+  (PFP) has been elusive for a very long time. One is a result of the
   misinterpretation of Anfinsen's Thermodynamic hypothesis which led to the
   conclusion that the native structure of a protein must be at a global minimum
   of the Gibbs energy. The second is the result of the adherence to the
@@ -178,105 +199,115 @@
   caused-based approach, and adopting the hydrophilic paradigm leads
   straightforwardly to a simple answer to Levinthal's question, as well as to a
   solution of the PFP%
-  }
-  \verb{doi}
-  \verb 10.1080/07391102.2012.674286
-  \endverb
-  \field{issn}{15380254}
-  \field{pages}{113\bibrangedash 24}
-  \field{title}{Levinthal's question revisited, and answered}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/22571437
-  \endverb
-  \field{journaltitle}{Journal of biomolecular structure \& dynamics}
-  \field{year}{2005}
-\endentry
+    }
+    \verb{doi}
+    \verb 10.1080/07391102.2012.674286
+    \endverb
+    \field{issn}{15380254}
+    \field{pages}{113\bibrangedash 24}
+    \field{title}{Levinthal's question revisited, and answered}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/22571437
+    \endverb
+    \field{journaltitle}{Journal of biomolecular structure \& dynamics}
+    \field{year}{2005}
+  \endentry
 
-\entry{Moult:2009}{article}{}
-  \name{author}{5}{}{%
-    {{}%
-     {Moult}{M.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Fidelis}{F.}%
-     {Krzysztof}{K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kryshtafovych}{K.}%
-     {Andriy}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Schwede}{S.}%
-     {Torsten}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Tramontano}{T.}%
-     {Anna}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{MJ+2}
-  \strng{fullhash}{MJFKKASTTA1}
-  \field{abstract}{%
-  This article is an introduction to the special issue of the journal PROTEINS,
-  dedicated to the tenth Critical Assessment of Structure Prediction (CASP)
-  experiment to assess the state of the art in protein structure modeling. The
-  article describes the conduct of the experiment, the categories of prediction
-  included, and outlines the evaluation and assessment procedures. The 10 CASP
-  experiments span almost 20 years of progress in the field of protein
-  structure modeling, and there have been enormous advances in methods and
-  model accuracy in that period. Notable in this round is the first sustained
-  improvement of models with refinement methods, using molecular dynamics. For
-  the first time, we tested the ability of modeling methods to make use of
-  sparse experimental three-dimensional contact information, such as may be
-  obtained from new experimental techniques, with encouraging results. On the
-  other hand, new contact prediction methods, though holding considerable
-  promise, have yet to make an impact in CASP testing. The nature of CASP
-  targets has been changing in recent CASPs, reflecting shifts in experimental
-  structural biology, with more irregular structures, more multi-domain and
-  multi-subunit structures, and less standard versions of known folds. When
-  allowance is made for these factors, we continue to see steady progress in
-  the overall accuracy of models, particularly resulting from improvement of
-  non-template regions%
-  }
-  \verb{doi}
-  \verb 10.1002/prot.24452
-  \endverb
-  \field{issn}{10970134}
-  \field{pages}{1\bibrangedash 6}
-  \field{title}{Critical assessment of methods of protein structure prediction
-  (CASP)--round x}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/24344053
-  \endverb
-  \field{volume}{82 Suppl 2}
-  \field{journaltitle}{Proteins}
-  \field{year}{2007}
-\endentry
+  \entry{Moult:2009}{article}{}
+    \name{author}{5}{}{%
+      {{hash=MJ}{%
+         family={Moult},
+         family_i={M\bibinitperiod},
+         given={John},
+         given_i={J\bibinitperiod},
+      }}%
+      {{hash=FK}{%
+         family={Fidelis},
+         family_i={F\bibinitperiod},
+         given={Krzysztof},
+         given_i={K\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kryshtafovych},
+         family_i={K\bibinitperiod},
+         given={Andriy},
+         given_i={A\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Schwede},
+         family_i={S\bibinitperiod},
+         given={Torsten},
+         given_i={T\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tramontano},
+         family_i={T\bibinitperiod},
+         given={Anna},
+         given_i={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MJ+2}
+    \strng{fullhash}{MJFKKASTTA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This article is an introduction to the special issue of the journal
+  PROTEINS, dedicated to the tenth Critical Assessment of Structure Prediction
+  (CASP) experiment to assess the state of the art in protein structure
+  modeling. The article describes the conduct of the experiment, the categories
+  of prediction included, and outlines the evaluation and assessment
+  procedures. The 10 CASP experiments span almost 20 years of progress in the
+  field of protein structure modeling, and there have been enormous advances in
+  methods and model accuracy in that period. Notable in this round is the first
+  sustained improvement of models with refinement methods, using molecular
+  dynamics. For the first time, we tested the ability of modeling methods to
+  make use of sparse experimental three-dimensional contact information, such
+  as may be obtained from new experimental techniques, with encouraging
+  results. On the other hand, new contact prediction methods, though holding
+  considerable promise, have yet to make an impact in CASP testing. The nature
+  of CASP targets has been changing in recent CASPs, reflecting shifts in
+  experimental structural biology, with more irregular structures, more
+  multi-domain and multi-subunit structures, and less standard versions of
+  known folds. When allowance is made for these factors, we continue to see
+  steady progress in the overall accuracy of models, particularly resulting
+  from improvement of non-template regions%
+    }
+    \verb{doi}
+    \verb 10.1002/prot.24452
+    \endverb
+    \field{issn}{10970134}
+    \field{pages}{1\bibrangedash 6}
+    \field{title}{Critical assessment of methods of protein structure
+  prediction (CASP)--round x}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/24344053
+    \endverb
+    \field{volume}{82 Suppl 2}
+    \field{journaltitle}{Proteins}
+    \field{year}{2007}
+  \endentry
 
-\entry{Helles:2003}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Helles}{H.}%
-     {Glennie}{G.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{algorithms; computational biology; computational biology: methods;
+  \entry{Helles:2003}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HG}{%
+         family={Helles},
+         family_i={H\bibinitperiod},
+         given={Glennie},
+         given_i={G\bibinitperiod},
+      }}%
+    }
+    \keyw{algorithms; computational biology; computational biology: methods;
   computer simulation; models; chemical; protein conformation; protein folding}
-  \strng{namehash}{HG1}
-  \strng{fullhash}{HG1}
-  \field{abstract}{%
-  Protein structure prediction is one of the major challenges in bioinformatics
-  today. Throughout the past five decades, many different algorithmic
-  approaches have been attempted, and although progress has been made the
-  problem remains unsolvable even for many small proteins. While the general
-  objective is to predict the three-dimensional structure from primary
+    \strng{namehash}{HG1}
+    \strng{fullhash}{HG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Protein structure prediction is one of the major challenges in
+  bioinformatics today. Throughout the past five decades, many different
+  algorithmic approaches have been attempted, and although progress has been
+  made the problem remains unsolvable even for many small proteins. While the
+  general objective is to predict the three-dimensional structure from primary
   sequence, our current knowledge and computational power are simply
   insufficient to solve a problem of such high complexity. Some prediction
   algorithms do, however, appear to perform better than others, although it is
@@ -293,77 +324,88 @@
   found to have definite positive influence on the running time and the
   predicted structures, respectively. There thus appears to be a clear benefit
   from incorporating this knowledge in the design of new prediction algorithms%
-  }
-  \verb{doi}
-  \verb 10.1098/rsif.2007.1278
-  \endverb
-  \field{issn}{17425689}
-  \field{pages}{387\bibrangedash 96}
-  \field{title}{A comparative study of the reported performance of ab initio
+    }
+    \verb{doi}
+    \verb 10.1098/rsif.2007.1278
+    \endverb
+    \field{issn}{17425689}
+    \field{pages}{387\bibrangedash 96}
+    \field{title}{A comparative study of the reported performance of ab initio
   protein structure prediction algorithms}
-  \verb{url}
-  \verb http://rsif.royalsocietypublishing.org/content/5/21/387.full
-  \endverb
-  \field{journaltitle}{Journal of the Royal Society, Interface / the Royal
+    \verb{url}
+    \verb http://rsif.royalsocietypublishing.org/content/5/21/387.full
+    \endverb
+    \field{journaltitle}{Journal of the Royal Society, Interface / the Royal
   Society}
-  \field{year}{2001}
-\endentry
+    \field{year}{2001}
+  \endentry
 
-\entry{Rohl:1999}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Rohl}{R.}%
-     {A.~Carol}{A.~C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Strauss}{S.}%
-     {M.~Charlie~E.}{M.~C.~E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Misura}{M.}%
-     {S.~Kira~M.}{S.~K.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Baker}{B.}%
-     {David}{D.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{RAC+1}
-  \strng{fullhash}{RACSMCEMSKMBD1}
-  \verb{doi}
-  \verb 10.1016/S0076-6879(04)83004-0
-  \endverb
-  \field{issn}{00766879}
-  \field{pages}{66\bibrangedash 93}
-  \field{title}{Protein structure prediction using Rosetta}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/15063647
-  \endverb
-  \field{volume}{383}
-  \field{journaltitle}{Methods in enzymology}
-  \field{year}{1997}
-\endentry
+  \entry{Rohl:1999}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RAC}{%
+         family={Rohl},
+         family_i={R\bibinitperiod},
+         given={A.\bibnamedelima Carol},
+         given_i={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SMCE}{%
+         family={Strauss},
+         family_i={S\bibinitperiod},
+         given={M.\bibnamedelima Charlie\bibnamedelima E.},
+         given_i={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  E\bibinitperiod},
+      }}%
+      {{hash=MSKM}{%
+         family={Misura},
+         family_i={M\bibinitperiod},
+         given={S.\bibnamedelima Kira\bibnamedelima M.},
+         given_i={S\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Baker},
+         family_i={B\bibinitperiod},
+         given={David},
+         given_i={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RAC+1}
+    \strng{fullhash}{RACSMCEMSKMBD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/S0076-6879(04)83004-0
+    \endverb
+    \field{issn}{00766879}
+    \field{pages}{66\bibrangedash 93}
+    \field{title}{Protein structure prediction using Rosetta}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/15063647
+    \endverb
+    \field{volume}{383}
+    \field{journaltitle}{Methods in enzymology}
+    \field{year}{1997}
+  \endentry
 
-\entry{Dunbrack:2001}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Dunbrack}{D.}%
-     {L.~Roland}{L.~R.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{computational biology; computational biology: methods; markov chains;
+  \entry{Dunbrack:2001}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DLR}{%
+         family={Dunbrack},
+         family_i={D\bibinitperiod},
+         given={L.\bibnamedelima Roland},
+         given_i={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \keyw{computational biology; computational biology: methods; markov chains;
   models; molecular; protein conformation; protein folding; sequence alignment;
   sequence alignment: methods; sequence analysis; protein; protein: methods;
   sequence homology; amino acid; software; structural homology}
-  \strng{namehash}{DLR1}
-  \strng{fullhash}{DLR1}
-  \field{abstract}{%
-  Sequence comparison is a major step in the prediction of protein structure
+    \strng{namehash}{DLR1}
+    \strng{fullhash}{DLR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Sequence comparison is a major step in the prediction of protein structure
   from existing templates in the Protein Data Bank. The identification of
   potentially remote homologues to be used as templates for modeling target
   sequences of unknown structure and their accurate alignment remain
@@ -385,50 +427,56 @@
   come from model building and refinement methods that can compensate for large
   structural changes between remotely related targets and templates, as well as
   for regions of misalignment%
-  }
-  \verb{doi}
-  \verb 10.1016/j.sbi.2006.05.006
-  \endverb
-  \field{issn}{0959440X}
-  \field{pages}{374\bibrangedash 84}
-  \field{title}{Sequence comparison and protein structure prediction}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/16713709
-  \endverb
-  \field{journaltitle}{Current opinion in structural biology}
-  \field{year}{1999}
-\endentry
+    }
+    \verb{doi}
+    \verb 10.1016/j.sbi.2006.05.006
+    \endverb
+    \field{issn}{0959440X}
+    \field{pages}{374\bibrangedash 84}
+    \field{title}{Sequence comparison and protein structure prediction}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/16713709
+    \endverb
+    \field{journaltitle}{Current opinion in structural biology}
+    \field{year}{1999}
+  \endentry
 
-\entry{Overington:1984}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Overington}{O.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Johnson}{J.}%
-     {S.~M.}{S.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Sali}{S.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Blundell}{B.}%
-     {L.~T.}{L.~T.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{amino acid sequence; animals; biological evolution; genetic variation;
-  humans; molecular sequence data; probability; protein conformation; proteins;
-  proteins: genetics}
-  \strng{namehash}{OJ+1}
-  \strng{fullhash}{OJJSMSABLT1}
-  \field{abstract}{%
-  The pattern of residue substitution in divergently evolving families of
+  \entry{Overington:1984}{article}{}
+    \name{author}{4}{}{%
+      {{hash=OJ}{%
+         family={Overington},
+         family_i={O\bibinitperiod},
+         given={J.},
+         given_i={J\bibinitperiod},
+      }}%
+      {{hash=JSM}{%
+         family={Johnson},
+         family_i={J\bibinitperiod},
+         given={S.\bibnamedelima M.},
+         given_i={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sali},
+         family_i={S\bibinitperiod},
+         given={A.},
+         given_i={A\bibinitperiod},
+      }}%
+      {{hash=BLT}{%
+         family={Blundell},
+         family_i={B\bibinitperiod},
+         given={L.\bibnamedelima T.},
+         given_i={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \keyw{amino acid sequence; animals; biological evolution; genetic
+  variation; humans; molecular sequence data; probability; protein
+  conformation; proteins; proteins: genetics}
+    \strng{namehash}{OJ+1}
+    \strng{fullhash}{OJJSMSABLT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The pattern of residue substitution in divergently evolving families of
   globular proteins is highly variable. At each position in a fold there are
   constraints on the identities of amino acids from both the three-dimensional
   structure and the function of the protein. To characterize and quantify the
@@ -445,66 +493,74 @@
   of tertiary environment or indicate a functional role. Similar analyses can
   be used to test the validity of putative structures if several homologous
   sequences are available%
-  }
-  \verb{doi}
-  \verb 10.1098/rspb.1990.0077
-  \endverb
-  \field{issn}{09628452}
-  \field{pages}{132\bibrangedash 45}
-  \field{title}{Tertiary structural constraints on protein evolutionary
+    }
+    \verb{doi}
+    \verb 10.1098/rspb.1990.0077
+    \endverb
+    \field{issn}{09628452}
+    \field{pages}{132\bibrangedash 45}
+    \field{title}{Tertiary structural constraints on protein evolutionary
   diversity: templates, key residues and structure prediction}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/1978340
-  \endverb
-  \field{journaltitle}{Proceedings. Biological sciences / The Royal Society}
-  \field{year}{1983}
-\endentry
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/1978340
+    \endverb
+    \field{journaltitle}{Proceedings. Biological sciences / The Royal Society}
+    \field{year}{1983}
+  \endentry
 
-\entry{Chothia:1987}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Chothia}{C.}%
-     {C.}{C.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{animals; base sequence; biological evolution; databases; factual;
+  \entry{Chothia:1987}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Chothia},
+         family_i={C\bibinitperiod},
+         given={C.},
+         given_i={C\bibinitperiod},
+      }}%
+    }
+    \keyw{animals; base sequence; biological evolution; databases; factual;
   humans; proteins; proteins: classification; proteins: genetics; sequence
   homology; nucleic acid}
-  \strng{namehash}{CC1}
-  \strng{fullhash}{CC1}
-  \verb{doi}
-  \verb 10.1038/357543a0
-  \endverb
-  \field{issn}{00280836}
-  \field{pages}{543\bibrangedash 4}
-  \field{title}{Proteins. One thousand families for the molecular biologist}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/1608464
-  \endverb
-  \field{journaltitle}{Nature}
-  \field{year}{1985}
-\endentry
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/357543a0
+    \endverb
+    \field{issn}{00280836}
+    \field{pages}{543\bibrangedash 4}
+    \field{title}{Proteins. One thousand families for the molecular biologist}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/1608464
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{year}{1985}
+  \endentry
 
-\entry{Coulson:1997}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Coulson}{C.}%
-     {W.~Andrew~F.}{W.~A.~F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Moult}{M.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{evolution, molecular; models, chemical; protein conformation; protein
+  \entry{Coulson:1997}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CWAF}{%
+         family={Coulson},
+         family_i={C\bibinitperiod},
+         given={W.\bibnamedelima Andrew\bibnamedelima F.},
+         given_i={W\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Moult},
+         family_i={M\bibinitperiod},
+         given={John},
+         given_i={J\bibinitperiod},
+      }}%
+    }
+    \keyw{evolution, molecular; models, chemical; protein conformation; protein
   folding}
-  \strng{namehash}{CWAFMJ1}
-  \strng{fullhash}{CWAFMJ1}
-  \field{abstract}{%
-  As more and more protein structures are determined, there is increasing
+    \strng{namehash}{CWAFMJ1}
+    \strng{fullhash}{CWAFMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    As more and more protein structures are determined, there is increasing
   interest in the question of how many different folds have been used in
   biology. The history of the rate of discovery of new folds and the
   distribution of sequence families among known folds provide a means of
@@ -520,50 +576,56 @@
   folds will be found in only a single sequence family; (2) the total number of
   folds is at least 10,000; and (3) 80\% of sequence families have one of about
   400 folds, most of which are already known%
-  }
-  \field{issn}{08873585}
-  \field{pages}{61\bibrangedash 71}
-  \field{title}{A unifold, mesofold, and superfold model of protein fold use}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/11746703
-  \endverb
-  \field{journaltitle}{Proteins}
-  \field{year}{1995}
-\endentry
+    }
+    \field{issn}{08873585}
+    \field{pages}{61\bibrangedash 71}
+    \field{title}{A unifold, mesofold, and superfold model of protein fold use}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/11746703
+    \endverb
+    \field{journaltitle}{Proteins}
+    \field{year}{1995}
+  \endentry
 
-\entry{Kolodny:2008}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Kolodny}{K.}%
-     {Rachel}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Pereyaslavets}{P.}%
-     {Leonid}{L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Samson}{S.}%
-     {O.~Abraham}{O.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Levitt}{L.}%
-     {Michael}{M.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Annual Reviews}%
-  }
-  \keyw{animals; cluster analysis; evolution; humans; molecular; protein
+  \entry{Kolodny:2008}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KR}{%
+         family={Kolodny},
+         family_i={K\bibinitperiod},
+         given={Rachel},
+         given_i={R\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Pereyaslavets},
+         family_i={P\bibinitperiod},
+         given={Leonid},
+         given_i={L\bibinitperiod},
+      }}%
+      {{hash=SOA}{%
+         family={Samson},
+         family_i={S\bibinitperiod},
+         given={O.\bibnamedelima Abraham},
+         given_i={O\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Levitt},
+         family_i={L\bibinitperiod},
+         given={Michael},
+         given_i={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Annual Reviews}%
+    }
+    \keyw{animals; cluster analysis; evolution; humans; molecular; protein
   folding; protein structure; proteins; proteins: chemistry; proteins:
   genetics; tertiary}
-  \strng{namehash}{KR+1}
-  \strng{fullhash}{KRPLSOALM1}
-  \field{abstract}{%
-  In the fifty years since the first atomic structure of a protein was
+    \strng{namehash}{KR+1}
+    \strng{fullhash}{KRPLSOALM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In the fifty years since the first atomic structure of a protein was
   revealed, tens of thousands of additional structures have been solved. Like
   all objects in biology, proteins structures show common patterns that seem to
   define family relationships. Classification of proteins structures, which
@@ -578,147 +640,167 @@
   useful for prediction of structure and function. Studying the characteristics
   of fold space can shed light on protein evolution and the physical laws that
   govern protein behavior%
-  }
-  \verb{doi}
-  \verb 10.1146/annurev-biophys-083012-130432
-  \endverb
-  \field{issn}{19361238}
-  \field{pages}{559\bibrangedash 82}
-  \field{title}{On the universe of protein folds}
-  \verb{url}
-  \verb http://www.annualreviews.org/doi/abs/10.1146/annurev-biophys-083012-130
-  \verb 432?url_ver=Z39.88-2003&rfr_dat=cr_pub=pubmed&rfr_id=ori:rid:crossref.o
-  \verb rg&journalCode=biophys
-  \endverb
-  \field{volume}{42}
-  \field{journaltitle}{Annual review of biophysics}
-  \field{year}{2006}
-\endentry
+    }
+    \verb{doi}
+    \verb 10.1146/annurev-biophys-083012-130432
+    \endverb
+    \field{issn}{19361238}
+    \field{pages}{559\bibrangedash 82}
+    \field{title}{On the universe of protein folds}
+    \verb{url}
+    \verb
+  http://www.annualreviews.org/doi/abs/10.1146/annurev-biophys-083012-130
+    \verb
+  432?url_ver=Z39.88-2003&rfr_dat=cr_pub=pubmed&rfr_id=ori:rid:crossref.o
+    \verb rg&journalCode=biophys
+    \endverb
+    \field{volume}{42}
+    \field{journaltitle}{Annual review of biophysics}
+    \field{year}{2006}
+  \endentry
 
-\entry{Giri:2007}{article}{}
-  \name{author}{6}{}{%
-    {{}%
-     {Giri}{G.}%
-     {Rajanish}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Morrone}{M.}%
-     {Angela}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Travaglini-Allocatelli}{T.-A.}%
-     {Carlo}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Jemth}{J.}%
-     {Per}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Brunori}{B.}%
-     {Maurizio}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Gianni}{G.}%
-     {Stefano}{S.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{amino acid sequence; models; molecular; molecular sequence data;
+  \entry{Giri:2007}{article}{}
+    \name{author}{6}{}{%
+      {{hash=GR}{%
+         family={Giri},
+         family_i={G\bibinitperiod},
+         given={Rajanish},
+         given_i={R\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Morrone},
+         family_i={M\bibinitperiod},
+         given={Angela},
+         given_i={A\bibinitperiod},
+      }}%
+      {{hash=TAC}{%
+         family={Travaglini-Allocatelli},
+         family_i={T\bibinitperiod-A\bibinitperiod},
+         given={Carlo},
+         given_i={C\bibinitperiod},
+      }}%
+      {{hash=JP}{%
+         family={Jemth},
+         family_i={J\bibinitperiod},
+         given={Per},
+         given_i={P\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Brunori},
+         family_i={B\bibinitperiod},
+         given={Maurizio},
+         given_i={M\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gianni},
+         family_i={G\bibinitperiod},
+         given={Stefano},
+         given_i={S\bibinitperiod},
+      }}%
+    }
+    \keyw{amino acid sequence; models; molecular; molecular sequence data;
   mutagenesis; site-directed; protein folding; proteins; proteins: chemistry;
   proteins: genetics; proteins: metabolism; sequence homology; amino acid;
   spectrometry; fluorescence; structure-activity relationship}
-  \strng{namehash}{GR+1}
-  \strng{fullhash}{GRMATACJPBMGS1}
-  \field{abstract}{%
-  Much experimental work has been devoted in comparing the folding behavior of
-  proteins sharing the same fold but different sequence. The recent design of
-  proteins displaying very high sequence identities but different 3D structure
-  allows the unique opportunity to address the protein-folding problem from a
-  complementary perspective. Here we explored by ?-value analysis the pathways
-  of folding of three different heteromorphic pairs, displaying increasingly
-  high-sequence identity (namely, 30\%, 77\%, and 88\%), but different
-  structures called G(A) (a 3-? helix fold) and G(B) (an ?/? fold). The
-  analysis, based on 132 site-directed mutants, is fully consistent with the
-  idea that protein topology is committed very early along the pathway of
-  folding. Furthermore, data reveals that when folding approaches a perfect
-  two-state scenario, as in the case of the G(A) domains, the structural
-  features of the transition state appear very robust to changes in sequence
-  composition. On the other hand, when folding is more complex and multistate,
-  as for the G(B)s, there are alternative nuclei or accessible pathways that
-  can be alternatively stabilized by altering the primary structure. The
-  implications of our results in the light of previous work on the folding of
-  different members belonging to the same protein family are discussed%
-  }
-  \verb{doi}
-  \verb 10.1073/pnas.1201794109
-  \endverb
-  \field{issn}{10916490}
-  \field{pages}{17772\bibrangedash 6}
-  \field{title}{Folding pathways of proteins with increasing degree of sequence
-  identities but different structure and function}
-  \verb{url}
-  \verb http://www.pnas.org/content/109/44/17772.full
-  \endverb
-  \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+    \strng{namehash}{GR+1}
+    \strng{fullhash}{GRMATACJPBMGS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Much experimental work has been devoted in comparing the folding behavior
+  of proteins sharing the same fold but different sequence. The recent design
+  of proteins displaying very high sequence identities but different 3D
+  structure allows the unique opportunity to address the protein-folding
+  problem from a complementary perspective. Here we explored by ?-value
+  analysis the pathways of folding of three different heteromorphic pairs,
+  displaying increasingly high-sequence identity (namely, 30\%, 77\%, and
+  88\%), but different structures called G(A) (a 3-? helix fold) and G(B) (an
+  ?/? fold). The analysis, based on 132 site-directed mutants, is fully
+  consistent with the idea that protein topology is committed very early along
+  the pathway of folding. Furthermore, data reveals that when folding
+  approaches a perfect two-state scenario, as in the case of the G(A) domains,
+  the structural features of the transition state appear very robust to changes
+  in sequence composition. On the other hand, when folding is more complex and
+  multistate, as for the G(B)s, there are alternative nuclei or accessible
+  pathways that can be alternatively stabilized by altering the primary
+  structure. The implications of our results in the light of previous work on
+  the folding of different members belonging to the same protein family are
+  discussed%
+    }
+    \verb{doi}
+    \verb 10.1073/pnas.1201794109
+    \endverb
+    \field{issn}{10916490}
+    \field{pages}{17772\bibrangedash 6}
+    \field{title}{Folding pathways of proteins with increasing degree of
+  sequence identities but different structure and function}
+    \verb{url}
+    \verb http://www.pnas.org/content/109/44/17772.full
+    \endverb
+    \field{journaltitle}{Proceedings of the National Academy of Sciences of the
   United States of America}
-  \field{year}{2005}
-\endentry
+    \field{year}{2005}
+  \endentry
 
-\entry{Kabsch:1978}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Kabsch}{K.}%
-     {W.}{W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Sander}{S.}%
-     {C.}{C.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{amino acid sequence; hydrogen bonding; protein conformation; proteins}
-  \strng{namehash}{KWSC1}
-  \strng{fullhash}{KWSC1}
-  \verb{doi}
-  \verb 10.1002/bip.360221211
-  \endverb
-  \field{issn}{00063525}
-  \field{pages}{2577\bibrangedash 637}
-  \field{title}{Dictionary of protein secondary structure: pattern recognition
-  of hydrogen-bonded and geometrical features}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/6667333
-  \endverb
-  \field{journaltitle}{Biopolymers}
-  \field{year}{1976}
-\endentry
+  \entry{Kabsch:1978}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KW}{%
+         family={Kabsch},
+         family_i={K\bibinitperiod},
+         given={W.},
+         given_i={W\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sander},
+         family_i={S\bibinitperiod},
+         given={C.},
+         given_i={C\bibinitperiod},
+      }}%
+    }
+    \keyw{amino acid sequence; hydrogen bonding; protein conformation;
+  proteins}
+    \strng{namehash}{KWSC1}
+    \strng{fullhash}{KWSC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/bip.360221211
+    \endverb
+    \field{issn}{00063525}
+    \field{pages}{2577\bibrangedash 637}
+    \field{title}{Dictionary of protein secondary structure: pattern
+  recognition of hydrogen-bonded and geometrical features}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/6667333
+    \endverb
+    \field{journaltitle}{Biopolymers}
+    \field{year}{1976}
+  \endentry
 
-\entry{Frishman:1990}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Frishman}{F.}%
-     {D.}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Argos}{A.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{algorithms; amino acid sequence; hydrogen bonding; macromolecular
+  \entry{Frishman:1990}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FD}{%
+         family={Frishman},
+         family_i={F\bibinitperiod},
+         given={D.},
+         given_i={D\bibinitperiod},
+      }}%
+      {{hash=AP}{%
+         family={Argos},
+         family_i={A\bibinitperiod},
+         given={P.},
+         given_i={P\bibinitperiod},
+      }}%
+    }
+    \keyw{algorithms; amino acid sequence; hydrogen bonding; macromolecular
   substances; models; molecular; probability; protein structure; proteins;
   proteins: chemistry; secondary; software; theoretical; stride}
-  \strng{namehash}{FDAP1}
-  \strng{fullhash}{FDAP1}
-  \field{abstract}{%
-  We have developed an automatic algorithm STRIDE for protein secondary
+    \strng{namehash}{FDAP1}
+    \strng{fullhash}{FDAP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We have developed an automatic algorithm STRIDE for protein secondary
   structure assignment from atomic coordinates based on the combined use of
   hydrogen bond energy and statistically derived backbone torsional angle
   information. Parameters of the pattern recognition procedure were optimized
@@ -731,62 +813,72 @@
   while in 11\% of the chains, the assignments are the same. STRIDE delineates
   every 11th helix and every 32nd strand more in accord with published
   assignments%
-  }
-  \verb{doi}
-  \verb 10.1002/prot.340230412
-  \endverb
-  \field{issn}{08873585}
-  \field{pages}{566\bibrangedash 79}
-  \field{title}{Knowledge-based protein secondary structure assignment}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/8749853
-  \endverb
-  \field{journaltitle}{Proteins}
-  \field{year}{1988}
-\endentry
+    }
+    \verb{doi}
+    \verb 10.1002/prot.340230412
+    \endverb
+    \field{issn}{08873585}
+    \field{pages}{566\bibrangedash 79}
+    \field{title}{Knowledge-based protein secondary structure assignment}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/8749853
+    \endverb
+    \field{journaltitle}{Proteins}
+    \field{year}{1988}
+  \endentry
 
-\entry{Martin:2000}{article}{}
-  \name{author}{6}{}{%
-    {{}%
-     {Martin}{M.}%
-     {Juliette}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Letellier}{L.}%
-     {Guillaume}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Marin}{M.}%
-     {Antoine}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Taly}{T.}%
-     {Jean-Fran{\c{c}}ois}{J.-F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Brevern}{B.}%
-     {G.~Alexandre}{G.~A.}%
-     {de}{d.}%
-     {}{}}%
-    {{}%
-     {Gibrat}{G.}%
-     {Jean-Fran{\c{c}}ois}{J.-F.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{algorithms; amino acid sequence; computational biology; computational
+  \entry{Martin:2000}{article}{}
+    \name{author}{6}{}{%
+      {{hash=MJ}{%
+         family={Martin},
+         family_i={M\bibinitperiod},
+         given={Juliette},
+         given_i={J\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Letellier},
+         family_i={L\bibinitperiod},
+         given={Guillaume},
+         given_i={G\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Marin},
+         family_i={M\bibinitperiod},
+         given={Antoine},
+         given_i={A\bibinitperiod},
+      }}%
+      {{hash=TJF}{%
+         family={Taly},
+         family_i={T\bibinitperiod},
+         given={Jean-Fran{\c{c}}ois},
+         given_i={J\bibinitperiod-F\bibinitperiod},
+      }}%
+      {{hash=dBGA}{%
+         prefix={de},
+         prefix_i={d\bibinitperiod},
+         family={Brevern},
+         family_i={B\bibinitperiod},
+         given={G.\bibnamedelima Alexandre},
+         given_i={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GJF}{%
+         family={Gibrat},
+         family_i={G\bibinitperiod},
+         given={Jean-Fran{\c{c}}ois},
+         given_i={J\bibinitperiod-F\bibinitperiod},
+      }}%
+    }
+    \keyw{algorithms; amino acid sequence; computational biology; computational
   biology: methods; databases; protein; hydrogen bonding; magnetic resonance
   spectroscopy; models; molecular; statistical; theoretical; molecular
   structure; protein conformation; protein structure; secondary; proteins;
   proteins: chemistry; proteomics; proteomics: methods; software}
-  \strng{namehash}{MJ+1}
-  \strng{fullhash}{MJLGMATJFBGAdGJF1}
-  \field{abstract}{%
-  BACKGROUND: A number of methods are now available to perform automatic
+    \strng{namehash}{MJ+1}
+    \strng{fullhash}{MJLGMATJFBGAdGJF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    BACKGROUND: A number of methods are now available to perform automatic
   assignment of periodic secondary structures from atomic coordinates, based on
   different characteristics of the secondary structures. In general these
   methods exhibit a broad consensus as to the location of most helix and strand
@@ -813,41 +905,46 @@
   cases of secondary structure assignments that illustrate this behavior.
   CONCLUSION: Our method provides valuable assignments which favor the
   regularity of secondary structure segments%
-  }
-  \verb{doi}
-  \verb 10.1186/1472-6807-5-17
-  \endverb
-  \field{issn}{14726807}
-  \field{pages}{17\bibrangedash 17}
-  \field{title}{Protein secondary structure assignment revisited: a detailed
+    }
+    \verb{doi}
+    \verb 10.1186/1472-6807-5-17
+    \endverb
+    \field{issn}{14726807}
+    \field{pages}{17\bibrangedash 17}
+    \field{title}{Protein secondary structure assignment revisited: a detailed
   analysis of different assignment methods}
-  \verb{url}
-  \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=1249586&tool=
-  \verb pmcentrez&rendertype=abstract
-  \endverb
-  \field{volume}{5}
-  \field{journaltitle}{BMC structural biology}
-  \field{year}{1998}
-\endentry
+    \verb{url}
+    \verb
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=1249586&tool=
+    \verb pmcentrez&rendertype=abstract
+    \endverb
+    \field{volume}{5}
+    \field{journaltitle}{BMC structural biology}
+    \field{year}{1998}
+  \endentry
 
-\entry{Srinivasan:1994}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Srinivasan}{S.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Rose}{R.}%
-     {D.~G.}{D.~G.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{protein conformation; protein folding; protein structure; secondary}
-  \strng{namehash}{SRRDG1}
-  \strng{fullhash}{SRRDG1}
-  \field{abstract}{%
-  A physical theory of protein secondary structure is proposed and tested by
+  \entry{Srinivasan:1994}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SR}{%
+         family={Srinivasan},
+         family_i={S\bibinitperiod},
+         given={R.},
+         given_i={R\bibinitperiod},
+      }}%
+      {{hash=RDG}{%
+         family={Rose},
+         family_i={R\bibinitperiod},
+         given={D.\bibnamedelima G.},
+         given_i={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \keyw{protein conformation; protein folding; protein structure; secondary}
+    \strng{namehash}{SRRDG1}
+    \strng{fullhash}{SRRDG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A physical theory of protein secondary structure is proposed and tested by
   performing exceedingly simple Monte Carlo simulations. In essence, secondary
   structure propensities are predominantly a consequence of two competing local
   effects, one favoring hydrogen bond formation in helices and turns, the other
@@ -856,128 +953,147 @@
   throughout the unfolded polypeptide chain, where they serve to preorganize
   the folding process and largely, but imperfectly, anticipate the native
   secondary structure%
-  }
-  \field{issn}{00278424}
-  \field{pages}{14258\bibrangedash 63}
-  \field{title}{A physical basis for protein secondary structure}
-  \verb{url}
-  \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=24424&tool=pm
-  \verb centrez&rendertype=abstract
-  \endverb
-  \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+    }
+    \field{issn}{00278424}
+    \field{pages}{14258\bibrangedash 63}
+    \field{title}{A physical basis for protein secondary structure}
+    \verb{url}
+    \verb
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=24424&tool=pm
+    \verb centrez&rendertype=abstract
+    \endverb
+    \field{journaltitle}{Proceedings of the National Academy of Sciences of the
   United States of America}
-  \field{year}{1992}
-\endentry
+    \field{year}{1992}
+  \endentry
 
-\entry{10.1016/j.str.2011.11.018}{article}{}
-  \name{author}{5}{}{%
-    {{}%
-     {He}{H.}%
-     {Yanan}{Y.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Chen}{C.}%
-     {Yihong}{Y.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Alexander}{A.}%
-     {Patrick A}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Bryan}{B.}%
-     {Philip N}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Orban}{O.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Elsevier}%
-  }
-  \strng{namehash}{HY+1}
-  \strng{fullhash}{HYCYAPBPOJ1}
-  \verb{doi}
-  \verb 10.1016/j.str.2011.11.018
-  \endverb
-  \field{pages}{283\bibrangedash 291}
-  \field{title}{Mutational Tipping Points for Switching Protein Folds and
+  \entry{10.1016/j.str.2011.11.018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=HY}{%
+         family={He},
+         family_i={H\bibinitperiod},
+         given={Yanan},
+         given_i={Y\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Chen},
+         family_i={C\bibinitperiod},
+         given={Yihong},
+         given_i={Y\bibinitperiod},
+      }}%
+      {{hash=AP}{%
+         family={Alexander},
+         family_i={A\bibinitperiod},
+         given={Patrick A},
+         given_i={P\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bryan},
+         family_i={B\bibinitperiod},
+         given={Philip N},
+         given_i={P\bibinitperiod},
+      }}%
+      {{hash=OJ}{%
+         family={Orban},
+         family_i={O\bibinitperiod},
+         given={John},
+         given_i={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{HY+1}
+    \strng{fullhash}{HYCYAPBPOJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.str.2011.11.018
+    \endverb
+    \field{pages}{283\bibrangedash 291}
+    \field{title}{Mutational Tipping Points for Switching Protein Folds and
   Functions}
-  \verb{url}
-  \verb http://www.cell.com/structure/fulltext/S0969-2126(11)00464-3
-  \endverb
-  \field{volume}{20}
-  \field{journaltitle}{Structure}
-  \field{year}{2012}
-  \warn{\item Invalid format of field 'month'}
-\endentry
+    \verb{url}
+    \verb http://www.cell.com/structure/fulltext/S0969-2126(11)00464-3
+    \endverb
+    \field{volume}{20}
+    \field{journaltitle}{Structure}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
 
-\entry{Xiong07}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Xiong}{X.}%
-     {H.}{H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Buckwalter}{B.}%
-     {L.~B.}{L.~B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Shieh}{S.}%
-     {M.~H.}{M.~H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hecht}{H.}%
-     {H.~M.}{H.~M.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {National Acad Sciences}%
-  }
-  \strng{namehash}{XH+1}
-  \strng{fullhash}{XHBLBSMHHHM1}
-  \field{pages}{6349\bibrangedash 6353}
-  \field{title}{Periodicity of polar and nonpolar amino acids is the major
+  \entry{Xiong07}{article}{}
+    \name{author}{4}{}{%
+      {{hash=XH}{%
+         family={Xiong},
+         family_i={X\bibinitperiod},
+         given={H.},
+         given_i={H\bibinitperiod},
+      }}%
+      {{hash=BLB}{%
+         family={Buckwalter},
+         family_i={B\bibinitperiod},
+         given={L.\bibnamedelima B.},
+         given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=SMH}{%
+         family={Shieh},
+         family_i={S\bibinitperiod},
+         given={M.\bibnamedelima H.},
+         given_i={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=HHM}{%
+         family={Hecht},
+         family_i={H\bibinitperiod},
+         given={H.\bibnamedelima M.},
+         given_i={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {National Acad Sciences}%
+    }
+    \strng{namehash}{XH+1}
+    \strng{fullhash}{XHBLBSMHHHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{6349\bibrangedash 6353}
+    \field{title}{Periodicity of polar and nonpolar amino acids is the major
   determinant of secondary structure in self-assembling oligomeric peptides}
-  \verb{url}
-  \verb http://www.pnas.org/content/92/14/6349
-  \endverb
-  \field{volume}{92}
-  \field{journaltitle}{Proceedings of the National Academy of Sciences}
-  \field{year}{1995}
-  \warn{\item Invalid format of field 'month'}
-\endentry
+    \verb{url}
+    \verb http://www.pnas.org/content/92/14/6349
+    \endverb
+    \field{volume}{92}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{year}{1995}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
 
-\entry{West1995}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {West}{W.}%
-     {W.~Michael}{W.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hecht}{H.}%
-     {H.~Michael}{H.~M.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Cold Spring Harbor Laboratory Press}%
-  }
-  \keyw{binary code; de novo proteins; polar/nonpolar patterns; protein design}
-  \strng{namehash}{WWMHHM1}
-  \strng{fullhash}{WWMHHM1}
-  \field{abstract}{%
-  Protein sequences can be represented as binary patterns of polar (○) and
+  \entry{West1995}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WWM}{%
+         family={West},
+         family_i={W\bibinitperiod},
+         given={W.\bibnamedelima Michael},
+         given_i={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HHM}{%
+         family={Hecht},
+         family_i={H\bibinitperiod},
+         given={H.\bibnamedelima Michael},
+         given_i={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cold Spring Harbor Laboratory Press}%
+    }
+    \keyw{binary code; de novo proteins; polar/nonpolar patterns; protein
+  design}
+    \strng{namehash}{WWMHHM1}
+    \strng{fullhash}{WWMHHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Protein sequences can be represented as binary patterns of polar (○) and
   nonpolar ({\textbullet}) amino acids. These binary sequence patterns are
   categorized into two classes: Class A patterns match the structural repeat of
   an idealized amphiphilic $\alpha$-helix (3.6 residues per turn), and class B
@@ -1006,24 +1122,21 @@
   ({\textbullet}) amino acids, but also when compared to the full range of
   sequences in the database. The implications for the design of novel proteins
   are discussed.%
-  }
-  \verb{doi}
-  \verb 10.1002/pro.5560041008
-  \endverb
-  \field{issn}{1469-896X}
-  \field{pages}{2032\bibrangedash 2039}
-  \field{title}{Binary patterning of polar and nonpolar amino acids in the
+    }
+    \verb{doi}
+    \verb 10.1002/pro.5560041008
+    \endverb
+    \field{issn}{1469-896X}
+    \field{pages}{2032\bibrangedash 2039}
+    \field{title}{Binary patterning of polar and nonpolar amino acids in the
   sequences and structures of native proteins}
-  \verb{url}
-  \verb http://dx.doi.org/10.1002/pro.5560041008
-  \endverb
-  \field{volume}{4}
-  \field{journaltitle}{Protein Science}
-  \field{year}{1995}
-  \warn{\item Invalid format of field 'month'}
-\endentry
-
-\lossort
-\endlossort
-
+    \verb{url}
+    \verb http://dx.doi.org/10.1002/pro.5560041008
+    \endverb
+    \field{volume}{4}
+    \field{journaltitle}{Protein Science}
+    \field{year}{1995}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+\endsortlist
 \endinput

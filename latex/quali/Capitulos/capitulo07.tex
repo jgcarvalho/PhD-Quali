@@ -1,5 +1,57 @@
 \chapter{Aprendizado de regras}
 
+O aprendizado das regras realizado através de um algoritmo de EDA distribuído demonstrou-se eficiente dado a complexidade do problema. Utilizando ?? nós (??CPUs) no cluster multiusuário da FAPESP localizado em ??? São Paulo foi possível evoluir o EDA por 1000 com 10000 indivíduos em pouco mais de duas semanas (CONFIRMAR ISSO).
+
+Cada nó de trabalho apresentou um uso de memória de XX\% (MB), e manteve o processamento próximo a XX\% por núcleo (1.6 GHz). O mecanismo de comunicação por RPC entre o nó mestre e os nós de trabalho não sobrecarregou a rede (1Gbs). Isso nos permite concluir que o algoritmo é escalável clusters com maior número de nós e processadores de maior desempenho.
+
+A opção por realizar o torneio entre soluções candidatas nos nós de trabalho, permite apenas a opção de realizar o torneio entre a k últimas soluções geradas no próprio nó. Consequentemente, as k-1 soluções perdedoras são descartadas, portanto, há a remoção das soluções perdedoras em cada torneio. Comumente, o método de seleção por torneio utilizado em algoritmos genéticos não distribuídos acumula as solução candidatas até atingir o tamanho máximo populacional, quando então, é realizado o torneio. Isso permite que o torneio seja feito sem a eliminação dos perdedores, possibilitando que a seleção destes ocorram em outros combates.
+
+Entretanto, no EDA distribuído seria necessário:
+1- o envio de todas as soluções candidatas para o nó mestre, o que resultaria em maior consumo de rede.
+2- o acúmulo de todas as soluções candidatas até atingir o tamanho máximo da população, gerando uma limitação da memória disponível.
+3- a espera até a realização do torneio para iniciar o cálculo das probabilidades, resultando aumento do tempo de ociosidade nos nós igual ao intervalo de tempo do envio da última solução até o cálculo das probabilidades. 
+
+A escolha em realizar o torneio nos nós de trabalho demonstrou ser mais escalável, mantendo a valiabilidade das soluções candidatas ao longo da evolução e boa convergência (Figura de convergência e variabilidade).
+
+A evolução do EDA por 1000 gerações, mesmo com uma população de 10000 indivíduos, não apresentou sinais de deriva genética com torneio de dois indivíduos (k=2) como podemos notar pelas probabilidades de 20 regras ausentes do conjunto de treinamento. Não foram testados torneios com maior número de indivíduos uma vez que a convergência ocorreu após apenas ??? gerações.  
+
+     
+correlacao freq regras x convergencia
+correlacao freq de ss regras x convergencia
+plot 3D freq regras x freq ss x convergencia
+
+
+A simplicidade da equação de fitness (referencia a equaçao) demonstrou problemas que acreditamos serem solucionáveis na continuação do desenvolvimento deste trabalho. Um desses problemas é ocasionado pelo desbalanceamento dos dados de treinamento (Figura distribuição). 
+
+Os resultados obtidos indicam uma maior acurácia para os elementos de estrutura secundária mais frequentes no conjunto de treinamento. Esse é um problema recorrente no aprendizado com classes desbalanceadas e costuma ser tratado na função de fitness (figura q3). 
+
+Avaliamos também se havia alguma relação aparente dos elementos preditos com os ângulos phi e psi do resíduos, o que poderia justificar parcilamente o erro nos elementos preditos. Entretanto, aparentemente não existe tal relação (figuras).
+
+Outra modificação possível na função de fitness seria buscar a maximização da frequência dos estados durante a evolução do autômato.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A proteína Ga98 e seus mutantes, os quais sofrem alterações globais na estrutura secundária, são casos interessantes para o teste de novas metodologias de predição de estrutura secundária. Nas metodologias atuais, que comumente utilizam redes neurais, a predição é feita utilizando uma janela de resíduos, em geral com comprimentos de 9, 11 ou 13 resíduos, onde o resíduo central da janela é classificado pela rede neural. Como a predição nas demais janelas presentes na sequência polipeptídica não influencia na classificação da janela, o método apresenta a limitação de responder apenas localmente às variações dos dados de entrada.  
 
 Por outro lado, os autômatos celulares, apesar de evoluirem de acordo com regras locais, tem a capacidade de propagar as variações locais e influenciar o surgimento ou alteração de padrões globais, distantes do ponto de origem da variação. 
