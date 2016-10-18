@@ -1,5 +1,39 @@
 \chapter{Aprendizado de regras}
 
+\section{Autômato celular}
+
+Os modelos de autômatos celulares foram testados primeiramente, e até o momento, apenas no conjunto de proteínas com alta identidade sequencial. A escolha desse conjunto para os testes dos autômatos celulares baseou-se na facilidade de observar e analisar a formação e propagação dos elementos de estruturas secundárias nessas proteínas.
+
+O modelo idealizado para o autômato celular deveria ter a capacidade de propagar sinais locais ao longo da sequência, e assim, resultar na formação de padrões globais. Tal capacidade está relacionada aos estados que ocorrem durante a evolução do autômato celular, sendo dependentes do número de estados possíveis e também do tamanho da vizinhança utilizada. Como todos os autômatos celulares propostos tem vizinhança 1 por questões de complexidade (ver ref metodos), a capacidade de formar e propagar os sinais será dependente apenas dos estados possíveis do autômato celular.
+
+Entre os quatro modelos testados, o número de estados para os elementos de estrutura secundária demonstrou relação com a acurácia do modelo. Assim, CAs com estados de elementos de estrutura secundária que mantém mais características dos resíduos mostraram-se mais promissores (Figura \ref{fig:ca_errors}).
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\textwidth]{figures/chamel_errors_ca.pdf}
+  \caption{Figura da sequencia e das estruturas das camaleonicas}
+        \label{fig:ca_errors}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/camel_2lhc_2lhg.pdf}
+  \caption{Figura da sequencia e das estruturas das camaleonicas}
+        \label{fig:camel_2lhc_2lhg}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/camel_2lhd_2lhe.pdf}
+  \caption{Figura da sequencia e das estruturas das camaleonicas}
+        \label{fig:camel_2lhd_2lhe}
+\end{figure}
+
+
+
+
+\section{EDA}
+
 O aprendizado das regras realizado através de um algoritmo de EDA distribuído demonstrou-se eficiente dado a complexidade do problema. Utilizando ?? nós (??CPUs) no cluster multiusuário da FAPESP localizado em ??? São Paulo foi possível evoluir o EDA por 1000 com 10000 indivíduos em pouco mais de duas semanas (CONFIRMAR ISSO).
 
 Cada nó de trabalho apresentou um uso de memória de XX\% (MB), e manteve o processamento próximo a XX\% por núcleo (1.6 GHz). O mecanismo de comunicação por RPC entre o nó mestre e os nós de trabalho não sobrecarregou a rede (1Gbs). Isso nos permite concluir que o algoritmo é escalável clusters com maior número de nós e processadores de maior desempenho.
