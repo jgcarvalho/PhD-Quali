@@ -8,6 +8,13 @@ O autômato celular inicialmente proposto possui 24 estados discretos. Esses est
 
 Logo, temos que o total de elementos na regra desse autômato é $24^3$ ou 13824, das quais 24 são elementos estáticos, pois células no estado \textit{\#} sempre permanecerão nesse estado durante a evolução do autômato. Assim temos $4^{24^3-24}$ regras possíveis para esse autômato celular.
 
+\begin{figure}
+  \centering
+  \includegraphics[width=.8\textwidth]{figures/ca_rule_scheme.pdf}
+  \caption{Esquema da regra simples}
+        \label{fig:ca_rule_scheme}
+\end{figure}
+
 \subsection{Modelos extendidos}
 
 Uma das limitações do modelo proposto inicialmente é a perda de informação que ocorre durante a evolução do autômato celular quando as células transitam de estados correpondentes aos aminoácidos para estados de elementos de estrutura secundária. Por exemplo, quando uma lisina evolui para uma hélice, o estado de hélice não possui mais a informação de qual aminoácido havia naquela posição. Acreditamos que essa perda de informação possa ser um fator crítico para o modelo. Consequentemente, avaliamos modelos alternativos que pudessem manter essa informação. 

@@ -51,10 +51,8 @@
       <file>ClassicThesis.bbl</file>
     </requires>
     <requires type="static">
-      <file>blx-dm.def</file>
       <file>blx-compat.def</file>
-      <file>blx-bibtex.def</file>
-      <file>biblatex.def</file>
+      <file>biblatex_legacy.def</file>
       <file>blx-natbib.def</file>
       <file>numeric-comp.bbx</file>
       <file>numeric.bbx</file>
@@ -88,7 +86,7 @@
       <file>ClassicThesis-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>Bibliography.bib</file>
+      <file>bibliografia.bib</file>
       <file>AMiede_Publications.bib</file>
     </requires>
     <requires type="static">
