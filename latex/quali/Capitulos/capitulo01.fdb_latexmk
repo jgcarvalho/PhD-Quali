@@ -1,15 +1,14 @@
 # Fdb version 3
-["pdflatex"] 1475503958 "capitulo01.tex" "/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo01.pdf" "capitulo01" 1475503958
-  "/etc/texmf/web2c/texmf.cnf" 1466010292 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo01.aux" 1475503896 6171 bc4988dda4b03c8393819be98d1d69b2 ""
-  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
-  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1458942643 31351 b32c45dce4a01cb7b53ed90c546614ca ""
-  "/usr/share/texmf/web2c/texmf.cnf" 1458942643 31351 b32c45dce4a01cb7b53ed90c546614ca ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1466010365 3857552 f30ab11284087a12c3564bf6cc6bf7f0 ""
-  "capitulo01.tex" 1475503953 16327 ff7fc69b4212076ddc381921f859454c ""
+["pdflatex"] 1476838781 "capitulo01.tex" "capitulo01.pdf" "capitulo01" 1476838782
+  "/etc/texmf/web2c/texmf.cnf" 1465390012 33065 0e3cdb77ef59caaec29604917ecbe840 ""
+  "/usr/share/texmf/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/share/texmf/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/share/texmf/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1476836659 3865136 b50ce538aa4649bb029359d846a93347 ""
+  "capitulo01.aux" 1476838751 6428 eaca747c5b349a4c0a4fbf21202c4874 ""
+  "capitulo01.tex" 1476838779 16412 61abb50c0812655fbf0d82e7e09287cf ""
   (generated)
-  "/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo01.log"
   "/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo01.pdf"
+  "capitulo01.pdf"
   "capitulo01.log"
+  "/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/Capitulos/capitulo01.log"
