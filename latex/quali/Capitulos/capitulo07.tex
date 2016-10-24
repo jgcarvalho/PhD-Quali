@@ -34,44 +34,92 @@ Entre os quatro modelos testados, o número de estados para os elementos de estr
 
 \section{EDA}
 
-O aprendizado das regras realizado através de um algoritmo de EDA distribuído demonstrou-se eficiente dado a complexidade do problema. Utilizando ?? nós (??CPUs) no cluster multiusuário da FAPESP localizado em ??? São Paulo foi possível evoluir o EDA por 1000 com 10000 indivíduos em pouco mais de duas semanas (CONFIRMAR ISSO).
+O aprendizado das regras realizado através de um algoritmo de EDA distribuído demonstrou-se eficiente dado a complexidade do problema. Utilizando ?? nós (??CPUs) no cluster multiusuário da FAPESP localizado em ??? São Paulo foi possível evoluir o EDA por 1000 gerações com 10000 indivíduos em pouco mais de duas semanas (CONFIRMAR ISSO).
 
 Cada nó de trabalho apresentou um uso de memória de XX\% (MB), e manteve o processamento próximo a XX\% por núcleo (1.6 GHz). O mecanismo de comunicação por RPC entre o nó mestre e os nós de trabalho não sobrecarregou a rede (1Gbs). Isso nos permite concluir que o algoritmo é escalável clusters com maior número de nós e processadores de maior desempenho.
 
-A opção por realizar o torneio entre soluções candidatas nos nós de trabalho, permite apenas a opção de realizar o torneio entre a k últimas soluções geradas no próprio nó. Consequentemente, as k-1 soluções perdedoras são descartadas, portanto, há a remoção das soluções perdedoras em cada torneio. Comumente, o método de seleção por torneio utilizado em algoritmos genéticos não distribuídos acumula as solução candidatas até atingir o tamanho máximo populacional, quando então, é realizado o torneio. Isso permite que o torneio seja feito sem a eliminação dos perdedores, possibilitando que a seleção destes ocorram em outros combates.
+A opção por realizar o torneio entre soluções candidatas nos nós de trabalho, permite apenas a opção de realizar o torneio entre as k últimas soluções geradas no próprio nó. Consequentemente, as k-1 soluções perdedoras são descartadas, havendo portanto, a remoção das soluções perdedoras em cada torneio. 
 
-Entretanto, no EDA distribuído seria necessário:
-1- o envio de todas as soluções candidatas para o nó mestre, o que resultaria em maior consumo de rede.
-2- o acúmulo de todas as soluções candidatas até atingir o tamanho máximo da população, gerando uma limitação da memória disponível.
-3- a espera até a realização do torneio para iniciar o cálculo das probabilidades, resultando aumento do tempo de ociosidade nos nós igual ao intervalo de tempo do envio da última solução até o cálculo das probabilidades. 
+Usualmente, o método de seleção por torneio utilizado em algoritmos genéticos não distribuídos acumula as solução candidatas até atingir o tamanho máximo populacional, quando então, é realizado o torneio. Isso permite que o torneio seja feito sem a eliminação dos perdedores, possibilitando que a seleção destes ocorram em outros combates.
 
-A escolha em realizar o torneio nos nós de trabalho demonstrou ser mais escalável, mantendo a valiabilidade das soluções candidatas ao longo da evolução e boa convergência (Figura de convergência e variabilidade).
+Entretanto, no EDA distribuído, para aplicarmos um torneio sem eliminação dos perdedores seria necessário:
 
-A evolução do EDA por 1000 gerações, mesmo com uma população de 10000 indivíduos, não apresentou sinais de deriva genética com torneio de dois indivíduos (k=2) como podemos notar pelas probabilidades de 20 regras ausentes do conjunto de treinamento. Não foram testados torneios com maior número de indivíduos uma vez que a convergência ocorreu após apenas ??? gerações.  
+\begin{enumerate}
+	\item o envio de todas as soluções candidatas para o nó mestre, o que resultaria em maior consumo de rede;
+	\item o acúmulo de todas as soluções candidatas até atingir o tamanho máximo da população, gerando uma limitação da memória disponível;
+	\item a espera até a realização do torneio para iniciar o cálculo das probabilidades, resultando no aumento do tempo ocioso nos nós de trabalho igual ao intervalo de tempo do envio da última solução até o cálculo das probabilidades.
+\end{enumerate} 
+
+A escolha em realizar o torneio nos nós de trabalho demonstrou ser escalável, manter a variabilidade das soluções candidatas ao longo da evolução e boa convergência (Figura de convergência e variabilidade).
+
+inserir a figura de evolução do eda
+
+\subsection{Deriva genética}
+
+A evolução do EDA por 1000 gerações com torneio de dois (k=2) e população de 10000 indivíduos, demonstrou sinais de deriva genética a partir de 564 gerações. Tais sinais podem ser detectados observando-se as probabilidades dos 38 elementos de regra que não ocorrem no conjunto de proteínas. Esses elementos são do tipo [\#][\textit{x}][\#].
+
+O elementos [\#][\textit{x}][\#], onde o \textit{x} correponde a qualquer estado exceto [\#], não apresentam probabilidade fixa, mas também, por estar ausente nas proteínas, não sofrem pressão seletiva. Logo, suas variações são aleatórias.
+
+Na geração 564 um desses 38 elementos apresentou probabilidade zero ($p=0$), de transitar para um dos quatro estados possíveis, indicando a eliminação de um gene da população por deriva genética. Ao final das 1000 gerações 11 dos 38 elementos apresentavam probabilidade zero para uma das transições (Figura ).
+
+inseri a figura da deriva genetica 
 
      
 correlacao freq regras x convergencia
 correlacao freq de ss regras x convergencia
 plot 3D freq regras x freq ss x convergencia
 
+\subsection{Função de fitness}
 
-A simplicidade da equação de fitness (referencia a equaçao) demonstrou problemas que acreditamos serem solucionáveis na continuação do desenvolvimento deste trabalho. Um desses problemas é ocasionado pelo desbalanceamento dos dados de treinamento (Figura distribuição). 
+A simplicidade da equação de fitness (referencia a equaçao) demonstrou problemas que acreditamos serem solucionáveis na continuação deste trabalho. Um desses problemas é ocasionado pelo desbalanceamento dos dados de treinamento (Figura distribuição). 
 
 Os resultados obtidos indicam uma maior acurácia para os elementos de estrutura secundária mais frequentes no conjunto de treinamento. Esse é um problema recorrente no aprendizado com classes desbalanceadas e costuma ser tratado na função de fitness (figura q3). 
 
 Avaliamos também se havia alguma relação aparente dos elementos preditos com os ângulos phi e psi do resíduos, o que poderia justificar parcilamente o erro nos elementos preditos. Entretanto, aparentemente não existe tal relação (figuras).
 
-Outra modificação possível na função de fitness seria buscar a maximização da frequência dos estados durante a evolução do autômato.  
+
+%Outra modificação possível na função de fitness seria buscar a maximização da frequência dos estados durante a evolução do autômato.  
+
+\subsection{Seleção}
+
+As ocorrência de trincas no conjunto de proteínas apresentou grande variação (Figura \ref{fig:histograma_occ}). Para avaliar a influência do número de ocorrências das trincas na seleção do EDA nós procuramos por correlações entre fatores que poderiam influenciar na seleção.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/histograma_occ.pdf}
+  \caption{Histograma de ocorrencia das trincas}
+        \label{fig:histograma_occ}
+\end{figure}
+
+A figura \ref{fig:probG999_occXprob} representa a distribuição das probabilidades máximas e mínimas das dos elementos da regra em relação a frequência de ocorrência das trincas no conjunto. O gráfico e os valores de correlação entre as probabilidades e a frequência de ocorrência das trincas,  indica não haver uma grande influência da frequência das trincas durante na seleção. Essa influência também não foi encontrada durante a evolução do EDA (Anexo).  
+
+
+\begin{figure}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/probG999_occXprob.pdf}
+  \caption{Probabilidades máximas e mínimas pelo numero de corrência das trincas}
+        \label{fig:probG999_occXprob}
+\end{figure}
+
+
+Outros fatores que poderiam influenciar a evolução do EDA seriam: \textit{(1)} a probabilidade da trinca ser observada em uma determinada estrutura secundária; \textit{(2)} o número de ocorrências da trinca em determinada estrutura secundária; \textit{(3)} a taxa de acertos por trincas para determinada estrutura secundária.     
+
+As probabilidades de transição dos elementos da regra, não apresentam aparente relação com as proporções encontradas para cada estrutura secundária nas trincas (Figuras H E C).Assim como não apresentaram relação com a frequência de ocorrências de determinada estrutura para uma trinca e com a proporção de trincas corretamente classificadas por estrutura secundária. Essas duas últimas relações não eram mesmo esperadas (Anexo Figuras H E C e figuras H E C). Contudo, foi interessante observar a que a primeira relação aparentemente não ocorria. 
+
+A ausência da primeira relação pode indicar que as probabilidades de transição dos demais elementos da regra e sua aplicação ao longo da evolução do CA estão propagando as probabilidades e sofrendo influência da vizinhança na tentativa de produzir estruturas secundárias mais próximas as reais. 
+
+Entretanto, observamos uma relação entre a proporção de elementos de estruturas secundárias para um trinca e a proporção de acertos da trinca para a mesma estrutura secundária. Acreditamos que isso seja um indício que o aprendizado, ou otimização da regra, precisa ser melhorado para que elementos de estruturas secundárias menos comuns a determinadas trincas possam ser corretamente preditos.  
+
+Há também uma relação menos influente entre o número de ocorrências de uma determinada estrutura secundária nas trincas e a proporção de acertos dessa trinca para a mesma estrutura secundária.
+
+Ambas as relações encontradas eram esperadas pois indicam uma tendência do método a privilegiar o aprendizado, ou otimizaração, de elementos capazes de influenciar com maior intensidade a função de fitness. Isso mostra a importância de manter um variabilidade alta na população e reduzir efeitos de deriva genética para que a otimização escape de mínimos locais e consiga aprender, também, as probabilidades para trincas menos frequentes nas proteínas e/ou com proporções pequenas para determinadas estruturas secundárias.
 
 
 
 
 
 
-
-
-
-
+\section{proteina?}
 
 
 
