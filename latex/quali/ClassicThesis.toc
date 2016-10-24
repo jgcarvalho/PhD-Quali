@@ -46,40 +46,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Resultados}}{23}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {An\IeC {\'a}lise dos dados}}{25}{chapter.6}
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Aprendizado de regras}}{25}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Aprendizado de regras}}{27}{chapter.7}
+\contentsline {section}{\numberline {6.1}Aut\IeC {\^o}mato celular}{25}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Aut\IeC {\^o}mato celular}{27}{section.7.1}
+\contentsline {section}{\numberline {6.2}EDA}{25}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}EDA}{27}{section.7.2}
+\contentsline {subsection}{\numberline {6.2.1}Deriva gen\IeC {\'e}tica}{28}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}Deriva gen\IeC {\'e}tica}{30}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Fun\IeC {\c c}\IeC {\~a}o de fitness}{29}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}Fun\IeC {\c c}\IeC {\~a}o de fitness}{30}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Sele\IeC {\c c}\IeC {\~a}o}{30}{subsection.6.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.3}Sele\IeC {\c c}\IeC {\~a}o}{30}{subsection.7.2.3}
+\contentsline {section}{\numberline {6.3}proteina?}{32}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Aprendizado das regras gerais}}{33}{chapter.8}
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Aprendizado das regras gerais}}{33}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}contagem de aa}{33}{section.8.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {An\IeC {\'a}lise das regras gerais}}{35}{chapter.9}
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {An\IeC {\'a}lise das regras gerais}}{35}{chapter.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Perspectivas futuras}}{37}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}\spacedlowsmallcaps {Perspectivas futuras}}{39}{chapter.10}
+\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Perspectivas futuras}}{39}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.0.1}Fun\IeC {\c c}\IeC {\~a}o de fitness}{39}{subsection.10.0.1}
+\contentsline {subsection}{\numberline {9.0.1}Fun\IeC {\c c}\IeC {\~a}o de fitness}{39}{subsection.9.0.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.0.2}CA probabil\IeC {\'\i }stico}{39}{subsection.10.0.2}
+\contentsline {subsection}{\numberline {9.0.2}CA probabil\IeC {\'\i }stico}{39}{subsection.9.0.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.0.3}\IeC {\^A}ngulos torcionais}{39}{subsection.10.0.3}
+\contentsline {subsection}{\numberline {9.0.3}\IeC {\^A}ngulos torcionais}{39}{subsection.9.0.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}\spacedlowsmallcaps {Alternativas em an\IeC {\'a}lise}}{41}{chapter.11}
+\contentsline {subsection}{\numberline {9.0.4}Utiliza\IeC {\c c}\IeC {\~a}o de informa\IeC {\c c}\IeC {\~a}o evolutiva}{39}{subsection.9.0.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Appendix}}{43}{part.5}
+\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Appendix}}{41}{part.5}
 \defcounter {refsection}{0}\relax 
 \vspace {\beforebibskip }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliografia}}{45}{dummy.6}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliografia}}{43}{dummy.6}

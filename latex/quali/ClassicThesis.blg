@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/TeX Live for SUSE Linux)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ClassicThesis.aux
 The style file: biblatex.bst
@@ -7,9 +7,24 @@ A level-1 auxiliary file: FrontBackmatter/Titlepage.aux
 A level-1 auxiliary file: FrontBackmatter/Titleback.aux
 A level-1 auxiliary file: FrontBackmatter/Abstract.aux
 A level-1 auxiliary file: FrontBackmatter/Contents.aux
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+A level-1 auxiliary file: Capitulos/capitulo01.aux
+White space in argument---line 77 of file ClassicThesis.aux
+ : \citation{Dill:2008;
+ :                      DilleMaccallum:2012}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: Capitulos/capitulo02.aux
+A level-1 auxiliary file: Capitulos/capitulo03.aux
+A level-1 auxiliary file: Capitulos/capitulo04.aux
+A level-1 auxiliary file: Capitulos/capitulo05.aux
+A level-1 auxiliary file: Capitulos/capitulo07.aux
+A level-1 auxiliary file: Capitulos/capitulo08.aux
+A level-1 auxiliary file: Capitulos/capitulo09.aux
+A level-1 auxiliary file: Chapters/Chapter0A.aux
+A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
+A level-1 auxiliary file: FrontBackmatter/Declaration.aux
+A level-1 auxiliary file: FrontBackmatter/Colophon.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -19,52 +34,98 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 11533 items from 5000.
 Database file #1: ClassicThesis-blx.bib
-Database file #2: bibliografia.bib
+Database file #2: Bibliography.bib
 Database file #3: AMiede_Publications.bib
+Warning--I didn't find a database entry for "KENDREW:1953"
+Warning--I didn't find a database entry for "Anfinsen:1968"
+Warning--I didn't find a database entry for "Rose:2001"
+Warning--I didn't find a database entry for "Levinthal:1963"
+Warning--I didn't find a database entry for "Levinthal:"
+Warning--I didn't find a database entry for "Ben-Naim:2007"
+Warning--I didn't find a database entry for "Moult:2009"
+Warning--I didn't find a database entry for "Baker:1996"
+Warning--I didn't find a database entry for "Helles:2003"
+Warning--I didn't find a database entry for "Zhang:2003"
+Warning--I didn't find a database entry for "Rohl:1999"
+Warning--I didn't find a database entry for "Marti-Renom:1995"
+Warning--I didn't find a database entry for "Dunbrack:2001"
+Warning--I didn't find a database entry for "Overington:1984"
+Warning--I didn't find a database entry for "Chothia:1987"
+Warning--I didn't find a database entry for "Coulson:1997"
+Warning--I didn't find a database entry for "Kolodny:2008"
+Warning--I didn't find a database entry for "Giri:2007"
+Warning--I didn't find a database entry for "DilleChan:1997"
+Warning--I didn't find a database entry for "BaldwineRose:1999"
+Warning--I didn't find a database entry for "DaggeteFersht:2003"
+Warning--I didn't find a database entry for "DaggetteFersht:2003"
+Warning--I didn't find a database entry for "BaldwineRose:1999a"
+Warning--I didn't find a database entry for "HarpereRose:1993"
+Warning--I didn't find a database entry for "AuroraSrinivasaneRose:1994"
+Warning--I didn't find a database entry for "Aurora:1997"
+Warning--I didn't find a database entry for "ColloceCohen:1991"
+Warning--I didn't find a database entry for "BetancourteSkolnick:2004"
+Warning--I didn't find a database entry for "Otaki:2010"
+Warning--I didn't find a database entry for "AbagyanTotrov:1994"
+Warning--I didn't find a database entry for "PedersenMoult:1997"
+Warning--I didn't find a database entry for "SrinivasanRose:1999"
+Warning--I didn't find a database entry for "Giri:2012"
+Warning--I didn't find a database entry for "Helles:2008"
+Warning--I didn't find a database entry for "Mitchell:2009"
+Warning--I didn't find a database entry for "Wolfram:1984"
+Warning--I didn't find a database entry for "Kabsch:1978"
+Warning--I didn't find a database entry for "Frishman:1990"
+Warning--I didn't find a database entry for "Martin:2000"
+Warning--I didn't find a database entry for "Srinivasan:1994"
+Warning--I didn't find a database entry for "17609385"
+Warning--I didn't find a database entry for "10.1073/pnas.0805857105"
+Warning--I didn't find a database entry for "10.1073/pnas.0906408106"
+Warning--I didn't find a database entry for "10.1016/j.str.2011.11.018"
+Warning--I didn't find a database entry for "Xiong07"
+Warning--I didn't find a database entry for "West1995"
 Biblatex version: 3.3
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 You've used 1 entry,
-            6256 wiz_defined-function locations,
-            1183 strings with 8728 characters,
-and the built_in function-call counts, 1203 in all, are:
-= -- 58
-> -- 52
+            6047 wiz_defined-function locations,
+            1235 strings with 9789 characters,
+and the built_in function-call counts, 1306 in all, are:
+= -- 64
+> -- 58
 < -- 1
-+ -- 37
-- -- 22
-* -- 24
-:= -- 275
++ -- 41
+- -- 24
+* -- 23
+:= -- 295
 add.period$ -- 0
 call.type$ -- 1
 change.case$ -- 0
-chr.to.int$ -- 30
+chr.to.int$ -- 34
 cite$ -- 0
-duplicate$ -- 11
-empty$ -- 86
+duplicate$ -- 12
+empty$ -- 92
 format.name$ -- 0
-if$ -- 265
+if$ -- 289
 int.to.chr$ -- 0
 int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 20
+newline$ -- 22
 num.names$ -- 0
-pop$ -- 40
+pop$ -- 44
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 67
+skip$ -- 74
 stack$ -- 0
-substring$ -- 110
+substring$ -- 117
 swap$ -- 1
-text.length$ -- 14
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 22
+type$ -- 26
 warning$ -- 0
-while$ -- 45
+while$ -- 50
 width$ -- 0
 write$ -- 20
+(There was 1 error message)

@@ -1,0 +1,200 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7211,        190]
+NotebookOptionsPosition[      6720,        168]
+NotebookOutlinePosition[      7055,        183]
+CellTagsIndexPosition[      7012,        180]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"dergen", " ", "=", " ", 
+    RowBox[{"Flatten", "[", 
+     RowBox[{
+     "Import", "[", 
+      "\"\<~/zeca-results-all-cell/zeca-results-all-cell/Top8000-best_hom50_\
+pdb_chain/rose_special_charged/run_10000/deriva_genetica_occ\>\"", "]"}], 
+     "]"}]}], ";"}], "\n"}]], "Input",
+ CellChangeTimes->{{3.6863015837412777`*^9, 3.686301642241596*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"occ", " ", "=", " ", 
+   RowBox[{"Counts", "[", "dergen", "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pre", " ", "=", " ", 
+   RowBox[{"Table", "[", 
+    RowBox[{"0", ",", " ", 
+     RowBox[{"Range", "[", "563", "]"}]}], "]"}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.686301644459551*^9, 3.6863016750891743`*^9}, {
+  3.6863017796811934`*^9, 3.686301806817593*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"plotDG", " ", "=", " ", 
+  RowBox[{"ListLinePlot", "[", 
+   RowBox[{
+    RowBox[{"Join", "[", 
+     RowBox[{"pre", ",", 
+      RowBox[{"Values", "[", "occ", "]"}]}], "]"}], ",", " ", 
+    RowBox[{"PlotRange", "\[Rule]", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", "1000"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "38"}], "}"}]}], "}"}]}], ",", " ", 
+    RowBox[{"PlotTheme", "\[Rule]", "\"\<Classic\>\""}], ",", " ", 
+    RowBox[{"AxesLabel", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<Gera\[CCedilla]\[OTilde]es\>\"", ",", " ", 
+       "\"\<Elementos da regra\>\""}], "}"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.686301665549758*^9, 3.686301679217078*^9}, {
+  3.686301723089306*^9, 3.686301764801166*^9}, {3.6863018105614223`*^9, 
+  3.686301956136168*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{}, {}, 
+    {RGBColor[0.24720000000000014`, 0.24, 0.6], AbsoluteThickness[1], 
+     LineBox[CompressedData["
+1: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
+      
+      "]]}}, {}, {}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{
+    FormBox["\"Gera\[CCedilla]\[OTilde]es\"", TraditionalForm], 
+    FormBox["\"Elementos da regra\"", TraditionalForm]},
+  AxesOrigin->{5.995, 0},
+  AxesStyle->Directive[
+    GrayLevel[0], 
+    AbsoluteThickness[0.2]],
+  BaseStyle->Automatic,
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameStyle->Directive[
+    GrayLevel[0], 
+    AbsoluteThickness[0.2]],
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  FrameTicksStyle->GrayLevel[0],
+  GridLines->{None, None},
+  GridLinesStyle->Automatic,
+  ImagePadding->All,
+  LabelStyle->{FontFamily -> "Times"},
+  Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 1, 2][#]& )[
+         Part[#, 1]], 
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 2, 2][#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 1, 2][#]& )[
+         Part[#, 1]], 
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 2, 2][#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{1, 1000}, {0, 38}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{0, 0}, {0, 0}},
+  Ticks->{Automatic, Automatic},
+  TicksStyle->GrayLevel[0]]], "Output",
+ CellChangeTimes->{{3.686301705132028*^9, 3.6863017653970547`*^9}, 
+   3.686301818643902*^9, {3.68630188536817*^9, 3.6863018968844337`*^9}, {
+   3.686301931767707*^9, 3.686301956677383*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{
+  "\"\<~/Documentos/PhD-Quali/latex/quali/figures/deriva_genetica.pdf\>\"", 
+   ",", " ", "plotDG"}], "]"}]], "Input",
+ CellChangeTimes->{{3.686301961739152*^9, 3.686301997249172*^9}}],
+
+Cell[BoxData["\<\"~/Documentos/PhD-Quali/latex/quali/figures/deriva_genetica.\
+pdf\"\>"], "Output",
+ CellChangeTimes->{3.686301998009182*^9}]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{591, Automatic}, {Automatic, 70}},
+FrontEndVersion->"11.0 for Linux x86 (64-bit) (July 28, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 395, 10, 146, "Input"],
+Cell[956, 32, 419, 10, 52, "Input"],
+Cell[CellGroupData[{
+Cell[1400, 46, 866, 22, 59, "Input"],
+Cell[2269, 70, 4020, 81, 206, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6326, 156, 234, 5, 59, "Input"],
+Cell[6563, 163, 141, 2, 89, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

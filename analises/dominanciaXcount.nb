@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[   1646782,      28268]
-NotebookOptionsPosition[   1643015,      28143]
-NotebookOutlinePosition[   1643346,      28158]
-CellTagsIndexPosition[   1643303,      28155]
+NotebookDataLength[   1650033,      28353]
+NotebookOptionsPosition[   1646143,      28224]
+NotebookOutlinePosition[   1646477,      28239]
+CellTagsIndexPosition[   1646434,      28236]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -17,10 +17,11 @@ Cell[BoxData[
  RowBox[{"data", " ", "=", " ", 
   RowBox[{
   "Import", "[", 
-   "\"\<~/Documents/PhD-quali/zeca-analise/join_coun_prob.csv\>\"", 
+   "\"\<~/Documentos/PhD-Quali/zeca-analise/join_coun_prob.csv\>\"", 
    "]"}]}]], "Input",
  CellChangeTimes->{{3.686061975292351*^9, 3.6860620066577663`*^9}, {
-  3.686150049693344*^9, 3.686150082502817*^9}}],
+  3.686150049693344*^9, 3.686150082502817*^9}, {3.686306460191854*^9, 
+  3.686306462910266*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -65,7 +66,11 @@ Cell[BoxData[
             
             RowBox[{"\<\"AAK\"\>", ",", "761", ",", "0.6254`", ",", 
              "0.0136`"}], "}"}], ",", 
-           TemplateBox[{"7982"},
+           RowBox[{"{", 
+            
+            RowBox[{"\<\"AAL\"\>", ",", "1534", ",", "0.8478`", ",", 
+             "0.0062`"}], "}"}], ",", 
+           TemplateBox[{"7980"},
             "OutputSizeLimit`Skeleton",
             DisplayFunction->(FrameBox[
               RowBox[{"\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}],
@@ -75,6 +80,9 @@ Cell[BoxData[
                 ShowStringCharacters -> False}, BaselinePosition -> Baseline, 
               ContentPadding -> False, FrameMargins -> {{1, 1}, {1, 2}}, 
               FrameStyle -> None, RoundingRadius -> 7]& )], ",", 
+           RowBox[{"{", 
+            RowBox[{"\<\"YYM\"\>", ",", "33", ",", "0.4938`", ",", "0.`"}], 
+            "}"}], ",", 
            RowBox[{"{", 
             
             RowBox[{"\<\"YYN\"\>", ",", "124", ",", "0.595`", ",", 
@@ -120,7 +128,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource[
                 "FEStrings", "sizeBriefExplanation"], StandardForm],
-               ImageSizeCache->{68., {2., 9.}}],
+               ImageSizeCache->{74., {2., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "SuggestionsBarCategory",
              StripOnInput->False],
@@ -142,7 +150,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
                 StandardForm],
-               ImageSizeCache->{64., {0., 9.}}],
+               ImageSizeCache->{67., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "SuggestionsBarControl",
              StripOnInput->False], True->
@@ -161,7 +169,7 @@ Cell[BoxData[
            Appearance->None,
            
            ButtonFunction:>OutputSizeLimit`ButtonFunction[
-            OutputSizeLimit`Defer, 4, 27741823227746106886, 5/2],
+            OutputSizeLimit`Defer, 2, 32571279944098905856, 5/2],
            Enabled->True,
            Evaluator->Automatic,
            Method->"Queued"], 
@@ -172,7 +180,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
                 StandardForm],
-               ImageSizeCache->{70., {0., 9.}}],
+               ImageSizeCache->{73., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "SuggestionsBarControl",
              StripOnInput->False], True->
@@ -191,7 +199,7 @@ Cell[BoxData[
            Appearance->None,
            
            ButtonFunction:>OutputSizeLimit`ButtonFunction[
-            OutputSizeLimit`Defer, 4, 27741823227746106886, 5 2],
+            OutputSizeLimit`Defer, 2, 32571279944098905856, 5 2],
            Enabled->True,
            Evaluator->Automatic,
            Method->"Queued"], 
@@ -202,7 +210,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
                 StandardForm],
-               ImageSizeCache->{54., {0., 9.}}],
+               ImageSizeCache->{56., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "SuggestionsBarControl",
              StripOnInput->False], True->
@@ -210,7 +218,8 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
-                StandardForm]],
+                StandardForm],
+               ImageSizeCache->{56., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "SuggestionsBarControlActive",
              StripOnInput->False]}, Dynamic[
@@ -221,7 +230,7 @@ Cell[BoxData[
            Appearance->None,
            
            ButtonFunction:>OutputSizeLimit`ButtonFunction[
-            OutputSizeLimit`Defer, 4, 27741823227746106886, Infinity],
+            OutputSizeLimit`Defer, 2, 32571279944098905856, Infinity],
            Enabled->True,
            Evaluator->Automatic,
            Method->"Queued"], 
@@ -232,7 +241,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
                 StandardForm],
-               ImageSizeCache->{94., {0., 9.}}],
+               ImageSizeCache->{100., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "SuggestionsBarControl",
              StripOnInput->False], True->
@@ -240,8 +249,7 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
-                StandardForm],
-               ImageSizeCache->{94., {0., 9.}}],
+                StandardForm]],
               StripOnInput->False,
               DynamicUpdating->True], "SuggestionsBarControlActive",
              StripOnInput->False]}, Dynamic[
@@ -289,9 +297,10 @@ Cell[BoxData[
     StripOnInput->False],
    Deploy,
    DefaultBaseStyle->"Deploy"],
-  Out[4]]], "Output",
+  Out[2]]], "Output",
  CellChangeTimes->{{3.686061991159391*^9, 3.6860620073698807`*^9}, 
-   3.686062948507194*^9, {3.686150052227881*^9, 3.6861500833279057`*^9}}]
+   3.686062948507194*^9, {3.686150052227881*^9, 3.6861500833279057`*^9}, {
+   3.686306455124214*^9, 3.686306464867041*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -387,7 +396,7 @@ Cell[BoxData[
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{
   3.68606523642516*^9, {3.686067189732601*^9, 3.686067212934857*^9}, 
-   3.686150088196755*^9}]
+   3.686150088196755*^9, 3.68630646822541*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2393,7 +2402,7 @@ wc4/9Mv+H7zmSP4=
          RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
  CellChangeTimes->{
   3.686150294989353*^9, 3.686150348142524*^9, {3.6861503825084352`*^9, 
-   3.6861503854647493`*^9}}]
+   3.6861503854647493`*^9}, 3.686306473448786*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2408,6 +2417,78 @@ Cell[BoxData[
 Cell[BoxData["\<\"~/Documents/PhD-quali/latex/quali/figures/probG999_occXprob.\
 pdf\"\>"], "Output",
  CellChangeTimes->{3.6861504556289062`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"IndependenceTest", "[", 
+  RowBox[{
+   RowBox[{"data", "[", 
+    RowBox[{"[", 
+     RowBox[{"All", ",", "2"}], "]"}], "]"}], ",", " ", 
+   RowBox[{"data", "[", 
+    RowBox[{"[", 
+     RowBox[{"All", ",", "3"}], "]"}], "]"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"\"\<TestConclusion\>\"", ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"\"\<TestDataTable\>\"", ",", "All"}], "}"}], ",", 
+     "\"\<TestStatisticTable\>\""}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6861557559741497`*^9, 3.686155772678609*^9}, {
+  3.686306440334648*^9, 3.686306450230598*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{
+    "\"The null hypothesis that \"",
+     TemplateBox[{"\"the populations are independent \""}, "RowDefault"],
+     "\"is rejected at the \"",
+     TemplateBox[{"5", "\" percent level \""}, "RowDefault"],
+     TemplateBox[{"\"based on the \"", "\"Spearman Rank\"", "\" test.\""}, 
+      "RowDefault"]},
+    "RowDefault"], ",", 
+   StyleBox[
+    TagBox[GridBox[{
+       {"\<\"\"\>", "\<\"Statistic\"\>", "\<\"P\[Hyphen]Value\"\>"},
+       {"\<\"Blomqvist \[Beta]\"\>", "0.06649558633449305`", 
+        "5.278352512234637`*^-9"},
+       {"\<\"Goodman\[Hyphen]Kruskal \[Gamma]\"\>", "0.06706350062031816`", 
+        "2.9571833805534716`*^-19"},
+       {"\<\"Hoeffding \[ScriptCapitalD]\"\>", "0.0026704471252751863`", 
+        "0.`"},
+       {"\<\"Kendall \[Tau]\"\>", "0.0669693307387504`", 
+        "2.9560025512542807`*^-19"},
+       {"\<\"Spearman Rank\"\>", "0.09991886025974131`", 
+        "3.304930795884011`*^-19"}
+      },
+      AutoDelete->False,
+      GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Automatic}}},
+      GridBoxDividers->{
+       "ColumnsIndexed" -> {2 -> GrayLevel[0.7]}, 
+        "RowsIndexed" -> {2 -> GrayLevel[0.7]}},
+      GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+      GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+     
+     "Grid"], "DialogStyle",
+    StripOnInput->False], ",", 
+   StyleBox[
+    TagBox[GridBox[{
+       {"\<\"\"\>", "\<\"Statistic\"\>"},
+       {"\<\"Spearman Rank\"\>", "0.09991886025974131`"}
+      },
+      AutoDelete->False,
+      GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Automatic}}},
+      GridBoxDividers->{
+       "ColumnsIndexed" -> {2 -> GrayLevel[0.7]}, 
+        "RowsIndexed" -> {2 -> GrayLevel[0.7]}},
+      GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+      GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+     
+     "Grid"], "DialogStyle",
+    StripOnInput->False]}], "}"}]], "Output",
+ CellChangeTimes->{3.686306478944421*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -4378,7 +4459,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource[
                 "FEStrings", "sizeBriefExplanation"], StandardForm],
-               ImageSizeCache->{68., {2., 9.}}],
+               ImageSizeCache->{74., {2., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "SuggestionsBarCategory",
              StripOnInput->False],
@@ -4400,7 +4481,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
                 StandardForm],
-               ImageSizeCache->{64., {0., 9.}}],
+               ImageSizeCache->{67., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "SuggestionsBarControl",
              StripOnInput->False], True->
@@ -4431,7 +4512,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
                 StandardForm],
-               ImageSizeCache->{70., {0., 9.}}],
+               ImageSizeCache->{73., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "SuggestionsBarControl",
              StripOnInput->False], True->
@@ -4461,7 +4542,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
                 StandardForm],
-               ImageSizeCache->{54., {0., 9.}}],
+               ImageSizeCache->{56., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "SuggestionsBarControl",
              StripOnInput->False], True->
@@ -4492,7 +4573,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
                 StandardForm],
-               ImageSizeCache->{94., {0., 9.}}],
+               ImageSizeCache->{100., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "SuggestionsBarControl",
              StripOnInput->False], True->
@@ -28142,8 +28223,8 @@ SS2av+wv42dSWdovflFn0/3nd9af+3+vzP/dOuT/AvVIXuk=\
 }, Open  ]]
 },
 WindowSize->{1366, 720},
-WindowMargins->{{0, Automatic}, {0, 23}},
-FrontEndVersion->"11.0 for Linux x86 (64-bit) (September 21, 2016)",
+WindowMargins->{{1, Automatic}, {Automatic, 49}},
+FrontEndVersion->"11.0 for Linux x86 (64-bit) (July 28, 2016)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -28158,109 +28239,113 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[422, 15, 283, 7, 35, "Input"],
-Cell[708, 24, 10397, 269, 171, "Output"]
+Cell[422, 15, 333, 8, 35, "Input"],
+Cell[758, 25, 10722, 277, 159, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[11142, 298, 787, 21, 35, "Input"],
-Cell[11932, 321, 3356, 68, 197, "Output"]
+Cell[11517, 307, 787, 21, 35, "Input"],
+Cell[12307, 330, 3377, 68, 194, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[15325, 394, 281, 6, 35, "Input"],
-Cell[15609, 402, 160, 2, 33, "Output"]
+Cell[15721, 403, 281, 6, 35, "Input"],
+Cell[16005, 411, 160, 2, 32, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[15806, 409, 1376, 36, 59, "Input"],
-Cell[17185, 447, 115703, 1948, 208, "Output"]
+Cell[16202, 418, 1376, 36, 59, "Input"],
+Cell[17581, 456, 115725, 1948, 240, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[132925, 2400, 237, 5, 35, "Input"],
-Cell[133165, 2407, 144, 2, 90, "Output"]
+Cell[133343, 2409, 237, 5, 35, "Input"],
+Cell[133583, 2416, 144, 2, 32, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[133346, 2414, 971, 18, 35, "Input"],
-Cell[134320, 2434, 604, 8, 33, "Output"]
+Cell[133764, 2423, 590, 15, 35, "Input"],
+Cell[134357, 2440, 2079, 50, 159, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[134961, 2447, 264, 7, 35, "Input"],
-Cell[135228, 2456, 49211, 819, 238, "Output"]
+Cell[136473, 2495, 971, 18, 32, "Input"],
+Cell[137447, 2515, 604, 8, 30, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[184476, 3280, 262, 7, 35, "Input"],
-Cell[184741, 3289, 56332, 936, 235, "Output"]
+Cell[138088, 2528, 264, 7, 32, "Input"],
+Cell[138355, 2537, 49211, 819, 236, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[241110, 4230, 219, 5, 35, "Input"],
-Cell[241332, 4237, 11999, 314, 219, "Output"]
+Cell[187603, 3361, 262, 7, 32, "Input"],
+Cell[187868, 3370, 56332, 936, 232, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[253368, 4556, 988, 29, 59, "Input"],
-Cell[254359, 4587, 93555, 1552, 249, 86341, 1432, "CachedBoxData", "BoxData", \
+Cell[244237, 4311, 219, 5, 35, "Input"],
+Cell[244459, 4318, 12000, 314, 199, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[256496, 4637, 988, 29, 59, "Input"],
+Cell[257487, 4668, 93555, 1552, 249, 86341, 1432, "CachedBoxData", "BoxData", \
 "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[347951, 6144, 215, 5, 35, "Input"],
-Cell[348169, 6151, 12056, 315, 219, "Output"]
+Cell[351079, 6225, 215, 5, 35, "Input"],
+Cell[351297, 6232, 12056, 315, 219, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[360262, 6471, 986, 29, 59, "Input"],
-Cell[361251, 6502, 107365, 1778, 249, 96026, 1591, "CachedBoxData", \
+Cell[363390, 6552, 986, 29, 59, "Input"],
+Cell[364379, 6583, 107365, 1778, 249, 96026, 1591, "CachedBoxData", \
 "BoxData", "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[468653, 8285, 217, 5, 35, "Input"],
-Cell[468873, 8292, 12058, 317, 219, "Output"]
+Cell[471781, 8366, 217, 5, 35, "Input"],
+Cell[472001, 8373, 12058, 317, 219, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[480968, 8614, 987, 29, 59, "Input"],
-Cell[481958, 8645, 112873, 1868, 249, 99415, 1646, "CachedBoxData", \
+Cell[484096, 8695, 987, 29, 59, "Input"],
+Cell[485086, 8726, 112873, 1868, 249, 99415, 1646, "CachedBoxData", \
 "BoxData", "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[594868, 10518, 219, 5, 35, "Input"],
-Cell[595090, 10525, 12007, 316, 219, "Output"]
+Cell[597996, 10599, 219, 5, 35, "Input"],
+Cell[598218, 10606, 12007, 316, 219, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[607134, 10846, 992, 29, 59, "Input"],
-Cell[608129, 10877, 119724, 1981, 249, 102981, 1704, "CachedBoxData", \
+Cell[610262, 10927, 992, 29, 59, "Input"],
+Cell[611257, 10958, 119724, 1981, 249, 102981, 1704, "CachedBoxData", \
 "BoxData", "Output"]
 }, Open  ]],
-Cell[727868, 12861, 238, 6, 35, "Input"],
+Cell[730996, 12942, 238, 6, 35, "Input"],
 Cell[CellGroupData[{
-Cell[728131, 12871, 985, 29, 59, "Input"],
-Cell[729119, 12902, 124242, 2054, 249, 105246, 1741, "CachedBoxData", \
+Cell[731259, 12952, 985, 29, 59, "Input"],
+Cell[732247, 12983, 124242, 2054, 249, 105246, 1741, "CachedBoxData", \
 "BoxData", "Output"]
 }, Open  ]],
-Cell[853376, 14959, 238, 6, 35, "Input"],
+Cell[856504, 15040, 238, 6, 35, "Input"],
 Cell[CellGroupData[{
-Cell[853639, 14969, 985, 29, 59, "Input"],
-Cell[854627, 15000, 126443, 2091, 249, 106344, 1759, "CachedBoxData", \
+Cell[856767, 15050, 985, 29, 59, "Input"],
+Cell[857755, 15081, 126443, 2091, 249, 106344, 1759, "CachedBoxData", \
 "BoxData", "Output"]
 }, Open  ]],
-Cell[981085, 17094, 238, 6, 35, "Input"],
+Cell[984213, 17175, 238, 6, 35, "Input"],
 Cell[CellGroupData[{
-Cell[981348, 17104, 990, 29, 59, "Input"],
-Cell[982341, 17135, 128831, 2129, 249, 107117, 1772, "CachedBoxData", \
-"BoxData", "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[1111209, 19269, 1163, 34, 83, "Input"],
-Cell[1112375, 19305, 129551, 2142, 249, 107524, 1779, "CachedBoxData", \
+Cell[984476, 17185, 990, 29, 59, "Input"],
+Cell[985469, 17216, 128831, 2129, 249, 107117, 1772, "CachedBoxData", \
 "BoxData", "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1241963, 21452, 1159, 34, 83, "Input"],
-Cell[1243125, 21488, 130065, 2150, 249, 107260, 1775, "CachedBoxData", \
+Cell[1114337, 19350, 1163, 34, 83, "Input"],
+Cell[1115503, 19386, 129551, 2142, 249, 107524, 1779, "CachedBoxData", \
 "BoxData", "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1373227, 23643, 1160, 34, 83, "Input"],
-Cell[1374390, 23679, 130533, 2158, 249, 106739, 1766, "CachedBoxData", \
+Cell[1245091, 21533, 1159, 34, 83, "Input"],
+Cell[1246253, 21569, 130065, 2150, 249, 107260, 1775, "CachedBoxData", \
 "BoxData", "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1504960, 25842, 1158, 34, 83, "Input"],
-Cell[1506121, 25878, 136878, 2262, 282, 106328, 1760, "CachedBoxData", \
+Cell[1376355, 23724, 1160, 34, 83, "Input"],
+Cell[1377518, 23760, 130533, 2158, 249, 106739, 1766, "CachedBoxData", \
+"BoxData", "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1508088, 25923, 1158, 34, 83, "Input"],
+Cell[1509249, 25959, 136878, 2262, 282, 106328, 1760, "CachedBoxData", \
 "BoxData", "Output"]
 }, Open  ]]
 }
