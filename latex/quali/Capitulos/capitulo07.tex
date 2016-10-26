@@ -1,5 +1,9 @@
 \chapter{Aprendizado de regras}
 
+Nas seções seguintes mostraremos resultados da capacidade de autômatos celulares reproduzirem padrões de estruturas secundárias a partir da sequência de aminoácidos associado a utilização do EDA para buscar regras de transição. 
+
+%Nas seções de resultados a seguir mostraremos a capacidade do EDA em gerar um conjunto de regras de transição  para o autômato celular que permitiu a construção de um preditor de estruturas secundárias capaz de identificar a mudança de poucos aminoácidos na sequencia em contraste com grandes modificações das estruturas secundárias em proteínas camaleônicas. Também, ....
+
 \section{Autômato celular}
 
 Os modelos de autômatos celulares foram testados primeiramente, e até o momento, apenas no conjunto de proteínas com alta identidade sequencial. A escolha desse conjunto para os testes dos autômatos celulares baseou-se na facilidade de observar e analisar a formação e propagação dos elementos de estruturas secundárias nessas proteínas.
@@ -72,12 +76,6 @@ Na geração 564 um desses 38 elementos apresentou probabilidade zero ($p=0$), d
         \label{fig:deriva_genetica}
 \end{figure}
 
-
-     
-% correlacao freq regras x convergencia
-% correlacao freq de ss regras x convergencia
-% plot 3D freq regras x freq ss x convergencia
-
 \subsection{Função de fitness}
 
 A simplicidade da equação de fitness (referencia a equaçao) demonstrou problemas que acreditamos serem solucionáveis na continuação deste trabalho. Um desses problemas é ocasionado pelo desbalanceamento dos dados de treinamento (Figura \ref{fig:occ_ss}). 
@@ -140,7 +138,7 @@ As probabilidades de transição dos elementos da regra, não apresentam aparent
 
 A ausência da primeira relação pode indicar que as probabilidades de transição dos demais elementos da regra e sua aplicação ao longo da evolução do CA estão propagando as probabilidades e sofrendo influência da vizinhança na busca de produzir estruturas secundárias mais próximas as reais. 
 
-Entretanto, observamos uma relação entre a proporção de elementos de estruturas secundárias para um trinca e a proporção de acertos da trinca para a mesma estrutura secundária. Acreditamos que isso seja um indício que o aprendizado, ou otimização da regra, precisa ser melhorado para que elementos de estruturas secundárias menos comuns a determinadas trincas possam ser corretamente preditos (Figura \ref{fig:prop_acerto}).  
+Entretanto, observamos uma relação entre a proporção de elementos de estruturas secundárias para um trinca e a proporção de acertos da trinca para a mesma estrutura secundária. Acreditamos que isso seja um indício que o aprendizado, ou otimização da regra, precisa ser melhorado para que elementos de estruturas secundárias menos comuns a determinadas trincas possam ser corretamente preditos (Figura \ref{fig:prop_acerto} e Tabela \ref{tab:corr_acertos}).  
 
 \begin{figure}
   \centering
@@ -149,7 +147,7 @@ Entretanto, observamos uma relação entre a proporção de elementos de estrutu
         \label{fig:prop_acerto}
 \end{figure}
 
-Há também uma relação menos influente entre o número de ocorrências de uma determinada estrutura secundária nas trincas e a proporção de acertos dessa trinca para a mesma estrutura secundária (Figura \ref{fig:occ_acerto}).
+Há também uma relação menos influente entre o número de ocorrências de uma determinada estrutura secundária nas trincas e a proporção de acertos dessa trinca para a mesma estrutura secundária (Figura \ref{fig:occ_acerto} e Tabela \ref{tab:corr_acertos}).
 
 \begin{figure}
   \centering
@@ -158,15 +156,19 @@ Há também uma relação menos influente entre o número de ocorrências de uma
         \label{fig:occ_acerto}
 \end{figure}
 
-\begin{table}[]
-\centering
-\caption{My caption}
-\label{my-label}
-\begin{tabular}{lllll}
-Probabilidade acertos X & coil & hélice & fita &  \\
-Proporção na SS         & 0,75 & 0,60   & 0,60 &  \\
-Ocorrencias na SS       & 0,60 & 0,24   & 0,38 &  
-\end{tabular}
+\begin{table}
+    \myfloatalign
+    \label{tab:corr_acertos}
+  \begin{tabularx}{\textwidth}{Xlll} \toprule
+    \tableheadline{Correlação}   & \tableheadline{coil}   & \tableheadline{hélices}  & \tableheadline{fitas} \\ 
+    \midrule
+     Proporção das trincas  & 0,75 & 0,60   & 0,60   \\
+    Ocorrências das trincas  & 0,60 & 0,24   & 0,38  \\
+    %autem vulputate ex & parola & romanic \\
+    %usu mucius iisque & studio & sanctificatef \\
+    \bottomrule
+  \end{tabularx}
+  \caption{Correlação (Spearman) entre a proporção de acertos na predição e: (1) proporção das trincas nas estruturas secundárias, (2) número de ocorrências das trincas nas estruturas secundárias}
 \end{table}
 
 Ambas as relações encontradas eram esperadas pois indicam uma tendência do método a privilegiar o aprendizado, ou otimizaração, de elementos capazes de influenciar com maior intensidade a função de fitness. Isso mostra a importância de manter um variabilidade alta na população e reduzir efeitos de deriva genética para que a otimização escape de mínimos locais e consiga aprender, também, as probabilidades para trincas menos frequentes nas proteínas e/ou com proporções pequenas para determinadas estruturas secundárias.

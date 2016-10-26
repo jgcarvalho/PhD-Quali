@@ -8,7 +8,7 @@ A level-1 auxiliary file: FrontBackmatter/Titleback.aux
 A level-1 auxiliary file: FrontBackmatter/Abstract.aux
 A level-1 auxiliary file: FrontBackmatter/Contents.aux
 A level-1 auxiliary file: Capitulos/capitulo01.aux
-White space in argument---line 77 of file ClassicThesis.aux
+White space in argument---line 76 of file ClassicThesis.aux
  : \citation{Dill:2008;
  :                      DilleMaccallum:2012}
 I'm skipping whatever remains of this command
@@ -36,9 +36,10 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 11533 items from 5000.
 Database file #1: ClassicThesis-blx.bib
-Database file #2: Bibliography.bib
+Database file #2: bibliografia.bib
+Warning--I'm ignoring 10.1016/j.str.2011.11.018's extra "url" field
+--line 3111 of file bibliografia.bib
 Database file #3: AMiede_Publications.bib
-Warning--I didn't find a database entry for "KENDREW:1953"
 Warning--I didn't find a database entry for "Anfinsen:1968"
 Warning--I didn't find a database entry for "Rose:2001"
 Warning--I didn't find a database entry for "Levinthal:1963"
@@ -81,51 +82,49 @@ Warning--I didn't find a database entry for "Srinivasan:1994"
 Warning--I didn't find a database entry for "17609385"
 Warning--I didn't find a database entry for "10.1073/pnas.0805857105"
 Warning--I didn't find a database entry for "10.1073/pnas.0906408106"
-Warning--I didn't find a database entry for "10.1016/j.str.2011.11.018"
 Warning--I didn't find a database entry for "Xiong07"
-Warning--I didn't find a database entry for "West1995"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 1 entry,
+You've used 4 entries,
             6047 wiz_defined-function locations,
-            1235 strings with 9789 characters,
-and the built_in function-call counts, 1306 in all, are:
-= -- 64
-> -- 58
-< -- 1
-+ -- 41
-- -- 24
-* -- 23
-:= -- 295
+            1266 strings with 13853 characters,
+and the built_in function-call counts, 11074 in all, are:
+= -- 383
+> -- 377
+< -- 58
++ -- 141
+- -- 161
+* -- 951
+:= -- 887
 add.period$ -- 0
-call.type$ -- 1
-change.case$ -- 0
-chr.to.int$ -- 34
-cite$ -- 0
-duplicate$ -- 12
-empty$ -- 92
-format.name$ -- 0
-if$ -- 289
+call.type$ -- 4
+change.case$ -- 20
+chr.to.int$ -- 36
+cite$ -- 6
+duplicate$ -- 1174
+empty$ -- 1166
+format.name$ -- 263
+if$ -- 2382
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 6
 missing$ -- 0
-newline$ -- 22
-num.names$ -- 0
-pop$ -- 44
+newline$ -- 154
+num.names$ -- 114
+pop$ -- 1017
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 37
 quote$ -- 0
-skip$ -- 74
+skip$ -- 568
 stack$ -- 0
-substring$ -- 117
-swap$ -- 1
-text.length$ -- 16
+substring$ -- 251
+swap$ -- 437
+text.length$ -- 84
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 26
+type$ -- 140
 warning$ -- 0
-while$ -- 50
+while$ -- 106
 width$ -- 0
-write$ -- 20
+write$ -- 149
 (There was 1 error message)

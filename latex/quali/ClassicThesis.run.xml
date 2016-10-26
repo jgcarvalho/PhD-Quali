@@ -86,7 +86,7 @@
       <file>ClassicThesis-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>Bibliography.bib</file>
+      <file>bibliografia.bib</file>
       <file>AMiede_Publications.bib</file>
     </requires>
     <requires type="static">

@@ -24,11 +24,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Desenvolvimento}}{13}{part.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Dados}}{15}{chapter.4}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Conjunto de Dados}}{15}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Prote\IeC {\'\i }nas com alt\IeC {\'\i }ssima identidade sequ\IeC {\^e}ncial e diferentes estruturas terci\IeC {\'a}rias e secund\IeC {\'a}rias}{15}{section.4.1}
+\contentsline {section}{\numberline {4.1}Conjunto de dados de prote\IeC {\'\i }nas diversas para treinamento}{15}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Prote\IeC {\'\i }nas diversas}{16}{section.4.2}
+\contentsline {section}{\numberline {4.2}Prote\IeC {\'\i }nas com alt\IeC {\'\i }ssima identidade sequ\IeC {\^e}ncial e diferentes estruturas terci\IeC {\'a}rias e secund\IeC {\'a}rias}{16}{section.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Implementa\IeC {\c c}\IeC {\~a}o}}{19}{chapter.5}
 \defcounter {refsection}{0}\relax 
@@ -38,11 +38,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.2}Modelos extendidos}{19}{subsection.5.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}EDA}{20}{section.5.2}
+\contentsline {section}{\numberline {5.2}Busca de regras de transi\IeC {\c c}\IeC {\~a}o utilizando Algoritmo de Estima\IeC {\c c}\IeC {\~a}o de Distribui\IeC {\c c}\IeC {\~a}o EDA}{20}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Fun\IeC {\c c}\IeC {\~a}o de fitness}{21}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Fun\IeC {\c c}\IeC {\~a}o de pontua\IeC {\c c}\IeC {\~a}o dos indiv\IeC {\'\i }duos (Fun\IeC {\c c}\IeC {\~a}o de \textit {fitness})}{21}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Implementa\IeC {\c c}\IeC {\~a}o}{21}{section.5.3}
+\contentsline {section}{\numberline {5.3}Implementa\IeC {\c c}\IeC {\~a}o}{22}{section.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Resultados}}{23}{part.3}
 \defcounter {refsection}{0}\relax 
@@ -54,30 +54,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.1}Deriva gen\IeC {\'e}tica}{28}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Fun\IeC {\c c}\IeC {\~a}o de fitness}{29}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.2}Fun\IeC {\c c}\IeC {\~a}o de fitness}{28}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.3}Sele\IeC {\c c}\IeC {\~a}o}{30}{subsection.6.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.3}proteina?}{32}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Aprendizado das regras gerais}}{33}{chapter.7}
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Aprendizado das regras gerais}}{35}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {An\IeC {\'a}lise das regras gerais}}{35}{chapter.8}
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {An\IeC {\'a}lise das regras gerais}}{37}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Perspectivas futuras}}{37}{part.4}
+\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Perspectivas futuras}}{39}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Perspectivas futuras}}{39}{chapter.9}
+\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Perspectivas futuras}}{41}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.0.1}Fun\IeC {\c c}\IeC {\~a}o de fitness}{39}{subsection.9.0.1}
+\contentsline {subsection}{\numberline {9.0.1}Fun\IeC {\c c}\IeC {\~a}o de fitness}{41}{subsection.9.0.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.0.2}CA probabil\IeC {\'\i }stico}{39}{subsection.9.0.2}
+\contentsline {subsection}{\numberline {9.0.2}CA probabil\IeC {\'\i }stico}{41}{subsection.9.0.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.0.3}\IeC {\^A}ngulos torcionais}{39}{subsection.9.0.3}
+\contentsline {subsection}{\numberline {9.0.3}\IeC {\^A}ngulos torcionais}{41}{subsection.9.0.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.0.4}Utiliza\IeC {\c c}\IeC {\~a}o de informa\IeC {\c c}\IeC {\~a}o evolutiva}{39}{subsection.9.0.4}
+\contentsline {subsection}{\numberline {9.0.4}Utiliza\IeC {\c c}\IeC {\~a}o de informa\IeC {\c c}\IeC {\~a}o evolutiva}{41}{subsection.9.0.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Appendix}}{41}{part.5}
+\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Appendix}}{43}{part.5}
 \defcounter {refsection}{0}\relax 
 \vspace {\beforebibskip }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliografia}}{43}{dummy.6}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliografia}}{45}{dummy.6}

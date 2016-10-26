@@ -12,15 +12,15 @@
 \BOOKMARK [0][]{chapter.2}{2 Objetivos}{part.1}% 12
 \BOOKMARK [0][]{chapter.3}{3 Justificativa}{part.1}% 13
 \BOOKMARK [-1][]{part.2}{Desenvolvimento}{}% 14
-\BOOKMARK [0][]{chapter.4}{4 Dados}{part.2}% 15
-\BOOKMARK [1][-]{section.4.1}{4.1 Prote\355nas com alt\355ssima identidade sequ\352ncial e diferentes estruturas terci\341rias e secund\341rias}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.2}{4.2 Prote\355nas diversas}{chapter.4}% 17
+\BOOKMARK [0][]{chapter.4}{4 Conjunto de Dados}{part.2}% 15
+\BOOKMARK [1][-]{section.4.1}{4.1 Conjunto de dados de prote\355nas diversas para treinamento}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.2}{4.2 Prote\355nas com alt\355ssima identidade sequ\352ncial e diferentes estruturas terci\341rias e secund\341rias}{chapter.4}% 17
 \BOOKMARK [0][]{chapter.5}{5 Implementa\347\343o}{part.2}% 18
 \BOOKMARK [1][-]{section.5.1}{5.1 Aut\364mato celular}{chapter.5}% 19
 \BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Modelo inicial}{section.5.1}% 20
 \BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Modelos extendidos}{section.5.1}% 21
-\BOOKMARK [1][-]{section.5.2}{5.2 EDA}{chapter.5}% 22
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Fun\347\343o de fitness}{section.5.2}% 23
+\BOOKMARK [1][-]{section.5.2}{5.2 Busca de regras de transi\347\343o utilizando Algoritmo de Estima\347\343o de Distribui\347\343o EDA}{chapter.5}% 22
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Fun\347\343o de pontua\347\343o dos indiv\355duos \(Fun\347\343o de fitness\)}{section.5.2}% 23
 \BOOKMARK [1][-]{section.5.3}{5.3 Implementa\347\343o}{chapter.5}% 24
 \BOOKMARK [-1][]{part.3}{Resultados}{}% 25
 \BOOKMARK [0][]{chapter.6}{6 Aprendizado de regras}{part.3}% 26

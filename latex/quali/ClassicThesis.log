@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.15)  24 OCT 2016 17:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.15)  26 OCT 2016 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1508,7 +1508,18 @@ Package biblatex Info: Data encoding 'ascii' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ClassicThesis.bbl' found.
 
-(/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/ClassicThesis.bbl)
+(/home/jgcarvalho/Documentos/PhD-Quali/latex/quali/ClassicThesis.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'KENDREW1958':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with '10.1016/j.str.2011.11.018':
+(biblatex)                - Invalid format of field 'month'.
+
+)
 Package biblatex Info: Reference section=0 on input line 53.
 Package biblatex Info: Reference segment=0 on input line 53.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1520,8 +1531,7 @@ Package caption Info: End \AtBeginDocument code.
 Package scrhack Info: undefining \float@addtolists on input line 53.
 \AtBeginShipoutBox=\box32
 Package hyperref Info: Link coloring ON on input line 53.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1741,6 +1751,11 @@ Package babel Info: Redefining portuges shorthand "|
 
 ]
 Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 18.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 18.
+ [8]
+Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 30.
 Package tocbasic Info: character protrusion at lof deactivated on input line 31
 .
@@ -1770,7 +1785,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 70.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 70.
- [8
+ [9
 
 ])
 Package babel Info: Redefining portuges shorthand "|
@@ -1778,16 +1793,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 63.
 
-[9]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 65.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 65.
- [10
-
-
-
-]
+[10]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 68.
 Package babel Info: Redefining portuges shorthand "|
@@ -1795,6 +1801,9 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 68.
  [1
+
+
+
 
 
 
@@ -1813,13 +1822,10 @@ chapter 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
 
-LaTeX Warning: Citation 'KENDREW:1953' on page 3 undefined on input line 3.
-
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 3.
-
 LaTeX Warning: Citation 'Anfinsen:1968' on page 3 undefined on input line 5.
 
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 5.
 
 LaTeX Warning: Citation 'Rose:2001' on page 3 undefined on input line 5.
 
@@ -2125,69 +2131,69 @@ LaTeX Warning: Citation 'Srinivasan:1994' on page 15 undefined on input line 3.
 
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 9.
+(babel)             in language append on input line 11.
 
-LaTeX Warning: Citation '17609385' on page 15 undefined on input line 11.
-
-<figures/ga_gb.jpg, id=377, 721.94719pt x 515.67656pt>
-File: figures/ga_gb.jpg Graphic file (type jpg)
- <use figures/ga_gb.jpg>
-Package pdftex.def Info: figures/ga_gb.jpg used on input line 15.
-(pdftex.def)             Requested size: 336.0pt x 239.99957pt.
-
-
-LaTeX Warning: Citation '10.1073/pnas.0805857105' on page 15 undefined on input
- line 20.
-
-
-LaTeX Warning: Citation '10.1073/pnas.0906408106' on page 15 undefined on input
- line 20.
-
-
-LaTeX Warning: Citation '10.1016/j.str.2011.11.018' on page 15 undefined on inp
-ut line 20.
-
-
-Overfull \hbox (68.28662pt too wide) in paragraph at lines 20--21
-\T1/pplj/m/n/10.95 dade se-quen-cial ainda mai-o-res [[], []],
+Overfull \hbox (18.29767pt too wide) in paragraph at lines 13--14
+\T1/pplj/m/n/10.95 ver-si-dade de Duke (dis-po-ní-vel em [][]github.com/rlabduk
+e/reference_data[][]).
  []
 
-<figures/chameleonic_resume.pdf, id=379, 512.314pt x 328.50494pt>
-File: figures/chameleonic_resume.pdf Graphic file (type pdf)
-
-<use figures/chameleonic_resume.pdf>
-Package pdftex.def Info: figures/chameleonic_resume.pdf used on input line 24.
-(pdftex.def)             Requested size: 336.0pt x 215.4455pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 27.
+(babel)             in language append on input line 26.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 27.
- [15
+(babel)             in language append on input line 26.
+[15
 
 
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 29.
+(babel)             in language append on input line 42.
 
-Overfull \hbox (18.29767pt too wide) in paragraph at lines 31--32
-\T1/pplj/m/n/10.95 ver-si-dade de Duke (dis-po-ní-vel em [][]github.com/rlabduk
-e/reference_data[][]).
+
+LaTeX Warning: Citation '17609385' on page 16 undefined on input line 44.
+
+<figures/ga_gb.jpg, id=388, 721.94719pt x 515.67656pt>
+File: figures/ga_gb.jpg Graphic file (type jpg)
+ <use figures/ga_gb.jpg>
+Package pdftex.def Info: figures/ga_gb.jpg used on input line 49.
+(pdftex.def)             Requested size: 336.0pt x 239.99957pt.
+
+
+LaTeX Warning: Citation '10.1073/pnas.0805857105' on page 16 undefined on input
+ line 54.
+
+
+LaTeX Warning: Citation '10.1073/pnas.0906408106' on page 16 undefined on input
+ line 54.
+
+
+Overfull \hbox (68.28662pt too wide) in paragraph at lines 54--55
+\T1/pplj/m/n/10.95 dade se-quen-cial ainda mai-o-res [[], []],
  []
 
+<figures/chameleonic_resume.pdf, id=391, 512.314pt x 328.50494pt>
+File: figures/chameleonic_resume.pdf Graphic file (type pdf)
+
+<use figures/chameleonic_resume.pdf>
+Package pdftex.def Info: figures/chameleonic_resume.pdf used on input line 58.
+(pdftex.def)             Requested size: 336.0pt x 215.4455pt.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 81.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 81.
- [16 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/ga_gb.jpg>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 81.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 81.
+ [16]
+Overfull \hbox (220.21828pt too wide) has occurred while \output is active
+ []|[]|
+ []
 
-[17 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/chameleonic_resu
-me.pdf>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 81.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 81.
+[17 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/ga_gb.jpg> </hom
+e/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/chameleonic_resume.pdf>]
 \openout2 = `Capitulos/capitulo05.aux'.
 
 
@@ -2210,7 +2216,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 5.
-<figures/ca_rule_scheme.pdf, id=408, 1842.27849pt x 275.83664pt>
+<figures/ca_rule_scheme.pdf, id=412, 1842.27849pt x 275.83664pt>
 File: figures/ca_rule_scheme.pdf Graphic file (type pdf)
 
 <use figures/ca_rule_scheme.pdf>
@@ -2227,28 +2233,28 @@ pdf>]
 
 LaTeX Warning: Citation 'Xiong07' on page 20 undefined on input line 28.
 
-
-LaTeX Warning: Citation 'West1995' on page 20 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'West1995' on page 20 undefined on input line 28.
-
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 32.
+(babel)             in language append on input line 34.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 35.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 35.
+(babel)             in language append on input line 37.
 [20]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 38.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 49.
+(babel)             in language append on input line 40.
+
+Overfull \hbox (154.73106pt too wide) has occurred while \output is active
+ []|[]|
+ []
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 52.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 52.
- [21])
+[21]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 55.
+)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 82.
 Package babel Info: Redefining portuges shorthand "|
@@ -2280,42 +2286,42 @@ chapter 6.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 3.
-<figures/chamel_errors_ca.pdf, id=458, 361.35pt x 361.35pt>
+(babel)             in language append on input line 7.
+<figures/chamel_errors_ca.pdf, id=465, 361.35pt x 361.35pt>
 File: figures/chamel_errors_ca.pdf Graphic file (type pdf)
 
 <use figures/chamel_errors_ca.pdf>
-Package pdftex.def Info: figures/chamel_errors_ca.pdf used on input line 13.
+Package pdftex.def Info: figures/chamel_errors_ca.pdf used on input line 17.
 (pdftex.def)             Requested size: 302.39795pt x 302.40161pt.
 
-<figures/camel_2lhc_2lhg.pdf, id=459, 2289.12343pt x 1595.10211pt>
+<figures/camel_2lhc_2lhg.pdf, id=466, 2289.12343pt x 1595.10211pt>
 File: figures/camel_2lhc_2lhg.pdf Graphic file (type pdf)
 
 <use figures/camel_2lhc_2lhg.pdf>
-Package pdftex.def Info: figures/camel_2lhc_2lhg.pdf used on input line 20.
+Package pdftex.def Info: figures/camel_2lhc_2lhg.pdf used on input line 24.
 (pdftex.def)             Requested size: 336.0pt x 234.1194pt.
 
-<figures/camel_2lhd_2lhe.pdf, id=460, 2335.00922pt x 1497.595pt>
+<figures/camel_2lhd_2lhe.pdf, id=467, 2335.00922pt x 1497.595pt>
 File: figures/camel_2lhd_2lhe.pdf Graphic file (type pdf)
 
 <use figures/camel_2lhd_2lhe.pdf>
-Package pdftex.def Info: figures/camel_2lhd_2lhe.pdf used on input line 27.
+Package pdftex.def Info: figures/camel_2lhd_2lhe.pdf used on input line 31.
 (pdftex.def)             Requested size: 336.0pt x 215.48898pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 33.
+(babel)             in language append on input line 37.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 40.
+(babel)             in language append on input line 42.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 40.
+(babel)             in language append on input line 42.
  [25
 
 
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 40.
+(babel)             in language append on input line 42.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 40.
+(babel)             in language append on input line 42.
  [26 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/chamel_errors_c
 a.pdf> </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/camel_2lhc_2l
 hg.pdf
@@ -2323,144 +2329,165 @@ hg.pdf
 pdfTeX warning: pdflatex (file /home/jgcarvalho/Documentos/PhD-Quali/latex/qual
 i/figures/camel_2lhc_2lhg.pdf): PDF inclusion: multiple pdfs with page group in
 cluded in a single page
->] <figures/evo_Eda.pdf, id=515, 383.4325pt x 159.59625pt>
+>] <figures/evo_Eda.pdf, id=522, 383.4325pt x 159.59625pt>
 File: figures/evo_Eda.pdf Graphic file (type pdf)
 
 <use figures/evo_Eda.pdf>
-Package pdftex.def Info: figures/evo_Eda.pdf used on input line 55.
+Package pdftex.def Info: figures/evo_Eda.pdf used on input line 59.
 (pdftex.def)             Requested size: 336.0pt x 139.86066pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 60.
+(babel)             in language append on input line 62.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 63.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 63.
+(babel)             in language append on input line 62.
  [27 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/camel_2lhd_2lhe
 .pdf>]
-<figures/deriva_genetica.pdf, id=557, 361.35pt x 201.75375pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 64.
+
+<figures/deriva_genetica.pdf, id=564, 361.35pt x 201.75375pt>
 File: figures/deriva_genetica.pdf Graphic file (type pdf)
 
 <use figures/deriva_genetica.pdf>
-Package pdftex.def Info: figures/deriva_genetica.pdf used on input line 70.
+Package pdftex.def Info: figures/deriva_genetica.pdf used on input line 74.
 (pdftex.def)             Requested size: 336.0pt x 187.60133pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 81.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 84.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 84.
- [28 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/evo_Eda.pdf> </
-home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/deriva_genetica.pdf
+(babel)             in language append on input line 79.
 
-pdfTeX warning: pdflatex (file /home/jgcarvalho/Documentos/PhD-Quali/latex/qual
-i/figures/deriva_genetica.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
->] <figures/occ_ss.pdf, id=578, 361.35pt x 231.86626pt>
+<figures/occ_ss.pdf, id=566, 361.35pt x 231.86626pt>
 File: figures/occ_ss.pdf Graphic file (type pdf)
-
-<use figures/occ_ss.pdf>
-Package pdftex.def Info: figures/occ_ss.pdf used on input line 87.
+ <use figures/occ_ss.pdf>
+Package pdftex.def Info: figures/occ_ss.pdf used on input line 85.
 (pdftex.def)             Requested size: 302.39795pt x 194.04103pt.
- <figures/q3.pdf, id=580, 361.35pt x 228.855pt>
-File: figures/q3.pdf Graphic file (type pdf)
 
-<use figures/q3.pdf>
-Package pdftex.def Info: figures/q3.pdf used on input line 96.
+<figures/q3.pdf, id=568, 361.35pt x 228.855pt>
+File: figures/q3.pdf Graphic file (type pdf)
+ <use figures/q3.pdf>
+Package pdftex.def Info: figures/q3.pdf used on input line 94.
 (pdftex.def)             Requested size: 302.39795pt x 191.52101pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 109.
+(babel)             in language append on input line 107.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 112.
+(babel)             in language append on input line 110.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 112.
- [29 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/occ_ss.pdf> </h
-ome/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/q3.pdf
+(babel)             in language append on input line 110.
+ [28 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/evo_Eda.pdf>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 110.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 110.
+ [29 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/deriva_genetica
+.pdf> </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/occ_ss.pdf
 
 pdfTeX warning: pdflatex (file /home/jgcarvalho/Documentos/PhD-Quali/latex/qual
-i/figures/q3.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
->] <figures/histograma_occ.pdf, id=609, 361.35pt x 190.7125pt>
+i/figures/occ_ss.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
+>] <figures/histograma_occ.pdf, id=602, 361.35pt x 190.7125pt>
 File: figures/histograma_occ.pdf Graphic file (type pdf)
 
 <use figures/histograma_occ.pdf>
-Package pdftex.def Info: figures/histograma_occ.pdf used on input line 115.
+Package pdftex.def Info: figures/histograma_occ.pdf used on input line 113.
 (pdftex.def)             Requested size: 336.0pt x 177.33458pt.
 
-<figures/probG999_occXprob.pdf, id=611, 393.47pt x 146.5475pt>
+<figures/probG999_occXprob.pdf, id=604, 393.47pt x 146.5475pt>
 File: figures/probG999_occXprob.pdf Graphic file (type pdf)
 
 <use figures/probG999_occXprob.pdf>
-Package pdftex.def Info: figures/probG999_occXprob.pdf used on input line 124.
+Package pdftex.def Info: figures/probG999_occXprob.pdf used on input line 122.
 (pdftex.def)             Requested size: 336.0pt x 125.14285pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 133.
+(babel)             in language append on input line 129.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 133.
- [30 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/histograma_occ.
-pdf> </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/probG999_occXpr
-ob.pdf
+(babel)             in language append on input line 129.
+ [30 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/q3.pdf> </home/
+jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/histograma_occ.pdf
 
 pdfTeX warning: pdflatex (file /home/jgcarvalho/Documentos/PhD-Quali/latex/qual
-i/figures/probG999_occXprob.pdf): PDF inclusion: multiple pdfs with page group 
-included in a single page
+i/figures/histograma_occ.pdf): PDF inclusion: multiple pdfs with page group inc
+luded in a single page
 >] <figures/relacao_prob_propss.pdf, id=631, 361.35pt x 78.2925pt>
 File: figures/relacao_prob_propss.pdf Graphic file (type pdf)
 
 <use figures/relacao_prob_propss.pdf>
-Package pdftex.def Info: figures/relacao_prob_propss.pdf used on input line 136
+Package pdftex.def Info: figures/relacao_prob_propss.pdf used on input line 134
 .
 (pdftex.def)             Requested size: 336.0pt x 72.8005pt.
 
-<figures/prop_acerto.pdf, id=633, 361.35pt x 78.2925pt>
+
+Package caption Warning: \label without proper reference on input line 161.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:corr_acertos' on page 31 undefined on input line 
+141.
+
+<figures/prop_acerto.pdf, id=634, 361.35pt x 78.2925pt>
 File: figures/prop_acerto.pdf Graphic file (type pdf)
 
 <use figures/prop_acerto.pdf>
-Package pdftex.def Info: figures/prop_acerto.pdf used on input line 147.
+Package pdftex.def Info: figures/prop_acerto.pdf used on input line 145.
 (pdftex.def)             Requested size: 336.0pt x 72.8005pt.
 
-<figures/occ_acerto.pdf, id=635, 361.35pt x 78.2925pt>
+
+Package caption Warning: \label without proper reference on input line 161.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:corr_acertos' on page 31 undefined on input line 
+150.
+
+<figures/occ_acerto.pdf, id=637, 361.35pt x 78.2925pt>
 File: figures/occ_acerto.pdf Graphic file (type pdf)
 
 <use figures/occ_acerto.pdf>
-Package pdftex.def Info: figures/occ_acerto.pdf used on input line 156.
+Package pdftex.def Info: figures/occ_acerto.pdf used on input line 154.
 (pdftex.def)             Requested size: 336.0pt x 72.8005pt.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 161.
-
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 179.
+(babel)             in language append on input line 157.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 179.
-[31 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/relacao_prob_pro
-pss.pdf> </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/prop_acerto
-.pdf
+(babel)             in language append on input line 157.
+ [31 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/probG999_occXpr
+ob.pdf> </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/relacao_prob
+_propss.pdf
 
 pdfTeX warning: pdflatex (file /home/jgcarvalho/Documentos/PhD-Quali/latex/qual
-i/figures/prop_acerto.pdf): PDF inclusion: multiple pdfs with page group includ
-ed in a single page
+i/figures/relacao_prob_propss.pdf): PDF inclusion: multiple pdfs with page grou
+p included in a single page
 >]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 179.
+(babel)             in language append on input line 181.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 194.
+(babel)             in language append on input line 190.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 194.
- [32 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/occ_acerto.pdf>
+(babel)             in language append on input line 190.
+ [32 </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/prop_acerto.pdf
+> </home/jgcarvalho/Documentos/PhD-Quali/latex/quali/figures/occ_acerto.pdf
+
+pdfTeX warning: pdflatex (file /home/jgcarvalho/Documentos/PhD-Quali/latex/qual
+i/figures/occ_acerto.pdf): PDF inclusion: multiple pdfs with page group include
+d in a single page
+>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 196.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 196.
+ [33]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 196.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 196.
+ [34
+
+
 ]
 chapter 7.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 194.
+(babel)             in language append on input line 196.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 87.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 87.
- [33
-
-
-]
+ [35]
 \openout2 = `Capitulos/capitulo08.aux'.
 
 
@@ -2470,7 +2497,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
 
-[34
+[36
 
 
 
@@ -2484,12 +2511,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 88.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 88.
- [35]
+ [37]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 91.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 91.
- [36
+ [38
 
 
 
@@ -2500,12 +2527,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 91.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 91.
- [37]
+ [39]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 91.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 91.
- [38]
+ [40]
 \openout2 = `Capitulos/capitulo09.aux'.
 
 
@@ -2530,35 +2557,35 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 93.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 93.
- [39
-
-
-
-]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 100.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 100.
- [40
-
-
-
-]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 101.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 101.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 101.
  [41
 
 
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 100.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 100.
+ [42
+
+
+
 ]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 101.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 101.
- [42]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 101.
+ [43
+
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 101.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 101.
+ [44]
 \openout2 = `Chapters/Chapter0A.aux'.
 
 
@@ -2571,9 +2598,28 @@ No file Chapters/Chapter0A.tex.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 10.
 )
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 106.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 106.
+ [45
 
-LaTeX Warning: Empty bibliography on input line 12.
 
+
+
+
+
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 107.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 107.
+ [46
+
+
+
+]
 \openout2 = `FrontBackmatter/Declaration.aux'.
 
 
@@ -2586,15 +2632,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 107.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 107.
- [43
-
-
-
-
-
-
-
-
+ [47
 
 
 
@@ -2603,7 +2641,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 108.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 108.
- [44
+ [48
 
 
 
@@ -2619,7 +2657,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 108.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 108.
- [45
+ [49
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
@@ -2850,7 +2888,7 @@ FrontBackmatter/Colophon.tex
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5AD7C5E72337D039496282A3CACF77E4;2883.
+(rerunfilecheck)             Checksum: 080C9A0F0CE77BCB4613DB190041B6A5;3084.
 
 LaTeX Warning: There were undefined references.
 
@@ -2865,13 +2903,13 @@ Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
  )
 (\end occurred when \iftrue on line 53 was incomplete) 
 Here is how much of TeX's memory you used:
- 22984 strings out of 493029
- 404805 string characters out of 6136234
+ 23005 strings out of 493029
+ 405699 string characters out of 6136234
  750136 words of memory out of 5000000
- 25810 multiletter control sequences out of 15000+600000
+ 25823 multiletter control sequences out of 15000+600000
  72375 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,23n,92p,1447b,2698s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,23n,90p,1447b,2698s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf
 -dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
@@ -2888,10 +2926,10 @@ e1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type
 no/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.p
 fb>
 Output written on /home/jgcarvalho/Documentos/PhD-Quali/latex/quali/ClassicThes
-is.pdf (55 pages, 12214911 bytes).
+is.pdf (59 pages, 12223226 bytes).
 PDF statistics:
- 806 PDF objects out of 1000 (max. 8388607)
- 653 compressed objects within 7 object streams
- 136 named destinations out of 1000 (max. 500000)
+ 840 PDF objects out of 1000 (max. 8388607)
+ 683 compressed objects within 7 object streams
+ 144 named destinations out of 1000 (max. 500000)
  13745 words of extra memory for PDF output out of 14400 (max. 10000000)
 
