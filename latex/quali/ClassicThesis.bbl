@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.6 $
+% $ biblatex bbl format version 2.7 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,96 +16,112 @@
   {}
 \endgroup
 
-\entry{KENDREW1958}{article}{}
-  \name{author}{6}{}{%
-    {{}%
-     {KENDREW}{K.}%
-     {C.~J.}{C.~J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {BODO}{B.}%
-     {G.}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {DINTZIS}{D.}%
-     {M.~H.}{M.~H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {PARRISH}{P.}%
-     {G.~R.}{G.~R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {WYCKOFF}{W.}%
-     {H.}{H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {PHILLIPS}{P.}%
-     {C.~D.}{C.~D.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Hemoglobins; Myoglobin; X-Rays}
-  \strng{namehash}{KCJ+1}
-  \strng{fullhash}{KCJBGDMHPGRWHPCD1}
-  \verb{doi}
-  \verb 10.1038/181662a0
-  \endverb
-  \field{issn}{0028-0836}
-  \field{pages}{662\bibrangedash 666}
-  \field{title}{A three-dimensional model of the myoglobin molecule obtained by
-  x-ray analysis.}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/13517261
-  \endverb
-  \field{volume}{181}
-  \field{journaltitle}{Nature}
-  \field{year}{1958}
-  \warn{\item Invalid format of field 'month'}
-\endentry
+\sortlist[entry]{none/global/}
+  \entry{KENDREW1958}{article}{}
+    \name{author}{6}{}{%
+      {{hash=KCJ}{%
+         family={KENDREW},
+         family_i={K\bibinitperiod},
+         given={C.\bibnamedelima J.},
+         given_i={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={BODO},
+         family_i={B\bibinitperiod},
+         given={G.},
+         given_i={G\bibinitperiod},
+      }}%
+      {{hash=DMH}{%
+         family={DINTZIS},
+         family_i={D\bibinitperiod},
+         given={M.\bibnamedelima H.},
+         given_i={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=PGR}{%
+         family={PARRISH},
+         family_i={P\bibinitperiod},
+         given={G.\bibnamedelima R.},
+         given_i={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={WYCKOFF},
+         family_i={W\bibinitperiod},
+         given={H.},
+         given_i={H\bibinitperiod},
+      }}%
+      {{hash=PCD}{%
+         family={PHILLIPS},
+         family_i={P\bibinitperiod},
+         given={C.\bibnamedelima D.},
+         given_i={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \keyw{Hemoglobins; Myoglobin; X-Rays}
+    \strng{namehash}{KCJ+1}
+    \strng{fullhash}{KCJBGDMHPGRWHPCD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/181662a0
+    \endverb
+    \field{issn}{0028-0836}
+    \field{pages}{662\bibrangedash 666}
+    \field{title}{A three-dimensional model of the myoglobin molecule obtained
+  by x-ray analysis.}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/13517261
+    \endverb
+    \field{volume}{181}
+    \field{journaltitle}{Nature}
+    \field{year}{1958}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
 
-\entry{10.1016/j.str.2011.11.018}{article}{}
-  \name{author}{5}{}{%
-    {{}%
-     {He}{H.}%
-     {Yanan}{Y.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Chen}{C.}%
-     {Yihong}{Y.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Alexander}{A.}%
-     {A.~Patrick}{A.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Bryan}{B.}%
-     {N.~Philip}{N.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Orban}{O.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Amino Acid Motifs; Amino Acid Sequence; Amino Acid Substitution;
+  \entry{10.1016/j.str.2011.11.018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=HY}{%
+         family={He},
+         family_i={H\bibinitperiod},
+         given={Yanan},
+         given_i={Y\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Chen},
+         family_i={C\bibinitperiod},
+         given={Yihong},
+         given_i={Y\bibinitperiod},
+      }}%
+      {{hash=AAP}{%
+         family={Alexander},
+         family_i={A\bibinitperiod},
+         given={A.\bibnamedelima Patrick},
+         given_i={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BNP}{%
+         family={Bryan},
+         family_i={B\bibinitperiod},
+         given={N.\bibnamedelima Philip},
+         given_i={N\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=OJ}{%
+         family={Orban},
+         family_i={O\bibinitperiod},
+         given={John},
+         given_i={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Amino Acid Motifs; Amino Acid Sequence; Amino Acid Substitution;
   Bacterial Proteins; Hydrophobic and Hydrophilic Interactions; Models;
   Molecular; Molecular Sequence Data; Mutagenesis; Site-Directed; Nuclear
   Magnetic Resonance; Biomolecular; Peptide Fragments; Protein Binding; Protein
   Folding; Protein Structure; Tertiary; Sequence Homology; Amino Acid}
-  \strng{namehash}{HY+1}
-  \strng{fullhash}{HYCYAAPBNPOJ1}
-  \field{abstract}{%
-  While disordered to ordered rearrangements are relatively common, the ability
-  of proteins to switch from one ordered fold to a completely different
+    \strng{namehash}{HY+1}
+    \strng{fullhash}{HYCYAAPBNPOJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    While disordered to ordered rearrangements are relatively common, the
+  ability of proteins to switch from one ordered fold to a completely different
   fold is generally regarded as rare, and few fold switches have been
   characterized. Here, in a designed system, we examine the mutational
   requirements for transitioning between folds and functions. We show that
@@ -118,43 +134,47 @@
   before the relevant 4$\beta$+$\alpha$ fold is appreciably populated in the
   unbound protein. The results provide new insights into the evolution of fold
   and function.%
-  }
-  \verb{doi}
-  \verb 10.1016/j.str.2011.11.018
-  \endverb
-  \field{issn}{1878-4186}
-  \field{pages}{283\bibrangedash 291}
-  \field{title}{Mutational tipping points for switching protein folds and
+    }
+    \verb{doi}
+    \verb 10.1016/j.str.2011.11.018
+    \endverb
+    \field{issn}{1878-4186}
+    \field{pages}{283\bibrangedash 291}
+    \field{title}{Mutational tipping points for switching protein folds and
   functions.}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/22325777
-  \endverb
-  \field{volume}{20}
-  \field{journaltitle}{Structure (London, England: 1993)}
-  \field{year}{2012}
-  \warn{\item Invalid format of field 'month'}
-\endentry
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/22325777
+    \endverb
+    \field{volume}{20}
+    \field{journaltitle}{Structure (London, England: 1993)}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
 
-\entry{West1995}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {West}{W.}%
-     {W.~M.}{W.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hecht}{H.}%
-     {H.~M.}{H.~M.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Amino Acid Sequence; Databases; Factual; Ferredoxin-NADP Reductase;
+  \entry{West1995}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WWM}{%
+         family={West},
+         family_i={W\bibinitperiod},
+         given={W.\bibnamedelima M.},
+         given_i={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HHM}{%
+         family={Hecht},
+         family_i={H\bibinitperiod},
+         given={H.\bibnamedelima M.},
+         given_i={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Amino Acid Sequence; Databases; Factual; Ferredoxin-NADP Reductase;
   Glutathione Peroxidase; Models; Molecular; Structural; Protein Structure;
   Secondary; Proteins; Ribonuclease H}
-  \strng{namehash}{WWMHHM1}
-  \strng{fullhash}{WWMHHM1}
-  \field{abstract}{%
-  Protein sequences can be represented as binary patterns of polar ([symbol:
+    \strng{namehash}{WWMHHM1}
+    \strng{fullhash}{WWMHHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Protein sequences can be represented as binary patterns of polar ([symbol:
   see text]) and nonpolar ([symbol: see text]) amino acids. These binary
   sequence patterns are categorized into two classes: Class A patterns match
   the structural repeat of an idealized amphiphilic alpha-helix (3.6 residues
@@ -177,22 +197,19 @@
   However, for solvent-exposed beta-strands, the correlation is striking: All
   beta-strands in the database that contain the class B patterns are exposed to
   solvent.(ABSTRACT TRUNCATED AT 250 WORDS)%
-  }
-  \verb{doi}
-  \verb 10.1002/pro.5560041008
-  \endverb
-  \field{issn}{0961-8368}
-  \field{pages}{2032\bibrangedash 2039}
-  \field{title}{Binary patterning of polar and nonpolar amino acids in the
+    }
+    \verb{doi}
+    \verb 10.1002/pro.5560041008
+    \endverb
+    \field{issn}{0961-8368}
+    \field{pages}{2032\bibrangedash 2039}
+    \field{title}{Binary patterning of polar and nonpolar amino acids in the
   sequences and structures of native proteins.}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/8535239
-  \endverb
-  \field{volume}{4}
-  \field{journaltitle}{Protein science: a publication of the Protein Society}
-\endentry
-
-\lossort
-\endlossort
-
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/8535239
+    \endverb
+    \field{volume}{4}
+    \field{journaltitle}{Protein science: a publication of the Protein Society}
+  \endentry
+\endsortlist
 \endinput

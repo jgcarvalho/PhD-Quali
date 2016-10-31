@@ -1,36 +1,52 @@
 \chapter{Objetivos}
 
-O objetivo principal deste trabalho será desenvolver um método de reconhecimento de
-enovelamento capaz de identificar, a partir da sequência de aminoácidos da proteína a qual se
-deseja modelar, estruturas proteicas resolvidas semelhantes a sua estrutura nativa. Tais
-estruturas podem ser tanto de proteínas que tenham evoluído divergentemente quanto
-convergentemente uma vez que não há uma comparação direta entre os resíduos das
-sequências, mas sim entre estruturas e padrões locais que emergem dessa estrutura primária. Este processo passa pela identificação correta da estrutura secundária da proteína a partir da sequência de aminoácidos
-Para atingir tal objetivo, delineamos especificamente os objetivos a seguir.
+O objetico principal deste trabalho é desenvolver um método de predição de estruturas secundárias utilizando autômatos celulares. Diferentemente dos métodos atuais, onde a predição é realizada em apenas dois estados, sequência -> estrutura secundária, o método proposto é iterativo, representando uma dinâmica de formação das estruturas secundárias. 
 
-Objetivos específicos
+Neste trabalho, optamos por utilizar o modelo de autômatos celulares como o método iterativo. Entretanto, métodos recentes de aprendizado profundo poderiam ser utilizados como alternativa ou complemento do modelo proposto, desde que mantivessem implicitamente ou explicitamente o caracter iterativo. 
 
-2. Aplicar este alfabeto a domínios proteicos obtidos do CATH e/ ou SCOP para
-criar uma representação das estruturas em dimensões reduzidas – 1D;
+\section{Objetivos específicos}
 
-2.  Utilizar um conjunto de treinamento para ser usado na busca de regras de
-transição de estados para um autômato celular. Essas regras devem ser capazes de guiar a
-evolução do autômato celular de um estado inicial correspondente a sequência
-de aminoácidos da proteína até um estado que simbolize a estrutura secundária, mas representada em uma dimensão;
+O objetivo principal envolve os seguintes objetivos específicos:
 
-3. Testar as regras de transição selecionadas por apresentar melhor desempenho em
-proteínas não incluídas no conjunto de treinamento e assim, analisar a eficácia do
-autômato celular em obter informação estrutural a partir da sequência de
-aminoácidos das proteínas;
+\begin{enumerate}
+	\item Preparação de um conjunto de treinamento composto da sequência de aminoácidos e das estruturas secundárias atribuídas por diferentes métodos a partir de uma grande variedade de estruturas proteicas;
+	\item Implementação de autômatos celulares com estados que possibilitem representar a sequência de aminoácidos e os elementos de estrutura secundária. Assim, o estado inicial desses autômatos celulares representariam a sequência de aminoácidos e durante a evolução do autômato celular, os elementos de estrutura secundária surgiriam e se organizariam para formar a estrutura secundária proteica;
+	\item Implementação de um método de otimização das regras de transição dos autômatos celulares como o objetivo de maximizar a acurácia do método de predição;
+	\item Aplicação do método, análise e comparação dos resultados com outros métodos de predição.
+\end{enumerate}
+
+%%%%%% Pós correções do Paulão
+% O objetivo principal deste trabalho será desenvolver um método de reconhecimento de
+% enovelamento capaz de identificar, a partir da sequência de aminoácidos da proteína a qual se
+% deseja modelar, estruturas proteicas resolvidas semelhantes a sua estrutura nativa. Tais
+% estruturas podem ser tanto de proteínas que tenham evoluído divergentemente quanto
+% convergentemente uma vez que não há uma comparação direta entre os resíduos das
+% sequências, mas sim entre estruturas e padrões locais que emergem dessa estrutura primária. Este processo passa pela identificação correta da estrutura secundária da proteína a partir da sequência de aminoácidos
+% Para atingir tal objetivo, delineamos especificamente os objetivos a seguir.
+
+% Objetivos específicos
+
+% 2. Aplicar este alfabeto a domínios proteicos obtidos do CATH e/ ou SCOP para
+% criar uma representação das estruturas em dimensões reduzidas – 1D;
+
+% 2.  Utilizar um conjunto de treinamento para ser usado na busca de regras de
+% transição de estados para um autômato celular. Essas regras devem ser capazes de guiar a
+% evolução do autômato celular de um estado inicial correspondente a sequência
+% de aminoácidos da proteína até um estado que simbolize a estrutura secundária, mas representada em uma dimensão;
+
+% 3. Testar as regras de transição selecionadas por apresentar melhor desempenho em
+% proteínas não incluídas no conjunto de treinamento e assim, analisar a eficácia do
+% autômato celular em obter informação estrutural a partir da sequência de
+% aminoácidos das proteínas;
 
 
-4. Utilizar o método de autômato celular com a melhor regra de transição para,
-quando aplicado em sequências de aminoácidos de proteínas sem estrutura
-conhecida, identificar os elementos de estrutura secundária bem como avaliar a dinâmica de sua formação.
+% 4. Utilizar o método de autômato celular com a melhor regra de transição para,
+% quando aplicado em sequências de aminoácidos de proteínas sem estrutura
+% conhecida, identificar os elementos de estrutura secundária bem como avaliar a dinâmica de sua formação.
 
 
 
-
+%%%%%% Projeto
 % O objetivo geral deste trabalho será desenvolver um método de reconhecimento de
 % enovelamento capaz de identificar, a partir da sequência de aminoácidos da proteína a qual se
 % deseja modelar, estruturas proteicas resolvidas semelhantes a sua estrutura nativa. Tais

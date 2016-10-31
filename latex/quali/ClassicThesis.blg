@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2016/TeX Live for SUSE Linux)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ClassicThesis.aux
 The style file: biblatex.bst
@@ -8,7 +8,7 @@ A level-1 auxiliary file: FrontBackmatter/Titleback.aux
 A level-1 auxiliary file: FrontBackmatter/Abstract.aux
 A level-1 auxiliary file: FrontBackmatter/Contents.aux
 A level-1 auxiliary file: Capitulos/capitulo01.aux
-White space in argument---line 76 of file ClassicThesis.aux
+White space in argument---line 122 of file ClassicThesis.aux
  : \citation{Dill:2008;
  :                      DilleMaccallum:2012}
 I'm skipping whatever remains of this command
@@ -23,12 +23,15 @@ A level-1 auxiliary file: Chapters/Chapter0A.aux
 A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
 A level-1 auxiliary file: FrontBackmatter/Declaration.aux
 A level-1 auxiliary file: FrontBackmatter/Colophon.aux
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -84,47 +87,47 @@ Warning--I didn't find a database entry for "10.1073/pnas.0805857105"
 Warning--I didn't find a database entry for "10.1073/pnas.0906408106"
 Warning--I didn't find a database entry for "Xiong07"
 Biblatex version: 3.3
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 4 entries,
-            6047 wiz_defined-function locations,
-            1266 strings with 13853 characters,
-and the built_in function-call counts, 11074 in all, are:
-= -- 383
-> -- 377
+            6256 wiz_defined-function locations,
+            1314 strings with 14306 characters,
+and the built_in function-call counts, 24460 in all, are:
+= -- 1853
+> -- 371
 < -- 58
-+ -- 141
-- -- 161
-* -- 951
-:= -- 887
++ -- 673
+- -- 159
+* -- 1897
+:= -- 2898
 add.period$ -- 0
 call.type$ -- 4
 change.case$ -- 20
-chr.to.int$ -- 36
+chr.to.int$ -- 32
 cite$ -- 6
-duplicate$ -- 1174
-empty$ -- 1166
-format.name$ -- 263
-if$ -- 2382
+duplicate$ -- 2432
+empty$ -- 2226
+format.name$ -- 250
+if$ -- 4829
 int.to.chr$ -- 0
 int.to.str$ -- 6
 missing$ -- 0
-newline$ -- 154
+newline$ -- 171
 num.names$ -- 114
-pop$ -- 1017
+pop$ -- 1123
 preamble$ -- 1
-purify$ -- 37
+purify$ -- 50
 quote$ -- 0
-skip$ -- 568
+skip$ -- 514
 stack$ -- 0
-substring$ -- 251
-swap$ -- 437
-text.length$ -- 84
+substring$ -- 3496
+swap$ -- 541
+text.length$ -- 82
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 140
+type$ -- 124
 warning$ -- 0
-while$ -- 106
+while$ -- 361
 width$ -- 0
-write$ -- 149
+write$ -- 168
 (There was 1 error message)
