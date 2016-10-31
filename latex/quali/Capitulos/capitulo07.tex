@@ -1,6 +1,6 @@
 \chapter{Aprendizado de regras de transição}
 
-Nas seções seguintes mostraremos resultados da capacidade de autômatos celulares reproduzirem padrões de estruturas secundárias a partir da sequência de aminoácidos associado a utilização do EDA para buscar regras de transição. 
+Nas seções seguintes mostraremos resultados da capacidade de autômatos celulares reproduzirem padrões de estruturas secundárias a partir da sequência de aminoácidos e da utilização do EDA para buscar regras de transição. Inicialmente, discutiremos os autômatos celulares e as diferentes opções de estados utilizados. Em seguida, discutiremos os resultados da otimização das regras de transição utilizando um EDA distribuído.  
 
 %Nas seções de resultados a seguir mostraremos a capacidade do EDA em gerar um conjunto de regras de transição  para o autômato celular que permitiu a construção de um preditor de estruturas secundárias capaz de identificar a mudança de poucos aminoácidos na sequencia em contraste com grandes modificações das estruturas secundárias em proteínas camaleônicas. Também, ....
 
@@ -15,28 +15,28 @@ Entre os quatro modelos testados, o número de estados para os elementos de estr
 \begin{figure}
   \centering
   \includegraphics[width=.9\textwidth]{figures/chamel_errors_ca.pdf}
-  \caption{Figura da sequencia e das estruturas das camaleonicas}
+  \caption{Comparação de autômatos celulares com diferentes estados. O gráfico mostra proporção de elementos preditos para cada um dos elementos da estrutura experimental. Em (a) os resultados obtidos por um autômato celular que utiliza apenas 3 estados (H,E,C) para as estruturas secundárias. Em (b) um autômato que apresenta 6 estados, acrescentando as características de hidrofobicidade do resíduo (hidrofóbico/hidrofílico) aos estados de estrutura secundária. Em (c), um autômato celular que apresenta 12 estados após a adição de Gly e Pro como características especias das estruturas secundárias. E por fim, em (d), um autômato celular com 18 estados para as estruturas secundárias onde os estados carregam as características hidrofóbico, hidrofílico, glicina, prolina e resíduos carregados positivamente e negativamente.} 
         \label{fig:ca_errors}
 \end{figure}
 
 \begin{figure}
   \centering
   \includegraphics[width=1\textwidth]{figures/camel_2lhc_2lhg.pdf}
-  \caption{Figura da sequencia e das estruturas das camaleonicas}
+  \caption{Modelos estruturais das proteínas Ga98 (PDB ID: 2LHC) e GB98-T25I (PDB ID: 2LHG) que possuem a topologia de feixe de hélices alpha. As cores representam as frequências dos estados durante a evolução do autômato celular num gradiente do vermelho, 100\%, ao azul, 0\%. Cada elemento de estrutura secundária (hélice, fita e coil) corresponde a uma coluna da figura. Notamos que a hélice 2 (intermediária) demonstra alta frequência do estado de hélice no autômato celular após 10000 passos. As outras duas hélices apresentam frequências menores em relação a hélice 2, mas maiores que os outros estados. Entre os resíduos de conexão entre as hélices, aparecem alguns com grande frequência de estados coil. Nas regiões N e C terminais, há uma maior frequência de fitas e coils, em relação à hélices. O autômato celular utilizado possui os estados HP+GP+Carregados.}
         \label{fig:camel_2lhc_2lhg}
 \end{figure}
 
 \begin{figure}
   \centering
   \includegraphics[width=1\textwidth]{figures/camel_2lhd_2lhe.pdf}
-  \caption{Figura da sequencia e das estruturas das camaleonicas}
+  \caption{Modelos estruturais das proteínas GB98 (PDB ID: 2LHD) e GB98-T25I,L20A (PDB ID: 2LHE) que apresentam a topologia de 4 fitas beta e hélice alpha. As cores representam as frequências dos estados durante a evolução do autômato celular num gradiente do vermelho, 100\%, ao azul, 0\%. Cada elemento de estrutura secundária (hélice, fita e coil) corresponde a uma coluna da figura. Notamos que a hélice demonstra alta frequência do estado de hélice no autômato celular após 10000 passos. As fitas apresentam uma frequência tanto estados de hélices como de fitas, exceto a fita 1 que apresenta baixa frequência de hélices e maior frequência de fitas. A regiões de conexão entre as fitas e da hélice com as fitas apresentam maior frequência de coils. O autômato celular utilizado possui os estados HP+GP+Carregados.}
         \label{fig:camel_2lhd_2lhe}
 \end{figure}
 
 
 \section{EDA}
 
-O aprendizado das regras realizado através de um algoritmo de EDA distribuído demonstrou-se eficiente dado a complexidade do problema. Utilizando sete nós (448 núcleos) no cluster multiusuário da FAPESP localizado no Centro Internacional de Pesquisa e Ensino do Hospital A. C. Camargo em  São Paulo foi possível evoluir o EDA por 1000 gerações com 10000 indivíduos em pouco menos de duas semanas.
+O aprendizado das regras realizado através de um algoritmo de EDA distribuído demonstrou-se eficiente dado a complexidade do problema. Utilizando sete nós (448 núcleos) no cluster de computação de alto desempenho EMU-2 (adquirido pelo "Programa de Equipamento  Multiusuário da FAPESP-2009", 2009/53853-5, localizado no Centro Internacional de Pesquisa e Ensino do Hospital A. C. Camargo em  São Paulo) foi possível evoluir o EDA por 1000 gerações com 10000 indivíduos em pouco menos de duas semanas.
 
 Cada nó de trabalho apresentou um uso de memória de 75\% (48 GB), e manteve o processamento próximo a 100\% por núcleo (1.6 GHz). O mecanismo de comunicação por RPC entre o nó mestre e os nós de trabalho não sobrecarregou a rede (1Gbs). Isso nos permite concluir que o algoritmo é escalável clusters com maior número de nós e processadores de maior desempenho.
 
@@ -57,7 +57,7 @@ A escolha em realizar o torneio nos nós de trabalho demonstrou ser escalável, 
 \begin{figure}
   \centering
   \includegraphics[width=1\textwidth]{figures/evo_Eda.pdf}
-  \caption{EDA}
+  \caption{Gráfico das gerações do EDA pelo fitness.}
         \label{fig:evo_eda}
 \end{figure}
 
@@ -78,7 +78,7 @@ Na geração 564 um desses 38 elementos apresentou probabilidade zero ($p=0$), d
 
 \subsection{Função de fitness}
 
-A simplicidade da equação de fitness (referencia a equaçao) demonstrou problemas que acreditamos serem solucionáveis na continuação deste trabalho. Um desses problemas é ocasionado pelo desbalanceamento dos dados de treinamento (Figura \ref{fig:occ_ss}). 
+A simplicidade da equação de fitness (Equação \ref{eq:fitness}) demonstrou problemas que acreditamos serem solucionáveis na continuação deste trabalho. Um desses problemas é ocasionado pelo desbalanceamento dos dados de treinamento (Figura \ref{fig:occ_ss}). 
 
 \begin{figure}
   \centering
@@ -87,7 +87,7 @@ A simplicidade da equação de fitness (referencia a equaçao) demonstrou proble
         \label{fig:occ_ss}
 \end{figure}
 
-Os resultados obtidos indicam uma maior acurácia para os elementos de estrutura secundária mais frequentes no conjunto de treinamento. Esse é um problema recorrente no aprendizado com classes desbalanceadas e costuma ser tratado na função de fitness (Figura \ref{fig:q3}). 
+Os resultados obtidos indicam uma maior acurácia para os elementos de estrutura secundária mais frequentes no conjunto de treinamento. Esse é um problema recorrente no aprendizado com classes desbalanceadas e costuma ser tratado na função de fitness (Figura \ref{fig:q3}), por exemplo, com funções que fazem uma média da acurácia por classes. As alterações na função de fitness para tratar este problema são preferiveis em relação à modificações no conjunto de dados para equibrar as classes, uma vez que modificações no conjunto de dados envolveriam a retirada de informação de classes mais frequentes ou a duplicação de informação das classes menos frequentes, ambas produzindo consequências distorcivas na informação presente no conjunto de treinamento.
 
 \begin{figure}
   \centering
@@ -114,6 +114,37 @@ As ocorrência de trincas no conjunto de proteínas apresentou grande variação
   \caption{Histograma de ocorrencia das trincas}
         \label{fig:histograma_occ}
 \end{figure}
+
+\begin{table}
+\begin{tabular}{cc}
+\toprule
+\tableheadline{Trinca} & \tableheadline{Frequência}\\
+\midrule
+CCW & 2\\
+CMW & 2\\
+WMC & 2\\
+WPC & 3\\
+WCW & 3\\
+CHW & 4\\
+\bottomrule
+\end{tabular}
+\quad
+\begin{tabular}{cc}
+\toprule
+\tableheadline{Trinca} & \tableheadline{Frequência}\\
+\midrule
+EAL & 1316\\
+LAA & 1478\\
+AAL & 1534\\
+ALA & 1563\\
+AAA & 1682\\
+HHH & 6143\\
+\bottomrule
+\end{tabular}
+\caption{Trincas de aminoácidos menos (à esquerda) e mais (à direita) frequentes no conjunto de treinamento}
+\end{table}
+
+
 
 A figura \ref{fig:probG999_occXprob} representa a distribuição das probabilidades máximas e mínimas das dos elementos da regra em relação a frequência de ocorrência das trincas no conjunto. O gráfico e o valor de correlação (Spearman = 0.09) entre as probabilidades e a frequência de ocorrência das trincas,  indica não haver uma grande influência da frequência das trincas durante a seleção. Essa influência também não foi encontrada durante a evolução do EDA (Anexo).  
 

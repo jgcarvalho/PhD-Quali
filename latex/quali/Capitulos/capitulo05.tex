@@ -41,7 +41,7 @@ No EDA distribuído implementado neste trabalho cada elemento da regra do autôm
 
 A função de fitness utilizada pelo EDA baseia-se na porcentagem de estados corretos durante a evolução do autômato celular ($t_1 \rightarrow t_{final}$) onde os estados corretos são os elementos de estrutura secundária idênticos ao concenso obtido entre os quatro métodos de atribuição de estruturas secundária. Quando não há concenso entre os métodos de atribuição de estrutura secundária, a posição é descartada pela função de fitness. A função de fitness é, portanto, equivalente a acurácia.
 
-\begin{equation}
+\begin{equation} \label{eq:fitness}
 ACC = \frac{TP + TN}{P + N}
 \end{equation}
 \begin{equation}
