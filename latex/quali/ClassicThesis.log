@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.15)  31 OCT 2016 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.15)  1 NOV 2016 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1492,9 +1492,29 @@ Package biblatex Info: Data encoding 'ascii' specified.
 \openout3 = `ClassicThesis-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'ClassicThesis.bbl' not found.
+Package biblatex Info: ... file 'ClassicThesis.bbl' found.
+ (./ClassicThesis.bbl
 
-No file ClassicThesis.bbl.
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'KENDREW1958':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Anfinsen1973':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Rose2006':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'West1995':
+(biblatex)                - Invalid format of field 'month'.
+
+)
 Package biblatex Info: Reference section=0 on input line 53.
 Package biblatex Info: Reference segment=0 on input line 53.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1506,7 +1526,7 @@ Package caption Info: End \AtBeginDocument code.
 Package scrhack Info: undefining \float@addtolists on input line 53.
 \AtBeginShipoutBox=\box32
 Package hyperref Info: Link coloring ON on input line 53.
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1757,6 +1777,11 @@ Overfull \hbox (40.93878pt too wide) in paragraph at lines 35--35
  \T1/pplj/m/n/10.95 uti-li-zado pos-sui os es-ta-dos HP+GP+Carregados. []  
  []
 
+
+Overfull \hbox (6.74129pt too wide) in paragraph at lines 37--37
+ [][] []\T1/pplj/m/n/10.95 Gráfico das ge-ra-ções do EDA pelo fit-ness. []  
+ []
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 51.
 Package babel Info: Redefining portuges shorthand "|
@@ -1821,31 +1846,10 @@ chapter 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
 
-LaTeX Warning: Citation 'KENDREW1958' on page 3 undefined on input line 3.
-
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 3.
-
-LaTeX Warning: Citation 'Anfinsen:1968' on page 3 undefined on input line 5.
-
-
-LaTeX Warning: Citation 'Rose:2001' on page 3 undefined on input line 5.
-
-
-Overfull \hbox (4.81978pt too wide) in paragraph at lines 5--6
-\T1/pplj/m/n/10.95 na-tu-ra-da/-re-na-tu-rada in vi-tro, e que em con-di-ções d
-es-na-tu-ran-tes, tanto
- []
-
-
-LaTeX Warning: Citation 'Levinthal:1963' on page 3 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Levinthal:' on page 3 undefined on input line 7.
-
-
 LaTeX Warning: Citation 'Ben-Naim:2007' on page 3 undefined on input line 7.
 
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 7.
 
 LaTeX Warning: Citation 'Levinthal:' on page 3 undefined on input line 7.
 
@@ -2159,7 +2163,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 LaTeX Warning: Citation '17609385' on page 16 undefined on input line 44.
 
-<figures/ga_gb.jpg, id=410, 721.94719pt x 515.67656pt>
+<figures/ga_gb.jpg, id=420, 721.94719pt x 515.67656pt>
 File: figures/ga_gb.jpg Graphic file (type jpg)
  <use figures/ga_gb.jpg>
 Package pdftex.def Info: figures/ga_gb.jpg used on input line 49.
@@ -2182,7 +2186,7 @@ Overfull \hbox (68.28662pt too wide) in paragraph at lines 54--55
 \T1/pplj/m/n/10.95 dade se-quen-cial ainda mai-o-res [[], []],
  []
 
-<figures/chameleonic_resume.pdf, id=412, 512.314pt x 328.50494pt>
+<figures/chameleonic_resume.pdf, id=422, 512.314pt x 328.50494pt>
 File: figures/chameleonic_resume.pdf Graphic file (type pdf)
 
 <use figures/chameleonic_resume.pdf>
@@ -2224,7 +2228,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 5.
-<figures/ca_rule_scheme.pdf, id=432, 1842.27849pt x 275.83664pt>
+<figures/ca_rule_scheme.pdf, id=442, 1842.27849pt x 275.83664pt>
 File: figures/ca_rule_scheme.pdf Graphic file (type pdf)
 
 <use figures/ca_rule_scheme.pdf>
@@ -2239,12 +2243,6 @@ Package babel Info: Redefining portuges shorthand "|
  [19 <./figures/ca_rule_scheme.pdf>]
 
 LaTeX Warning: Citation 'Xiong07' on page 20 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'West1995' on page 20 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'West1995' on page 20 undefined on input line 28.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 34.
@@ -2299,21 +2297,21 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 7.
-<figures/chamel_errors_ca.pdf, id=482, 361.35pt x 361.35pt>
+<figures/chamel_errors_ca.pdf, id=495, 361.35pt x 361.35pt>
 File: figures/chamel_errors_ca.pdf Graphic file (type pdf)
 
 <use figures/chamel_errors_ca.pdf>
 Package pdftex.def Info: figures/chamel_errors_ca.pdf used on input line 17.
 (pdftex.def)             Requested size: 302.39795pt x 302.40161pt.
 
-<figures/camel_2lhc_2lhg.pdf, id=483, 2289.12343pt x 1595.10211pt>
+<figures/camel_2lhc_2lhg.pdf, id=496, 2289.12343pt x 1595.10211pt>
 File: figures/camel_2lhc_2lhg.pdf Graphic file (type pdf)
 
 <use figures/camel_2lhc_2lhg.pdf>
 Package pdftex.def Info: figures/camel_2lhc_2lhg.pdf used on input line 24.
 (pdftex.def)             Requested size: 336.0pt x 234.1194pt.
 
-<figures/camel_2lhd_2lhe.pdf, id=484, 2335.00922pt x 1497.595pt>
+<figures/camel_2lhd_2lhe.pdf, id=497, 2335.00922pt x 1497.595pt>
 File: figures/camel_2lhd_2lhe.pdf Graphic file (type pdf)
 
 <use figures/camel_2lhd_2lhe.pdf>
@@ -2346,7 +2344,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 41.
  [28 <./figures/camel_2lhd_2lhe.pdf>]
-<figures/evo_Eda.pdf, id=581, 383.4325pt x 159.59625pt>
+<figures/evo_Eda.pdf, id=595, 383.4325pt x 159.59625pt>
 File: figures/evo_Eda.pdf Graphic file (type pdf)
 
 <use figures/evo_Eda.pdf>
@@ -2359,7 +2357,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 70.
  [29]
-<figures/deriva_genetica.pdf, id=591, 361.35pt x 201.75375pt>
+<figures/deriva_genetica.pdf, id=604, 361.35pt x 201.75375pt>
 File: figures/deriva_genetica.pdf Graphic file (type pdf)
 
 <use figures/deriva_genetica.pdf>
@@ -2368,7 +2366,7 @@ Package pdftex.def Info: figures/deriva_genetica.pdf used on input line 74.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 79.
 
-<figures/occ_ss.pdf, id=594, 361.35pt x 231.86626pt>
+<figures/occ_ss.pdf, id=607, 361.35pt x 231.86626pt>
 File: figures/occ_ss.pdf Graphic file (type pdf)
  <use figures/occ_ss.pdf>
 Package pdftex.def Info: figures/occ_ss.pdf used on input line 85.
@@ -2382,7 +2380,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures/deriva_genetica.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
->] <figures/q3.pdf, id=615, 361.35pt x 228.855pt>
+>] <figures/q3.pdf, id=628, 361.35pt x 228.855pt>
 File: figures/q3.pdf Graphic file (type pdf)
  <use figures/q3.pdf>
 Package pdftex.def Info: figures/q3.pdf used on input line 94.
@@ -2390,7 +2388,7 @@ Package pdftex.def Info: figures/q3.pdf used on input line 94.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 107.
 
-<figures/histograma_occ.pdf, id=617, 361.35pt x 190.7125pt>
+<figures/histograma_occ.pdf, id=630, 361.35pt x 190.7125pt>
 File: figures/histograma_occ.pdf Graphic file (type pdf)
 
 <use figures/histograma_occ.pdf>
@@ -2404,7 +2402,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures/q3.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
->] <figures/probG999_occXprob.pdf, id=646, 393.47pt x 146.5475pt>
+>] <figures/probG999_occXprob.pdf, id=659, 393.47pt x 146.5475pt>
 File: figures/probG999_occXprob.pdf Graphic file (type pdf)
 
 <use figures/probG999_occXprob.pdf>
@@ -2415,7 +2413,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 162.
  [32 <./figures/histograma_occ.pdf>]
-<figures/relacao_prob_propss.pdf, id=659, 361.35pt x 78.2925pt>
+<figures/relacao_prob_propss.pdf, id=672, 361.35pt x 78.2925pt>
 File: figures/relacao_prob_propss.pdf Graphic file (type pdf)
 
 <use figures/relacao_prob_propss.pdf>
@@ -2431,7 +2429,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `tab:corr_acertos' on page 33 undefined on input line 
 172.
 
-<figures/prop_acerto.pdf, id=662, 361.35pt x 78.2925pt>
+<figures/prop_acerto.pdf, id=675, 361.35pt x 78.2925pt>
 File: figures/prop_acerto.pdf Graphic file (type pdf)
 
 <use figures/prop_acerto.pdf>
@@ -2458,7 +2456,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./figures/relacao_prob_propss.pdf): PDF
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures/prop_acerto.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
->] <figures/occ_acerto.pdf, id=691, 361.35pt x 78.2925pt>
+>] <figures/occ_acerto.pdf, id=704, 361.35pt x 78.2925pt>
 File: figures/occ_acerto.pdf Graphic file (type pdf)
 
 <use figures/occ_acerto.pdf>
@@ -2604,24 +2602,11 @@ No file Chapters/Chapter0A.tex.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 10.
 )
-
-LaTeX Warning: Empty bibliography on input line 12.
-
-\openout2 = `FrontBackmatter/Declaration.aux'.
-
-(./FrontBackmatter/Declaration.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 5.
-)
+(babel)             in language append on input line 106.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 107.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 107.
+(babel)             in language append on input line 106.
  [47
-
-
-
-
 
 
 
@@ -2631,10 +2616,35 @@ Package babel Info: Redefining portuges shorthand "|
 
 ]
 Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 107.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 107.
+ [48
+
+
+
+]
+\openout2 = `FrontBackmatter/Declaration.aux'.
+
+
+(./FrontBackmatter/Declaration.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 5.
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 107.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 107.
+ [49
+
+
+
+]
+Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 108.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 108.
- [48
+ [50
 
 
 
@@ -2650,7 +2660,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 108.
 
-[49
+[51
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
@@ -2663,12 +2673,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
 (./Capitulos/capitulo05.aux) (./Capitulos/capitulo07.aux)
 (./Capitulos/capitulo08.aux) (./Capitulos/capitulo09.aux)
 (./Chapters/Chapter0A.aux) (./FrontBackmatter/Bibliography.aux)
-(./FrontBackmatter/Declaration.aux) (./FrontBackmatter/Colophon.aux)
-
-Package mparhack Warning: Marginpars may have changed.
-(mparhack)                Rerun to get them right.
-
-)
+(./FrontBackmatter/Declaration.aux) (./FrontBackmatter/Colophon.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
 
 
@@ -2816,6 +2821,7 @@ brazilian.lbx    2016/03/03 v3.3 biblatex localization (PK/JW/AB)
  english.lbx    2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 american.lbx    2016/03/03 v3.3 biblatex localization (PK/JW/AB)
   t1pplj.fd    2004/09/06 font definitions for T1/pplj.
+ClassicThesis.bbl
  nameref.sty    2012/10/27 v2.43 Cross-referencing by name of section
 gettitlestring.sty    2010/12/03 v1.4 Cleanup title references (HO)
 ClassicThesis.out
@@ -2884,10 +2890,10 @@ Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
  )
 (\end occurred when \iftrue on line 53 was incomplete) 
 Here is how much of TeX's memory you used:
- 23007 strings out of 493029
- 398662 string characters out of 6136234
+ 23081 strings out of 493029
+ 400202 string characters out of 6136234
  753136 words of memory out of 5000000
- 25826 multiletter control sequences out of 15000+600000
+ 25889 multiletter control sequences out of 15000+600000
  72375 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,23n,91p,1497b,3298s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2906,10 +2912,10 @@ e1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palati
 no/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.p
 fb>
-Output written on ClassicThesis.pdf (61 pages, 12230227 bytes).
+Output written on ClassicThesis.pdf (63 pages, 12237705 bytes).
 PDF statistics:
- 854 PDF objects out of 1000 (max. 8388607)
- 695 compressed objects within 7 object streams
- 149 named destinations out of 1000 (max. 500000)
+ 894 PDF objects out of 1000 (max. 8388607)
+ 732 compressed objects within 8 object streams
+ 158 named destinations out of 1000 (max. 500000)
  13761 words of extra memory for PDF output out of 14400 (max. 10000000)
 

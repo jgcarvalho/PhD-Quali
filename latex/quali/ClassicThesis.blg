@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/TeX Live for SUSE Linux)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ClassicThesis.aux
 The style file: biblatex.bst
@@ -8,7 +8,7 @@ A level-1 auxiliary file: FrontBackmatter/Titleback.aux
 A level-1 auxiliary file: FrontBackmatter/Abstract.aux
 A level-1 auxiliary file: FrontBackmatter/Contents.aux
 A level-1 auxiliary file: Capitulos/capitulo01.aux
-White space in argument---line 122 of file ClassicThesis.aux
+White space in argument---line 77 of file ClassicThesis.aux
  : \citation{Dill:2008;
  :                      DilleMaccallum:2012}
 I'm skipping whatever remains of this command
@@ -23,9 +23,8 @@ A level-1 auxiliary file: Chapters/Chapter0A.aux
 A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
 A level-1 auxiliary file: FrontBackmatter/Declaration.aux
 A level-1 auxiliary file: FrontBackmatter/Colophon.aux
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -35,19 +34,12 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11533 items from 5000.
+Reallocated field_info (elt_size=4) to 11811 items from 5000.
 Database file #1: ClassicThesis-blx.bib
 Database file #2: bibliografia.bib
-Warning--I'm ignoring 10.1016/j.str.2011.11.018's extra "url" field
---line 3111 of file bibliografia.bib
 Database file #3: AMiede_Publications.bib
-Warning--I didn't find a database entry for "Anfinsen:1968"
-Warning--I didn't find a database entry for "Rose:2001"
-Warning--I didn't find a database entry for "Levinthal:1963"
-Warning--I didn't find a database entry for "Levinthal:"
 Warning--I didn't find a database entry for "Ben-Naim:2007"
+Warning--I didn't find a database entry for "Levinthal:"
 Warning--I didn't find a database entry for "Moult:2009"
 Warning--I didn't find a database entry for "Baker:1996"
 Warning--I didn't find a database entry for "Helles:2003"
@@ -60,6 +52,7 @@ Warning--I didn't find a database entry for "Chothia:1987"
 Warning--I didn't find a database entry for "Coulson:1997"
 Warning--I didn't find a database entry for "Kolodny:2008"
 Warning--I didn't find a database entry for "Giri:2007"
+Warning--I didn't find a database entry for "Rose:2001"
 Warning--I didn't find a database entry for "DilleChan:1997"
 Warning--I didn't find a database entry for "BaldwineRose:1999"
 Warning--I didn't find a database entry for "DaggeteFersht:2003"
@@ -85,49 +78,50 @@ Warning--I didn't find a database entry for "Srinivasan:1994"
 Warning--I didn't find a database entry for "17609385"
 Warning--I didn't find a database entry for "10.1073/pnas.0805857105"
 Warning--I didn't find a database entry for "10.1073/pnas.0906408106"
+Warning--I didn't find a database entry for "10.1016/j.str.2011.11.018"
 Warning--I didn't find a database entry for "Xiong07"
 Biblatex version: 3.3
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 4 entries,
-            6256 wiz_defined-function locations,
-            1314 strings with 14306 characters,
-and the built_in function-call counts, 24460 in all, are:
-= -- 1853
-> -- 371
-< -- 58
-+ -- 673
-- -- 159
-* -- 1897
-:= -- 2898
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 7 entries,
+            6047 wiz_defined-function locations,
+            1299 strings with 16470 characters,
+and the built_in function-call counts, 18800 in all, are:
+= -- 649
+> -- 599
+< -- 111
++ -- 182
+- -- 238
+* -- 1484
+:= -- 1310
 add.period$ -- 0
-call.type$ -- 4
-change.case$ -- 20
-chr.to.int$ -- 32
-cite$ -- 6
-duplicate$ -- 2432
-empty$ -- 2226
-format.name$ -- 250
-if$ -- 4829
+call.type$ -- 7
+change.case$ -- 42
+chr.to.int$ -- 38
+cite$ -- 12
+duplicate$ -- 2086
+empty$ -- 2108
+format.name$ -- 392
+if$ -- 4126
 int.to.chr$ -- 0
-int.to.str$ -- 6
+int.to.str$ -- 14
 missing$ -- 0
-newline$ -- 171
-num.names$ -- 114
-pop$ -- 1123
+newline$ -- 231
+num.names$ -- 234
+pop$ -- 1929
 preamble$ -- 1
-purify$ -- 50
+purify$ -- 64
 quote$ -- 0
-skip$ -- 514
+skip$ -- 1006
 stack$ -- 0
-substring$ -- 3496
-swap$ -- 541
-text.length$ -- 82
-text.prefix$ -- 0
+substring$ -- 362
+swap$ -- 796
+text.length$ -- 138
+text.prefix$ -- 1
 top$ -- 1
-type$ -- 124
+type$ -- 254
 warning$ -- 0
-while$ -- 361
+while$ -- 162
 width$ -- 0
-write$ -- 168
+write$ -- 223
 (There was 1 error message)

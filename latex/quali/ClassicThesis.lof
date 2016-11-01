@@ -34,7 +34,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {6}{\ignorespaces Modelos estruturais das prote\IeC {\'\i }nas GB98 (PDB ID: 2LHD) e GB98-T25I,L20A (PDB ID: 2LHE) que apresentam a topologia de 4 fitas beta e h\IeC {\'e}lice alpha. As cores representam as frequ\IeC {\^e}ncias dos estados durante a evolu\IeC {\c c}\IeC {\~a}o do aut\IeC {\^o}mato celular num gradiente do vermelho, 100\%, ao azul, 0\%. Cada elemento de estrutura secund\IeC {\'a}ria (h\IeC {\'e}lice, fita e coil) corresponde a uma coluna da figura. Notamos que a h\IeC {\'e}lice demonstra alta frequ\IeC {\^e}ncia do estado de h\IeC {\'e}lice no aut\IeC {\^o}mato celular ap\IeC {\'o}s 10000 passos. As fitas apresentam uma frequ\IeC {\^e}ncia tanto estados de h\IeC {\'e}lices como de fitas, exceto a fita 1 que apresenta baixa frequ\IeC {\^e}ncia de h\IeC {\'e}lices e maior frequ\IeC {\^e}ncia de fitas. A regi\IeC {\~o}es de conex\IeC {\~a}o entre as fitas e da h\IeC {\'e}lice com as fitas apresentam maior frequ\IeC {\^e}ncia de coils. O aut\IeC {\^o}mato celular utilizado possui os estados HP+GP+Carregados.\relax }}{28}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces EDA\relax }}{30}{figure.caption.15}
+\contentsline {figure}{\numberline {7}{\ignorespaces Gr\IeC {\'a}fico das gera\IeC {\c c}\IeC {\~o}es do EDA pelo fitness.\relax }}{30}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {8}{\ignorespaces Deriva genetica\relax }}{30}{figure.caption.16}
 \defcounter {refsection}{0}\relax 
