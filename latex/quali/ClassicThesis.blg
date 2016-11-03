@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: ClassicThesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: FrontBackmatter/DirtyTitlepage.aux
@@ -8,7 +8,7 @@ A level-1 auxiliary file: FrontBackmatter/Titleback.aux
 A level-1 auxiliary file: FrontBackmatter/Abstract.aux
 A level-1 auxiliary file: FrontBackmatter/Contents.aux
 A level-1 auxiliary file: Capitulos/capitulo01.aux
-White space in argument---line 77 of file ClassicThesis.aux
+White space in argument---line 125 of file ClassicThesis.aux
  : \citation{Dill:2008;
  :                      DilleMaccallum:2012}
 I'm skipping whatever remains of this command
@@ -23,12 +23,15 @@ A level-1 auxiliary file: Chapters/Chapter0A.aux
 A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
 A level-1 auxiliary file: FrontBackmatter/Declaration.aux
 A level-1 auxiliary file: FrontBackmatter/Colophon.aux
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -81,47 +84,47 @@ Warning--I didn't find a database entry for "10.1073/pnas.0906408106"
 Warning--I didn't find a database entry for "10.1016/j.str.2011.11.018"
 Warning--I didn't find a database entry for "Xiong07"
 Biblatex version: 3.3
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 7 entries,
-            6047 wiz_defined-function locations,
-            1299 strings with 16470 characters,
-and the built_in function-call counts, 18800 in all, are:
-= -- 649
-> -- 599
+            6256 wiz_defined-function locations,
+            1347 strings with 16923 characters,
+and the built_in function-call counts, 35174 in all, are:
+= -- 2426
+> -- 593
 < -- 111
-+ -- 182
-- -- 238
-* -- 1484
-:= -- 1310
++ -- 797
+- -- 236
+* -- 2701
+:= -- 3721
 add.period$ -- 0
 call.type$ -- 7
 change.case$ -- 42
-chr.to.int$ -- 38
+chr.to.int$ -- 34
 cite$ -- 12
-duplicate$ -- 2086
-empty$ -- 2108
-format.name$ -- 392
-if$ -- 4126
+duplicate$ -- 3558
+empty$ -- 3449
+format.name$ -- 377
+if$ -- 7145
 int.to.chr$ -- 0
 int.to.str$ -- 14
 missing$ -- 0
-newline$ -- 231
+newline$ -- 256
 num.names$ -- 234
-pop$ -- 1929
+pop$ -- 2057
 preamble$ -- 1
-purify$ -- 64
+purify$ -- 79
 quote$ -- 0
-skip$ -- 1006
+skip$ -- 927
 stack$ -- 0
-substring$ -- 362
-swap$ -- 796
-text.length$ -- 138
+substring$ -- 4377
+swap$ -- 949
+text.length$ -- 136
 text.prefix$ -- 1
 top$ -- 1
-type$ -- 254
+type$ -- 226
 warning$ -- 0
-while$ -- 162
+while$ -- 457
 width$ -- 0
-write$ -- 223
+write$ -- 250
 (There was 1 error message)

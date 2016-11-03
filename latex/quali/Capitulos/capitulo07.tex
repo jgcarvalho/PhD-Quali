@@ -6,9 +6,11 @@ Nas seções seguintes mostraremos resultados da capacidade de autômatos celula
 
 \section{Autômato celular}
 
-Os modelos de autômatos celulares foram testados primeiramente, e até o momento, apenas no conjunto de proteínas com alta identidade sequencial. A escolha desse conjunto para os testes dos autômatos celulares baseou-se na facilidade de observar e analisar a formação e propagação dos elementos de estruturas secundárias nessas proteínas.
+A comparação entre os modelos de autômatos celulares foram realizadas primeiramente, e até o momento, apenas no conjunto de proteínas com alta identidade sequencial. A escolha desse conjunto para os testes dos autômatos celulares baseou-se na facilidade de observar e analisar a formação e propagação dos elementos de estruturas secundárias nessas proteínas. É importante ressaltar que ao otimizarmos as regras de transição para este conjunto restrito de proteínas, nosso objetivo é avaliar a capacidade dos modelos propostos de autômatos celulares em recuperar corretamente a estrutura secundária atribuída aos resíduos.   
 
-O modelo idealizado para o autômato celular deveria ter a capacidade de propagar sinais locais ao longo da sequência, e assim, resultar na formação de padrões globais. Tal capacidade está relacionada aos estados que ocorrem durante a evolução do autômato celular, sendo dependentes do número de estados possíveis e também do tamanho da vizinhança utilizada. Como todos os autômatos celulares propostos tem vizinhança 1 por questões de complexidade (ver ref metodos), a capacidade de formar e propagar os sinais será dependente apenas dos estados possíveis do autômato celular.
+O modelo idealizado para o autômato celular deveria ter a capacidade de propagar sinais locais ao longo da sequência, e assim, resultar na formação de padrões globais. Tal capacidade está relacionada aos estados que ocorrem durante a evolução do autômato celular, sendo dependentes do número de estados possíveis e também do tamanho da vizinhança utilizada. Como todos os autômatos celulares propostos tem vizinhança 1 por questões de complexidade (Seção \ref{sssec:ca}), a capacidade de formar e propagar os sinais será dependente apenas dos estados possíveis do autômato celular.
+
+Ao otimizarmos as regras apenas para 
 
 Entre os quatro modelos testados, o número de estados para os elementos de estrutura secundária demonstrou relação com a acurácia do modelo. Assim, CAs com estados de elementos de estrutura secundária que conservam mais características dos resíduos mostraram-se mais promissores (Figura \ref{fig:ca_errors}).
 
@@ -38,7 +40,7 @@ Entre os quatro modelos testados, o número de estados para os elementos de estr
 
 O aprendizado das regras realizado através de um algoritmo de EDA distribuído demonstrou-se eficiente dado a complexidade do problema. Utilizando sete nós (448 núcleos) no cluster de computação de alto desempenho EMU-2 (adquirido pelo "Programa de Equipamento  Multiusuário da FAPESP-2009", 2009/53853-5, localizado no Centro Internacional de Pesquisa e Ensino do Hospital A. C. Camargo em  São Paulo) foi possível evoluir o EDA por 1000 gerações com 10000 indivíduos em pouco menos de duas semanas.
 
-Cada nó de trabalho apresentou um uso de memória de 75\% (48 GB), e manteve o processamento próximo a 100\% por núcleo (1.6 GHz). O mecanismo de comunicação por RPC entre o nó mestre e os nós de trabalho não sobrecarregou a rede (1Gbs). Isso nos permite concluir que o algoritmo é escalável clusters com maior número de nós e processadores de maior desempenho.
+Cada nó de trabalho apresentou um uso de memória de 75\% (48 GB), e manteve o processamento próximo a 100\% por núcleo (1.6 GHz). O mecanismo de comunicação por RPC entre o nó mestre e os nós de trabalho não sobrecarregou a rede (1Gbs). Isso nos permite concluir que o algoritmo é escalável em clusters com maior número de nós e processadores de maior desempenho.
 
 A opção por realizar o torneio entre soluções candidatas nos nós de trabalho, permite apenas a opção de realizar o torneio entre as k últimas soluções geradas no próprio nó. Consequentemente, as k-1 soluções perdedoras são descartadas, havendo portanto, a remoção das soluções perdedoras em cada torneio. 
 
@@ -49,7 +51,7 @@ Entretanto, no EDA distribuído, para aplicarmos um torneio sem eliminação dos
 \begin{enumerate}
 	\item o envio de todas as soluções candidatas para o nó mestre, o que resultaria em maior consumo de rede;
 	\item o acúmulo de todas as soluções candidatas até atingir o tamanho máximo da população, gerando uma limitação da memória disponível;
-	\item a espera até a realização do torneio para iniciar o cálculo das probabilidades, resultando no aumento do tempo ocioso nos nós de trabalho igual ao intervalo de tempo do envio da última solução até o cálculo das probabilidades.
+	\item a espera até a realização do torneio para iniciar o cálculo das probabilidades, resultando no aumento do tempo ocioso nos nós de trabalho igual ao intervalo de tempo do envio da última solução até a finalização do cálculo das probabilidades.
 \end{enumerate} 
 
 A escolha em realizar o torneio nos nós de trabalho demonstrou ser escalável, manter a variabilidade das soluções candidatas ao longo da evolução e convergência (Figura \ref{fig:evo_eda}).
@@ -57,7 +59,7 @@ A escolha em realizar o torneio nos nós de trabalho demonstrou ser escalável, 
 \begin{figure}
   \centering
   \includegraphics[width=1\textwidth]{figures/evo_Eda.pdf}
-  \caption{Gráfico das gerações do EDA pelo fitness.}
+  \caption{Gráfico que representa o fitness médio da população de regras candidatas e da melhor regra ao longo de 1000 gerações do EDA.}
         \label{fig:evo_eda}
 \end{figure}
 
@@ -72,7 +74,7 @@ Na geração 564 um desses 38 elementos apresentou probabilidade zero ($p=0$), d
 \begin{figure}
   \centering
   \includegraphics[width=1\textwidth]{figures/deriva_genetica.pdf}
-  \caption{Deriva genetica}
+  \caption{Gráfico que indica efeitos de deriva genética através da amostragem de 38 elementos que não sofrem pressão seletiva proveniente do fitness. Na geração 564, um desses elementos apresentou probabilidade igual a zero para uma das transições. Ao final das 1000 gerações, 11 elementos apresentam probabilidade zero para ao menos um dos estados.}
         \label{fig:deriva_genetica}
 \end{figure}
 
@@ -83,18 +85,18 @@ A simplicidade da equação de fitness (Equação \ref{eq:fitness}) demonstrou p
 \begin{figure}
   \centering
   \includegraphics[width=0.9\textwidth]{figures/occ_ss.pdf}
-  \caption{Desbalanceamento elementos de estrutura secundária no conjunto de dados}
+  \caption{Desbalanceamento dos elementos de estrutura secundária no conjunto de dados.}
         \label{fig:occ_ss}
 \end{figure}
 
 Os resultados obtidos indicam uma maior acurácia para os elementos de estrutura secundária mais frequentes no conjunto de treinamento. Esse é um problema recorrente no aprendizado com classes desbalanceadas e costuma ser tratado na função de fitness (Figura \ref{fig:q3}), por exemplo, com funções que fazem uma média da acurácia por classes. As alterações na função de fitness para tratar este problema são preferiveis em relação à modificações no conjunto de dados para equibrar as classes, uma vez que modificações no conjunto de dados envolveriam a retirada de informação de classes mais frequentes ou a duplicação de informação das classes menos frequentes, ambas produzindo consequências distorcivas na informação presente no conjunto de treinamento.
 
-\begin{figure}
-  \centering
-  \includegraphics[width=0.9\textwidth]{figures/q3.pdf}
-  \caption{q3}
-        \label{fig:q3}
-\end{figure}
+%\begin{figure}
+%  \centering
+%  \includegraphics[width=0.9\textwidth]{figures/q3.pdf}
+%  \caption{q3}
+%        \label{fig:q3}
+%\end{figure}
 
 % Avaliamos também se havia alguma relação aparente dos elementos preditos com os ângulos phi e psi do resíduos, o que poderia justificar parcilamente  erros nos elementos preditos. Entretanto, aparentemente não existe tal relação (figuras).
 
@@ -106,7 +108,7 @@ Os resultados obtidos indicam uma maior acurácia para os elementos de estrutura
 
 \subsection{Seleção}
 
-As ocorrência de trincas no conjunto de proteínas apresentou grande variação (Figura \ref{fig:histograma_occ}). Para avaliar a influência do número de ocorrências das trincas na seleção do EDA nós procuramos por correlações entre fatores que poderiam influenciar na seleção.
+As número de ocorrências de trincas de aminoácidos no conjunto de proteínas apresentou grande variação (Figura \ref{fig:histograma_occ}). Para avaliar a influência dessa variação no EDA nós procuramos por correlações entre fatores que poderiam influenciar na seleção.
 
 \begin{figure}
   \centering
@@ -141,29 +143,33 @@ AAA & 1682\\
 HHH & 6143\\
 \bottomrule
 \end{tabular}
-\caption{Trincas de aminoácidos menos (à esquerda) e mais (à direita) frequentes no conjunto de treinamento}
+\caption{Trincas de aminoácidos menos (à esquerda) e mais (à direita) frequentes no conjunto de treinamento.}
 \end{table}
 
 
 
-A figura \ref{fig:probG999_occXprob} representa a distribuição das probabilidades máximas e mínimas das dos elementos da regra em relação a frequência de ocorrência das trincas no conjunto. O gráfico e o valor de correlação (Spearman = 0.09) entre as probabilidades e a frequência de ocorrência das trincas,  indica não haver uma grande influência da frequência das trincas durante a seleção. Essa influência também não foi encontrada durante a evolução do EDA (Anexo).  
+A figura \ref{fig:probG999_occXprob} representa a distribuição das probabilidades máximas e mínimas dos elementos da regra em relação a frequência de ocorrência das trincas de aminoácidos no conjunto. O gráfico e o valor de correlação (Spearman = 0.09) entre as probabilidades e a frequência de ocorrência das trincas,  indica não haver uma grande influência da frequência das trincas durante a seleção. Essa influência também não foi encontrada durante a evolução do EDA (Anexo).  
+
+%incluir as figuras do anexo
 
 \begin{figure}
   \centering
   \includegraphics[width=1\textwidth]{figures/probG999_occXprob.pdf}
-  \caption{Probabilidades máximas e mínimas pelo numero de corrência das trincas}
+  \caption{Probabilidades máximas e mínimas dos elementos da regra de transição em relação ao número de ocorrência das trincas de aminoácidos.}
         \label{fig:probG999_occXprob}
 \end{figure}
 
 
-Outros fatores que poderiam influenciar a evolução do EDA seriam: \textit{(1)} a probabilidade da trinca ser observada em uma determinada estrutura secundária; \textit{(2)} o número de ocorrências da trinca em determinada estrutura secundária; \textit{(3)} a taxa de acertos por trincas para determinada estrutura secundária.     
+Outros fatores que poderiam influenciar a evolução do EDA seriam: \textit{(1)} a probabilidade da trinca ser observada em uma determinada estrutura secundária; \textit{(2)} o número de ocorrências da trinca em determinada estrutura secundária; \textit{(3)} a taxa de acertos por trincas para determinada estrutura secundária. 
 
-As probabilidades de transição dos elementos da regra, não apresentam aparente relação com as proporções encontradas para cada estrutura secundária nas trincas (Figuras H E C).Assim como não apresentaram relação com a frequência de ocorrências de determinada estrutura para uma trinca e com a proporção de trincas corretamente classificadas por estrutura secundária. Essas duas últimas relações não eram mesmo esperadas (Anexo Figuras H E C e figuras H E C). Contudo, foi interessante observar que a primeira relação aparentemente não ocorria. 
+%ta estranho essa parte    
+
+As probabilidades de transição dos elementos da regra, não apresentam aparente relação com as proporções encontradas para cada estrutura secundária nas trincas (Figura \ref{fig:relacao_prob_propss}). Assim como não apresentaram relação com a frequência de ocorrências de determinada estrutura para uma trinca e com a proporção de trincas corretamente classificadas por estrutura secundária. Essas duas últimas relações não eram mesmo esperadas (Anexo Figuras H E C e figuras H E C). Contudo, foi interessante observar que a primeira relação aparentemente não ocorria. 
 
 \begin{figure}
   \centering
   \includegraphics[width=1\textwidth]{figures/relacao_prob_propss.pdf}
-  \caption{Relação proporção de ss nas trincas x probabilidade EDA}
+  \caption{Relação entre a proporção de uma trinca de aminoácidos em determinada estrutura secundária e a probabilidade resultante da otimização utilizando EDA.}
         \label{fig:relacao_prob_propss}
 \end{figure}
 
@@ -204,27 +210,7 @@ Há também uma relação menos influente entre o número de ocorrências de uma
 
 Ambas as relações encontradas eram esperadas pois indicam uma tendência do método a privilegiar o aprendizado, ou otimizaração, de elementos capazes de influenciar com maior intensidade a função de fitness. Isso mostra a importância de manter um variabilidade alta na população e reduzir efeitos de deriva genética para que a otimização escape de mínimos locais e consiga aprender, também, as probabilidades para trincas menos frequentes nas proteínas e/ou com proporções pequenas para determinadas estruturas secundárias.
 
-
-
-
-
-
-\section{proteina?}
-
-
-
-
-
-
-A proteína Ga98 e seus mutantes, os quais sofrem alterações globais na estrutura secundária, são casos interessantes para o teste de novas metodologias de predição de estrutura secundária. Nas metodologias atuais, que comumente utilizam redes neurais, a predição é feita utilizando uma janela de resíduos, em geral com comprimentos de 9, 11 ou 13 resíduos, onde o resíduo central da janela é classificado pela rede neural. Como a predição nas demais janelas presentes na sequência polipeptídica não influencia na classificação da janela, o método apresenta a limitação de responder apenas localmente às variações dos dados de entrada.  
-
-Por outro lado, os autômatos celulares, apesar de evoluirem de acordo com regras locais, tem a capacidade de propagar as variações locais e influenciar o surgimento ou alteração de padrões globais, distantes do ponto de origem da variação. 
-
-Para avaliar a capacidade dos modelos propostos e da eficácia do método de otimização em encontrar regras capazes de reproduzir o padrão correspondente às estruturas secundárias, testamos a nossa metodologia nessas quatro proteínas.
-
-
-
-\chapter{Aprendizado das regras gerais}
+%\chapter{Aprendizado das regras gerais}
 
 
 

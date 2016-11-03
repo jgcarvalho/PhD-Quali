@@ -2,16 +2,45 @@
 
 Após a otimização das regras de transição utilizando o EDA, nós avaliamos o desempenho das regras em classificar corretamente os elementos de estrutura secundária. A regra de transição que apresentou a melhor acurácia ao longo da evolução do EDA foi utilizada em um autômato celular determinístico, onde cada elemento da regra apresenta sempre a mesma transição.
 
-Além do autômato celular determinístico, nós utilizamos as probabilidades da última geração do EDA como uma regra de transição para um autômato celular probabilístico.  
+Além do autômato celular determinístico, nós utilizamos as probabilidades da última geração do EDA como uma regra de transição para um autômato celular probabilístico. No autômato probabilístico, cada elemento da regra apresenta uma probabilidade de transitar para cada um dos estados existentes.
 
 \section{Autômato celular determinístico}
 
-Q3
+A aplicação do autômato celular determinístico no conjunto de proteínas diversas resultou em um Q3=??\%. Quando analisamos a acurácia por elementos de estrutura secundária (Qh, Qe, Qc), notamos um alto índice de acerto na predição de hélices em relação a coils e sobretudo fitas. Isso é um indício de que o maior número de resíduos em hélices tem conduzido a predição à um excessivo número de hélices. Como mencionado anteriormente, acreditamos que será necessária a alteração da função de fitness para corrigir esse resultado.
 
-curva Roc
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\textwidth]{figures/q3.pdf}
+	\caption{q3}
+	\label{fig:q3}
+\end{figure}
+
+Entretanto, avaliamos a capacidade preditiva do modelo utilizando também a curva ROC. A curva ROC de cada elemento da estrutura secundária permite avaliar como a frequência de cada estado durante a evolução do autômato celular está relacionada a estrutura correta. Assim, por exemplo, caso tivéssemos um valor de limiar qualquer para as frequências de hélice onde acima do limiar a estrutura secundária atribuída fosse uma hélice, a área sob a curva ROC (AUC) seria igual a 1. Caso o preditor fosse randômico teríamos uma AUC próxima a 0.5. 
+
+A área sob a curva ROC nos fornece informação sobre como a frequência de estados de cada elemento de estrutura secundária comporta-se em relação a estrutura secundária atribuída. Os valores obtidos ($AUC > 0.7$) indica que as frequências tendem a possuir valores maiores para elementos de estrutura secundária corretos.
+
+figuras das curva roc   
+
+% Problema: Pode ser que esse não seja a melhor maneira de calcular a ROC para as 3 classes. Sugestão, calcular a ROC curve como a diferença entre o valor de hélice até o maior valor de frequencia, exceto hélice. Esse será o valor que será analisado. Comparar as ROC curves.    
+
+% Outra forma de construirmos a curva ROC é utilizar a diferença entre a frequência do estado correto na evolução do autômato e a frequência do maior estado incorreto. Continuar a aplicação e inserir novas figuras de curva ROC 
+
 
 \section{Autômato celular probabilístico}
 
+
+
 Q3
 
 curva Roc
+
+
+\section{proteina?}
+
+
+
+A proteína Ga98 e seus mutantes, os quais sofrem alterações globais na estrutura secundária, são casos interessantes para o teste de novas metodologias de predição de estrutura secundária. Nas metodologias atuais, que comumente utilizam redes neurais, a predição é feita utilizando uma janela de resíduos, em geral com comprimentos de 9, 11 ou 13 resíduos, onde o resíduo central da janela é classificado pela rede neural. Como a predição nas demais janelas presentes na sequência polipeptídica não influencia na classificação da janela, o método apresenta a limitação de responder apenas localmente às variações dos dados de entrada.  
+
+Por outro lado, os autômatos celulares, apesar de evoluirem de acordo com regras locais, tem a capacidade de propagar as variações locais e influenciar o surgimento ou alteração de padrões globais, distantes do ponto de origem da variação. 
+
+Para avaliar a capacidade dos modelos propostos e da eficácia do método de otimização em encontrar regras capazes de reproduzir o padrão correspondente às estruturas secundárias, testamos a nossa metodologia nessas quatro proteínas.
