@@ -24,14 +24,14 @@
 \BOOKMARK [-1][]{part.3}{Resultados}{}% 24
 \BOOKMARK [0][]{chapter.6}{6 Aprendizado de regras de transi\347\343o}{part.3}% 25
 \BOOKMARK [1][-]{section.6.1}{6.1 Aut\364mato celular}{chapter.6}% 26
-\BOOKMARK [1][-]{section.6.2}{6.2 EDA}{chapter.6}% 27
+\BOOKMARK [1][-]{section.6.2}{6.2 An\341lise do desempenho do EDA implementado}{chapter.6}% 27
 \BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 Deriva gen\351tica}{section.6.2}% 28
 \BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 Fun\347\343o de fitness}{section.6.2}% 29
-\BOOKMARK [2][-]{subsection.6.2.3}{6.2.3 Sele\347\343o}{section.6.2}% 30
+\BOOKMARK [2][-]{subsection.6.2.3}{6.2.3 Fatores que influenciam no m\351todo de sele\347\343o do EDA}{section.6.2}% 30
 \BOOKMARK [0][]{chapter.7}{7 Aplica\347\343o das regras de transi\347\343o}{part.3}% 31
 \BOOKMARK [1][-]{section.7.1}{7.1 Aut\364mato celular determin\355stico}{chapter.7}% 32
 \BOOKMARK [1][-]{section.7.2}{7.2 Aut\364mato celular probabil\355stico}{chapter.7}% 33
-\BOOKMARK [1][-]{section.7.3}{7.3 Aplica\347\343o da regra de transi\347\343o generalizada ao conjunto de prote\355nas com alta identidade sequencia e diferentes estruturas}{chapter.7}% 34
+\BOOKMARK [1][-]{section.7.3}{7.3 Aplica\347\343o da regra de transi\347\343o generalizada ao conjunto de prote\355nas com alta identidade sequencial e diferentes estruturas}{chapter.7}% 34
 \BOOKMARK [-1][]{part.4}{Perspectivas futuras}{}% 35
 \BOOKMARK [0][]{chapter.8}{8 Perspectivas futuras}{part.4}% 36
 \BOOKMARK [1][-]{subsection.8.0.1}{8.0.1 Fun\347\343o de fitness}{chapter.8}% 37

@@ -34,7 +34,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12089 items from 5000.
+Reallocated field_info (elt_size=4) to 12506 items from 5000.
 Database file #1: ClassicThesis-blx.bib
 Database file #2: bibliografia.bib
 Database file #3: AMiede_Publications.bib
@@ -66,45 +66,45 @@ Warning--I didn't find a database entry for "Alexander2009"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 26 entries,
+You've used 29 entries,
             6047 wiz_defined-function locations,
-            1496 strings with 43453 characters,
-and the built_in function-call counts, 77420 in all, are:
-= -- 2583
-> -- 2426
-< -- 470
-+ -- 699
-- -- 1027
-* -- 6687
-:= -- 4708
+            1523 strings with 46226 characters,
+and the built_in function-call counts, 85461 in all, are:
+= -- 2852
+> -- 2663
+< -- 518
++ -- 756
+- -- 1119
+* -- 7293
+:= -- 5162
 add.period$ -- 0
-call.type$ -- 26
-change.case$ -- 193
+call.type$ -- 29
+change.case$ -- 214
 chr.to.int$ -- 54
-cite$ -- 50
-duplicate$ -- 9031
-empty$ -- 8762
-format.name$ -- 1757
-if$ -- 16858
+cite$ -- 56
+duplicate$ -- 10001
+empty$ -- 9713
+format.name$ -- 1928
+if$ -- 18648
 int.to.chr$ -- 0
-int.to.str$ -- 54
+int.to.str$ -- 60
 missing$ -- 0
-newline$ -- 1006
-num.names$ -- 978
-pop$ -- 7907
+newline$ -- 1096
+num.names$ -- 1092
+pop$ -- 8849
 preamble$ -- 1
-purify$ -- 297
+purify$ -- 327
 quote$ -- 0
-skip$ -- 4049
+skip$ -- 4498
 stack$ -- 0
-substring$ -- 1238
-swap$ -- 3536
-text.length$ -- 532
+substring$ -- 1325
+swap$ -- 3879
+text.length$ -- 586
 text.prefix$ -- 10
 top$ -- 1
-type$ -- 976
+type$ -- 1090
 warning$ -- 0
-while$ -- 525
+while$ -- 575
 width$ -- 0
-write$ -- 979
+write$ -- 1066
 (There was 1 error message)

@@ -6,11 +6,15 @@ Nas seções seguintes mostraremos resultados da capacidade de autômatos celula
 
 \section{Autômato celular}
 
-A comparação entre os modelos de autômatos celulares foram realizadas primeiramente, e até o momento, apenas no conjunto de proteínas com alta identidade sequencial. A escolha desse conjunto para os testes dos autômatos celulares baseou-se na facilidade de observar e analisar a formação e propagação dos elementos de estruturas secundárias nessas proteínas. É importante ressaltar que ao otimizarmos as regras de transição para este conjunto restrito de proteínas, nosso objetivo é avaliar a capacidade dos modelos propostos de autômatos celulares em recuperar corretamente a estrutura secundária atribuída aos resíduos.   
+Os modelos de autômatos celulares foram testados, até o momento,  no conjunto de proteínas com alta identidade sequencial, mas com grandes diferenças de estrutura secundária, que o torna um problema desafiador. A escolha desse conjunto para os testes dos autômatos celulares baseou-se, também, na facilidade de analisar e visualizar a formação e propagação dos elementos de estruturas secundárias nessas proteínas, pelo fato de serem pequenas.
 
-O modelo idealizado para o autômato celular deveria ter a capacidade de propagar sinais locais ao longo da sequência, e assim, resultar na formação de padrões globais. Tal capacidade está relacionada aos estados que ocorrem durante a evolução do autômato celular, sendo dependentes do número de estados possíveis e também do tamanho da vizinhança utilizada. Como todos os autômatos celulares propostos tem vizinhança 1 por questões de complexidade (Seção \ref{sssec:ca}), a capacidade de formar e propagar os sinais será dependente apenas dos estados possíveis do autômato celular.
+%A comparação entre os modelos de autômatos celulares foram realizadas primeiramente, e até o momento, apenas no conjunto de proteínas com alta identidade sequencial. A escolha desse conjunto para os testes dos autômatos celulares baseou-se na facilidade de observar e analisar a formação e propagação dos elementos de estruturas secundárias nessas proteínas. É importante ressaltar que ao otimizarmos as regras de transição para este conjunto restrito de proteínas, nosso objetivo é avaliar a capacidade dos modelos propostos de autômatos celulares em recuperar corretamente a estrutura secundária atribuída aos resíduos.   
 
-Ao otimizarmos as regras apenas para 
+O modelo idealizado para o autômato celular deveria ter a capacidade de propagar sinais locais ao longo da sequência, e assim, resultar na formação de padrões globais. Tal capacidade está relacionada aos estados que ocorrem durante a evolução do autômato celular, sendo dependentes do número de estados possíveis e também do tamanho da vizinhança utilizada. Como todos os autômatos celulares propostos tem vizinhança 1 (Seção \ref{sssec:ca}), a capacidade de formar e propagar os sinais será dependente apenas dos estados possíveis do autômato celular.
+
+%PSLO Zé essa frase está um pouco confusa: "Como todos os autômatos celulares propostos tem vizinhança 1 (um) por questões de complexidade (ver ref metodos), a capacidade de formar e propagar os sinais será dependente apenas dos estados possíveis do autômato celular."
+
+%Ao otimizarmos as regras apenas para 
 
 Entre os quatro modelos testados, o número de estados para os elementos de estrutura secundária demonstrou relação com a acurácia do modelo. Assim, CAs com estados de elementos de estrutura secundária que conservam mais características dos resíduos mostraram-se mais promissores (Figura \ref{fig:ca_errors}).
 
@@ -36,7 +40,7 @@ Entre os quatro modelos testados, o número de estados para os elementos de estr
 \end{figure}
 
 
-\section{EDA}
+\section{Análise do desempenho do EDA implementado}
 
 O aprendizado das regras realizado através de um algoritmo de EDA distribuído demonstrou-se eficiente dado a complexidade do problema. Utilizando sete nós (448 núcleos) no cluster de computação de alto desempenho EMU-2 (adquirido pelo "Programa de Equipamento  Multiusuário da FAPESP-2009", 2009/53853-5, localizado no Centro Internacional de Pesquisa e Ensino do Hospital A. C. Camargo em  São Paulo) foi possível evoluir o EDA por 1000 gerações com 10000 indivíduos em pouco menos de duas semanas.
 
@@ -71,12 +75,17 @@ O elementos [\#][\textit{x}][\#], onde o \textit{x} correponde a qualquer estado
 
 Na geração 564 um desses 38 elementos apresentou probabilidade zero ($p=0$), de transitar para um dos quatro estados possíveis, indicando a eliminação de um gene da população por deriva genética. Ao final das 1000 gerações 11 dos 38 elementos apresentavam probabilidade zero para uma das transições (Figura \ref{fig:deriva_genetica}).
 
+%PSLO Zé vc pode trabalhar um pouco mais no texto dessa seção. Eu pelo menos não achei as conclusões muito óbvias
+
 \begin{figure}
   \centering
   \includegraphics[width=1\textwidth]{figures/deriva_genetica.pdf}
   \caption{Gráfico que indica efeitos de deriva genética através da amostragem de 38 elementos que não sofrem pressão seletiva proveniente do fitness. Na geração 564, um desses elementos apresentou probabilidade igual a zero para uma das transições. Ao final das 1000 gerações, 11 elementos apresentam probabilidade zero para ao menos um dos estados.}
         \label{fig:deriva_genetica}
 \end{figure}
+
+% PSLO Zé vamos tentar usar uma tradução para fitness. Senão me engano no capítulo 5 sugeri função de pontuação dos individuos
+
 
 \subsection{Função de fitness}
 
@@ -106,7 +115,7 @@ Os resultados obtidos indicam uma maior acurácia para os elementos de estrutura
 
 %Outra modificação possível na função de fitness seria buscar a maximização da frequência dos estados durante a evolução do autômato.  
 
-\subsection{Seleção}
+\subsection{Fatores que influenciam no método de seleção do EDA}
 
 As número de ocorrências de trincas de aminoácidos no conjunto de proteínas apresentou grande variação (Figura \ref{fig:histograma_occ}). Para avaliar a influência dessa variação no EDA nós procuramos por correlações entre fatores que poderiam influenciar na seleção.
 
@@ -164,7 +173,9 @@ Outros fatores que poderiam influenciar a evolução do EDA seriam: \textit{(1)}
 
 %ta estranho essa parte    
 
-As probabilidades de transição dos elementos da regra, não apresentam aparente relação com as proporções encontradas para cada estrutura secundária nas trincas (Figura \ref{fig:relacao_prob_propss}). Assim como não apresentaram relação com a frequência de ocorrências de determinada estrutura para uma trinca e com a proporção de trincas corretamente classificadas por estrutura secundária. Essas duas últimas relações não eram mesmo esperadas (Anexo Figuras H E C e figuras H E C). Contudo, foi interessante observar que a primeira relação aparentemente não ocorria. 
+As probabilidades de transição dos elementos da regra, não apresentam aparente relação com as proporções encontradas para cada estrutura secundária nas trincas (Figura \ref{fig:relacao_prob_propss}). Assim como não apresentaram relação com a frequência de ocorrências de determinada estrutura para uma trinca e com a proporção de trincas corretamente classificadas por estrutura secundária. Essas duas últimas relações não eram mesmo esperadas (Anexo Figuras H E C e figuras H E C). Contudo, foi interessante observar que a primeira relação aparentemente não ocorria.
+
+%PSLO Para uma taxa de acertos maior eu deveria esperar que acontece uma correlação alta entre a probabilidade gerada pelo EDA para uma dada regra para uma certa estrutura secundaria específica.   
 
 \begin{figure}
   \centering
@@ -208,7 +219,7 @@ Há também uma relação menos influente entre o número de ocorrências de uma
   \caption{Correlação (Spearman) entre a proporção de acertos na predição e: (1) proporção das trincas nas estruturas secundárias, (2) número de ocorrências das trincas nas estruturas secundárias}
 \end{table}
 
-Ambas as relações encontradas eram esperadas pois indicam uma tendência do método a privilegiar o aprendizado, ou otimizaração, de elementos capazes de influenciar com maior intensidade a função de fitness. Isso mostra a importância de manter um variabilidade alta na população e reduzir efeitos de deriva genética para que a otimização escape de mínimos locais e consiga aprender, também, as probabilidades para trincas menos frequentes nas proteínas e/ou com proporções pequenas para determinadas estruturas secundárias.
+Ambas as relações encontradas eram esperadas pois indicam uma tendência do método a privilegiar o aprendizado, ou otimização, de elementos capazes de influenciar com maior intensidade a função de fitness. Isso mostra a importância de manter um variabilidade alta na população e reduzir efeitos de deriva genética para que a otimização escape de mínimos locais e consiga aprender, também, as probabilidades para trincas menos frequentes nas proteínas e/ou com proporções pequenas para determinadas estruturas secundárias.
 
 %\chapter{Aprendizado das regras gerais}
 

@@ -1355,6 +1355,121 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Kumar2012}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Kumar}{K.}%
+     {MN~N}{M.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sheshadri}{S.}%
+     {HS~S}{H.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {KumarM.N}{K.}%
+     {Arun}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{S. Sheshadri}}{S.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{classification,imbalanced data sets,microcalcification}
+  \strng{namehash}{KMN+1}
+  \strng{fullhash}{KMNSHSKASH1}
+  \field{abstract}{%
+  In recent research the classifications of imbalanced data sets have received
+  considerable attention. It is natural that due to the class imbalance the
+  classifier tends to favour majority class. In this paper we investigate the
+  performance of different methods for handling data imbalance in the
+  microcalcification classification which is a classical example for data
+  imbalance problem. Micro calcifications are very tiny deposits of calcium
+  that appear as small bright spots in the mammogram. Classification of
+  microcalcification clusters from mammograms plays an important role in
+  computer-aided diagnosis for early detection of breast cancer. In this paper,
+  we review in brief the state of the art techniques in the framework of
+  imbalanced data sets and investigate the performance of different methods for
+  microcalcification classification.%
+  }
+  \verb{doi}
+  \verb 10.5120/6280-8449
+  \endverb
+  \field{issn}{09758887}
+  \field{number}{8}
+  \field{pages}{1\bibrangedash 7}
+  \field{title}{{On the Classification of Imbalanced Datasets.}}
+  \verb{url}
+  \verb http://search.ebscohost.com/login.aspx?direct=true{\&}profile=ehost{\&}
+  \verb scope=site{\&}authtype=crawler{\&}jrnl=09758887{\&}AN=76914246{\&}h=sQs
+  \verb Tir4lp/1vpvCDoPYumuQduz9yCNsQXIXwnPEOMjhJreNdJc06Iog5SANw/uFs06keg8yXpm
+  \verb ad+AI57toLBw=={\&}crl=c{\%}5Cnfile:///C:/Users/ehsan.azhdari/AppDa
+  \endverb
+  \field{volume}{44}
+  \field{journaltitle}{International Journal of {\ldots}}
+  \field{year}{2012}
+\endentry
+
+\entry{Gorodkin2004}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Gorodkin}{G.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GJ1}
+  \strng{fullhash}{GJ1}
+  \field{abstract}{%
+  Predicted assignments of biological sequences are often evaluated by Matthews
+  correlation coefficient. However, Matthews correlation coefficient applies
+  only to cases where the assignments belong to two categories, and cases with
+  more than two categories are often artificially forced into two categories by
+  considering what belongs and what does not belong to one of the categories,
+  leading to the loss of information. Here, an extended correlation coefficient
+  that applies to K-categories is proposed, and this measure is shown to be
+  highly applicable for evaluating prediction of RNA secondary structure in
+  cases where some predicted pairs go into the category “unknown” due to
+  lack of reliability in predicted pairs or unpaired residues. Hence,
+  predicting base pairs of RNA secondary structure can be a three-category
+  problem. The measure is further shown to be well in agreement with existing
+  performance measures used for ranking protein secondary structure
+  predictions. Server and software is available at http://rk.kvl.dk/%
+  }
+  \verb{doi}
+  \verb 10.1016/j.compbiolchem.2004.09.006
+  \endverb
+  \field{issn}{14769271}
+  \field{number}{5}
+  \field{pages}{367\bibrangedash 374}
+  \field{title}{{Comparing two K-category assignments by a K-category
+  correlation coefficient}}
+  \field{volume}{28}
+  \field{journaltitle}{Computational Biology and Chemistry}
+  \field{year}{2004}
+\endentry
+
+\entry{Mosley2013}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Mosley}{M.}%
+     {Lawrence}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ML1}
+  \strng{fullhash}{ML1}
+  \field{title}{{A balanced approach to the multi-class imbalance problem}}
+  \verb{url}
+  \verb http://lib.dr.iastate.edu/etd/13537
+  \endverb
+  \field{journaltitle}{Graduate Theses and Dissertations}
+  \field{year}{2013}
+\endentry
+
 \lossort
 \endlossort
 
