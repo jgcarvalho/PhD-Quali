@@ -18,42 +18,54 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Figura representando o design dos dom\IeC {\'\i }nios. Os res\IeC {\'\i }duos em azul s\IeC {\~a}o as muta\IeC {\c c}\IeC {\~o}es introduzidas, esses res\IeC {\'\i }duos s\IeC {\~a}o id\IeC {\^e}nticos em ambas as sequ\IeC {\^e}ncias. Em vermelho est\IeC {\~a}o os res\IeC {\'\i }duos diferentes (Figura extra\IeC {\'\i }da de \cite {Alexander2007})\relax }}{17}{figure.caption.9}
+\contentsline {figure}{\numberline {1}{\ignorespaces Figura representando o design dos dom\IeC {\'\i }nios. Os res\IeC {\'\i }duos em azul s\IeC {\~a}o as muta\IeC {\c c}\IeC {\~o}es introduzidas, esses res\IeC {\'\i }duos s\IeC {\~a}o id\IeC {\^e}nticos em ambas as sequ\IeC {\^e}ncias. Em vermelho est\IeC {\~a}o os res\IeC {\'\i }duos diferentes (Figura extra\IeC {\'\i }da de \cite {Alexander2007})\relax }}{17}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Alinhamento das sequ\IeC {\^e}ncias de res\IeC {\'\i }duos mostrando as muta\IeC {\c c}o\IeC {\~o}es que ocasionaram as mudan\IeC {\c c}as entre as topologias $3\alpha $ e $4\alpha +\beta $ e os modelos estruturas indicando as posi\IeC {\c c}\IeC {\~o}es das muta\IeC {\c c}\IeC {\~o}es (Figura adaptada de \cite {He2012})\relax }}{17}{figure.caption.10}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Esquema da regra simples\relax }}{19}{figure.caption.11}
+\contentsline {figure}{\numberline {2}{\ignorespaces Alinhamento das sequ\IeC {\^e}ncias de res\IeC {\'\i }duos mostrando as muta\IeC {\c c}o\IeC {\~o}es que ocasionaram as mudan\IeC {\c c}as entre as topologias $3\alpha $ e $4\alpha +\beta $ e os modelos estruturas indicando as posi\IeC {\c c}\IeC {\~o}es das muta\IeC {\c c}\IeC {\~o}es (Figura adaptada de \cite {He2012})\relax }}{17}{figure.caption.8}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o de aut\IeC {\^o}matos celulares com diferentes estados. O gr\IeC {\'a}fico mostra propor\IeC {\c c}\IeC {\~a}o de elementos preditos para cada um dos elementos da estrutura experimental. Em (a) os resultados obtidos por um aut\IeC {\^o}mato celular que utiliza apenas 3 estados (H,E,C) para as estruturas secund\IeC {\'a}rias. Em (b) um aut\IeC {\^o}mato que apresenta 6 estados, acrescentando as caracter\IeC {\'\i }sticas de hidrofobicidade do res\IeC {\'\i }duo (hidrof\IeC {\'o}bico/hidrof\IeC {\'\i }lico) aos estados de estrutura secund\IeC {\'a}ria. Em (c), um aut\IeC {\^o}mato celular que apresenta 12 estados ap\IeC {\'o}s a adi\IeC {\c c}\IeC {\~a}o de Gly e Pro como caracter\IeC {\'\i }sticas especias das estruturas secund\IeC {\'a}rias. E por fim, em (d), um aut\IeC {\^o}mato celular com 18 estados para as estruturas secund\IeC {\'a}rias onde os estados carregam as caracter\IeC {\'\i }sticas hidrof\IeC {\'o}bico, hidrof\IeC {\'\i }lico, glicina, prolina e res\IeC {\'\i }duos carregados positivamente e negativamente.\relax }}{26}{figure.caption.13}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5}{\ignorespaces Modelos estruturais das prote\IeC {\'\i }nas Ga98 (PDB ID: 2LHC) e GB98-T25I (PDB ID: 2LHG) que possuem a topologia de feixe de h\IeC {\'e}lices alpha. As cores representam as frequ\IeC {\^e}ncias dos estados durante a evolu\IeC {\c c}\IeC {\~a}o do aut\IeC {\^o}mato celular num gradiente do vermelho, 100\%, ao azul, 0\%. Cada elemento de estrutura secund\IeC {\'a}ria (h\IeC {\'e}lice, fita e coil) corresponde a uma coluna da figura. Notamos que a h\IeC {\'e}lice 2 (intermedi\IeC {\'a}ria) demonstra alta frequ\IeC {\^e}ncia do estado de h\IeC {\'e}lice no aut\IeC {\^o}mato celular ap\IeC {\'o}s 10000 passos. As outras duas h\IeC {\'e}lices apresentam frequ\IeC {\^e}ncias menores em rela\IeC {\c c}\IeC {\~a}o a h\IeC {\'e}lice 2, mas maiores que os outros estados. Entre os res\IeC {\'\i }duos de conex\IeC {\~a}o entre as h\IeC {\'e}lices, aparecem alguns com grande frequ\IeC {\^e}ncia de estados coil. Nas regi\IeC {\~o}es N e C terminais, h\IeC {\'a} uma maior frequ\IeC {\^e}ncia de fitas e coils, em rela\IeC {\c c}\IeC {\~a}o \IeC {\`a} h\IeC {\'e}lices. O aut\IeC {\^o}mato celular utilizado possui os estados HP+GP+Carregados.\relax }}{27}{figure.caption.14}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces Modelos estruturais das prote\IeC {\'\i }nas GB98 (PDB ID: 2LHD) e GB98-T25I,L20A (PDB ID: 2LHE) que apresentam a topologia de 4 fitas beta e h\IeC {\'e}lice alpha. As cores representam as frequ\IeC {\^e}ncias dos estados durante a evolu\IeC {\c c}\IeC {\~a}o do aut\IeC {\^o}mato celular num gradiente do vermelho, 100\%, ao azul, 0\%. Cada elemento de estrutura secund\IeC {\'a}ria (h\IeC {\'e}lice, fita e coil) corresponde a uma coluna da figura. Notamos que a h\IeC {\'e}lice demonstra alta frequ\IeC {\^e}ncia do estado de h\IeC {\'e}lice no aut\IeC {\^o}mato celular ap\IeC {\'o}s 10000 passos. As fitas apresentam uma frequ\IeC {\^e}ncia tanto estados de h\IeC {\'e}lices como de fitas, exceto a fita 1 que apresenta baixa frequ\IeC {\^e}ncia de h\IeC {\'e}lices e maior frequ\IeC {\^e}ncia de fitas. A regi\IeC {\~o}es de conex\IeC {\~a}o entre as fitas e da h\IeC {\'e}lice com as fitas apresentam maior frequ\IeC {\^e}ncia de coils. O aut\IeC {\^o}mato celular utilizado possui os estados HP+GP+Carregados.\relax }}{28}{figure.caption.15}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces Gr\IeC {\'a}fico que representa o fitness m\IeC {\'e}dio da popula\IeC {\c c}\IeC {\~a}o de regras candidatas e da melhor regra ao longo de 1000 gera\IeC {\c c}\IeC {\~o}es do EDA.\relax }}{30}{figure.caption.16}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8}{\ignorespaces Gr\IeC {\'a}fico que indica efeitos de deriva gen\IeC {\'e}tica atrav\IeC {\'e}s da amostragem de 38 elementos que n\IeC {\~a}o sofrem press\IeC {\~a}o seletiva proveniente do fitness. Na gera\IeC {\c c}\IeC {\~a}o 564, um desses elementos apresentou probabilidade igual a zero para uma das transi\IeC {\c c}\IeC {\~o}es. Ao final das 1000 gera\IeC {\c c}\IeC {\~o}es, 11 elementos apresentam probabilidade zero para ao menos um dos estados.\relax }}{31}{figure.caption.17}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9}{\ignorespaces Desbalanceamento elementos de estrutura secund\IeC {\'a}ria no conjunto de dados\relax }}{31}{figure.caption.18}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10}{\ignorespaces q3\relax }}{32}{figure.caption.19}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11}{\ignorespaces Histograma de ocorrencia das trincas\relax }}{32}{figure.caption.20}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12}{\ignorespaces Probabilidades m\IeC {\'a}ximas e m\IeC {\'\i }nimas pelo numero de corr\IeC {\^e}ncia das trincas\relax }}{33}{figure.caption.22}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {13}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o propor\IeC {\c c}\IeC {\~a}o de ss nas trincas x probabilidade EDA\relax }}{34}{figure.caption.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {14}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o propor\IeC {\c c}\IeC {\~a}o de acertos x probabilidade EDA\relax }}{34}{figure.caption.24}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {15}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o ocorrencias das ss por trincas x probabilidade EDA\relax }}{35}{figure.caption.25}
+\contentsline {figure}{\numberline {3}{\ignorespaces Esquema da regra simples\relax }}{19}{figure.caption.9}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o de aut\IeC {\^o}matos celulares com diferentes estados. O gr\IeC {\'a}fico mostra propor\IeC {\c c}\IeC {\~a}o de elementos preditos para cada um dos elementos da estrutura experimental. Em (a) os resultados obtidos por um aut\IeC {\^o}mato celular que utiliza apenas 3 estados (H,E,C) para as estruturas secund\IeC {\'a}rias. Em (b) um aut\IeC {\^o}mato que apresenta 6 estados, acrescentando as caracter\IeC {\'\i }sticas de hidrofobicidade do res\IeC {\'\i }duo (hidrof\IeC {\'o}bico/hidrof\IeC {\'\i }lico) aos estados de estrutura secund\IeC {\'a}ria. Em (c), um aut\IeC {\^o}mato celular que apresenta 12 estados ap\IeC {\'o}s a adi\IeC {\c c}\IeC {\~a}o de Gly e Pro como caracter\IeC {\'\i }sticas especias das estruturas secund\IeC {\'a}rias. E por fim, em (d), um aut\IeC {\^o}mato celular com 18 estados para as estruturas secund\IeC {\'a}rias onde os estados carregam as caracter\IeC {\'\i }sticas hidrof\IeC {\'o}bico, hidrof\IeC {\'\i }lico, glicina, prolina e res\IeC {\'\i }duos carregados positivamente e negativamente.\relax }}{26}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5}{\ignorespaces Modelos estruturais das prote\IeC {\'\i }nas Ga98 (PDB ID: 2LHC) e GB98-T25I (PDB ID: 2LHG) que possuem a topologia de feixe de h\IeC {\'e}lices alpha. As cores representam as frequ\IeC {\^e}ncias dos estados durante a evolu\IeC {\c c}\IeC {\~a}o do aut\IeC {\^o}mato celular num gradiente do vermelho, 100\%, ao azul, 0\%. Cada elemento de estrutura secund\IeC {\'a}ria (h\IeC {\'e}lice, fita e coil) corresponde a uma coluna da figura. Notamos que a h\IeC {\'e}lice 2 (intermedi\IeC {\'a}ria) demonstra alta frequ\IeC {\^e}ncia do estado de h\IeC {\'e}lice no aut\IeC {\^o}mato celular ap\IeC {\'o}s 10000 passos. As outras duas h\IeC {\'e}lices apresentam frequ\IeC {\^e}ncias menores em rela\IeC {\c c}\IeC {\~a}o a h\IeC {\'e}lice 2, mas maiores que os outros estados. Entre os res\IeC {\'\i }duos de conex\IeC {\~a}o entre as h\IeC {\'e}lices, aparecem alguns com grande frequ\IeC {\^e}ncia de estados coil. Nas regi\IeC {\~o}es N e C terminais, h\IeC {\'a} uma maior frequ\IeC {\^e}ncia de fitas e coils, em rela\IeC {\c c}\IeC {\~a}o \IeC {\`a} h\IeC {\'e}lices. O aut\IeC {\^o}mato celular utilizado possui os estados HP+GP+Carregados.\relax }}{27}{figure.caption.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6}{\ignorespaces Modelos estruturais das prote\IeC {\'\i }nas GB98 (PDB ID: 2LHD) e GB98-T25I,L20A (PDB ID: 2LHE) que apresentam a topologia de 4 fitas beta e h\IeC {\'e}lice alpha. As cores representam as frequ\IeC {\^e}ncias dos estados durante a evolu\IeC {\c c}\IeC {\~a}o do aut\IeC {\^o}mato celular num gradiente do vermelho, 100\%, ao azul, 0\%. Cada elemento de estrutura secund\IeC {\'a}ria (h\IeC {\'e}lice, fita e coil) corresponde a uma coluna da figura. Notamos que a h\IeC {\'e}lice demonstra alta frequ\IeC {\^e}ncia do estado de h\IeC {\'e}lice no aut\IeC {\^o}mato celular ap\IeC {\'o}s 10000 passos. As fitas apresentam uma frequ\IeC {\^e}ncia tanto estados de h\IeC {\'e}lices como de fitas, exceto a fita 1 que apresenta baixa frequ\IeC {\^e}ncia de h\IeC {\'e}lices e maior frequ\IeC {\^e}ncia de fitas. A regi\IeC {\~o}es de conex\IeC {\~a}o entre as fitas e da h\IeC {\'e}lice com as fitas apresentam maior frequ\IeC {\^e}ncia de coils. O aut\IeC {\^o}mato celular utilizado possui os estados HP+GP+Carregados.\relax }}{28}{figure.caption.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7}{\ignorespaces Gr\IeC {\'a}fico que representa o fitness m\IeC {\'e}dio da popula\IeC {\c c}\IeC {\~a}o de regras candidatas e da melhor regra ao longo de 1000 gera\IeC {\c c}\IeC {\~o}es do EDA.\relax }}{30}{figure.caption.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8}{\ignorespaces Gr\IeC {\'a}fico que indica efeitos de deriva gen\IeC {\'e}tica atrav\IeC {\'e}s da amostragem de 38 elementos que n\IeC {\~a}o sofrem press\IeC {\~a}o seletiva proveniente do fitness. Na gera\IeC {\c c}\IeC {\~a}o 564, um desses elementos apresentou probabilidade igual a zero para uma das transi\IeC {\c c}\IeC {\~o}es. Ao final das 1000 gera\IeC {\c c}\IeC {\~o}es, 11 elementos apresentam probabilidade zero para ao menos um dos estados.\relax }}{31}{figure.caption.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9}{\ignorespaces Desbalanceamento dos elementos de estrutura secund\IeC {\'a}ria no conjunto de dados.\relax }}{31}{figure.caption.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10}{\ignorespaces Histograma de ocorrencia das trincas\relax }}{32}{figure.caption.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11}{\ignorespaces Probabilidades m\IeC {\'a}ximas e m\IeC {\'\i }nimas dos elementos da regra de transi\IeC {\c c}\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de ocorr\IeC {\^e}ncia das trincas de amino\IeC {\'a}cidos.\relax }}{33}{figure.caption.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o entre a propor\IeC {\c c}\IeC {\~a}o de uma trinca de amino\IeC {\'a}cidos em determinada estrutura secund\IeC {\'a}ria e a probabilidade resultante da otimiza\IeC {\c c}\IeC {\~a}o utilizando EDA.\relax }}{33}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {13}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o propor\IeC {\c c}\IeC {\~a}o de acertos x probabilidade EDA\relax }}{34}{figure.caption.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {14}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o ocorrencias das ss por trincas x probabilidade EDA\relax }}{34}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {15}{\ignorespaces q3\relax }}{36}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {16}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para coils contru\IeC {\'\i }do a partir dos resultados do CA determin\IeC {\'\i }stico.\relax }}{37}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {17}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para h\IeC {\'e}lices contru\IeC {\'\i }do a partir dos resultados do CA determin\IeC {\'\i }stico.\relax }}{37}{figure.caption.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {18}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para fitas contru\IeC {\'\i }do a partir dos resultados do CA determin\IeC {\'\i }stico.\relax }}{38}{figure.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {19}{\ignorespaces q3 prob\relax }}{38}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {20}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para coils contru\IeC {\'\i }do a partir dos resultados do CA probabil\IeC {\'\i }stico.\relax }}{39}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {21}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para h\IeC {\'e}lices contru\IeC {\'\i }do a partir dos resultados do CA probabil\IeC {\'\i }stico.\relax }}{39}{figure.caption.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {22}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para fitas contru\IeC {\'\i }do a partir dos resultados do CA probabil\IeC {\'\i }stico.\relax }}{40}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

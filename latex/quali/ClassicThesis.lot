@@ -18,20 +18,20 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {1}{\ignorespaces N\IeC {\'u}mero de cadeias presentes no banco de dados Top8000 (Richardson Lab) e n\IeC {\'u}mero de cadeias utilizadas neste trabalho ap\IeC {\'o}s a exclus\IeC {\~a}o de cadeias que apresentaram algum problema durante a atribui\IeC {\c c}\IeC {\~a}o da estrutura secund\IeC {\'a}ria ou que possuiam res\IeC {\'\i }duos indeterminados.\relax }}{16}{table.caption.8}
+\contentsline {table}{\numberline {1}{\ignorespaces N\IeC {\'u}mero de cadeias presentes no banco de dados Top8000 (Richardson Lab) e n\IeC {\'u}mero de cadeias utilizadas neste trabalho ap\IeC {\'o}s a exclus\IeC {\~a}o de cadeias que apresentaram algum problema durante a atribui\IeC {\c c}\IeC {\~a}o da estrutura secund\IeC {\'a}ria ou que possuiam res\IeC {\'\i }duos indeterminados.\relax }}{16}{table.caption.6}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2}{\ignorespaces Tabelas resumindos os modelos utilizados. A regra simples n\IeC {\~a}o conserva nenhuma caracter\IeC {\'\i }stica do res\IeC {\'\i }duo original quando muda para um estado de estrutura secund\IeC {\'a}ria. A regra HP conserva a informa\IeC {\c c}\IeC {\~a}o sobre a hidrofobicidade do res\IeC {\'\i }duo. A regra HP+GP conserva a hidrofobicidade, mas diferencia glicinas e prolinas dos demais res\IeC {\'\i }duos. A regra HP+GP+C diferencia tamb\IeC {\'e}m res\IeC {\'\i }duos carregados positivamente e negativamente. A complexidade refere-se ao aumento do n\IeC {\'u}mero de elementos da regra em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de elementos da regra inicial.\relax }}{21}{table.caption.12}
+\contentsline {table}{\numberline {2}{\ignorespaces Tabelas resumindos os modelos utilizados. A regra simples n\IeC {\~a}o conserva nenhuma caracter\IeC {\'\i }stica do res\IeC {\'\i }duo original quando muda para um estado de estrutura secund\IeC {\'a}ria. A regra HP conserva a informa\IeC {\c c}\IeC {\~a}o sobre a hidrofobicidade do res\IeC {\'\i }duo. A regra HP+GP conserva a hidrofobicidade, mas diferencia glicinas e prolinas dos demais res\IeC {\'\i }duos. A regra HP+GP+C diferencia tamb\IeC {\'e}m res\IeC {\'\i }duos carregados positivamente e negativamente. A complexidade refere-se ao aumento do n\IeC {\'u}mero de elementos da regra em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de elementos da regra inicial.\relax }}{21}{table.caption.10}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3}{\ignorespaces Trincas de amino\IeC {\'a}cidos menos (\IeC {\`a} esquerda) e mais (\IeC {\`a} direita) frequentes no conjunto de treinamento\relax }}{33}{table.caption.21}
+\contentsline {table}{\numberline {3}{\ignorespaces Trincas de amino\IeC {\'a}cidos menos (\IeC {\`a} esquerda) e mais (\IeC {\`a} direita) frequentes no conjunto de treinamento.\relax }}{32}{table.caption.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4}{\ignorespaces Correla\IeC {\c c}\IeC {\~a}o (Spearman) entre a propor\IeC {\c c}\IeC {\~a}o de acertos na predi\IeC {\c c}\IeC {\~a}o e: (1) propor\IeC {\c c}\IeC {\~a}o das trincas nas estruturas secund\IeC {\'a}rias, (2) n\IeC {\'u}mero de ocorr\IeC {\^e}ncias das trincas nas estruturas secund\IeC {\'a}rias\relax }}{35}{table.caption.26}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {4}{\ignorespaces Correla\IeC {\c c}\IeC {\~a}o (Spearman) entre a propor\IeC {\c c}\IeC {\~a}o de acertos na predi\IeC {\c c}\IeC {\~a}o e: (1) propor\IeC {\c c}\IeC {\~a}o das trincas nas estruturas secund\IeC {\'a}rias, (2) n\IeC {\'u}mero de ocorr\IeC {\^e}ncias das trincas nas estruturas secund\IeC {\'a}rias\relax }}{34}{table.caption.23}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o entre a acur\IeC {\'a}cia obtida utilizando os CAs determin\IeC {\'\i }stico e probabil\IeC {\'\i }stico. Ambos os CAs apresentam desempenho semelhante. \relax }}{36}{table.caption.32}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

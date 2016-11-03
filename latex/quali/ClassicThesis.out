@@ -3,44 +3,41 @@
 \BOOKMARK [1][-]{tableofcontents.1}{Sum\341rio}{}% 3
 \BOOKMARK [1][-]{lof.1}{Lista de Figuras}{}% 4
 \BOOKMARK [1][-]{lot.1}{Lista de Tabelas}{}% 5
-\BOOKMARK [1][-]{lol.1}{Listings}{}% 6
-\BOOKMARK [1][-]{acronyms.1}{Acronyms}{}% 7
-\BOOKMARK [-1][]{part.1}{Fundamentos te\363ricos}{}% 8
-\BOOKMARK [0][]{chapter.1}{1 Introdu\347\343o}{part.1}% 9
-\BOOKMARK [1][-]{section.1.1}{1.1 M\351todos computacionais de modelagem estrutural}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.2}{1.2 Hip\363teses sobre o enovelamento}{chapter.1}% 11
-\BOOKMARK [0][]{chapter.2}{2 Objetivos}{part.1}% 12
-\BOOKMARK [1][-]{section.2.1}{2.1 Objetivos espec\355ficos}{chapter.2}% 13
-\BOOKMARK [0][]{chapter.3}{3 Justificativa}{part.1}% 14
-\BOOKMARK [-1][]{part.2}{Desenvolvimento}{}% 15
-\BOOKMARK [0][]{chapter.4}{4 Conjunto de Dados}{part.2}% 16
-\BOOKMARK [1][-]{section.4.1}{4.1 Conjunto de dados de prote\355nas diversas para treinamento}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.2}{4.2 Prote\355nas com alt\355ssima identidade sequ\352ncial e diferentes estruturas terci\341rias e secund\341rias}{chapter.4}% 18
-\BOOKMARK [0][]{chapter.5}{5 Implementa\347\343o}{part.2}% 19
-\BOOKMARK [1][-]{section.5.1}{5.1 Aut\364mato celular}{chapter.5}% 20
-\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Modelo inicial}{section.5.1}% 21
-\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Modelos extendidos}{section.5.1}% 22
-\BOOKMARK [1][-]{section.5.2}{5.2 Busca de regras de transi\347\343o utilizando Algoritmo de Estima\347\343o de Distribui\347\343o EDA}{chapter.5}% 23
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Fun\347\343o de pontua\347\343o dos indiv\355duos \(Fun\347\343o de fitness\)}{section.5.2}% 24
-\BOOKMARK [1][-]{section.5.3}{5.3 Implementa\347\343o}{chapter.5}% 25
-\BOOKMARK [-1][]{part.3}{Resultados}{}% 26
-\BOOKMARK [0][]{chapter.6}{6 Aprendizado de regras de transi\347\343o}{part.3}% 27
-\BOOKMARK [1][-]{section.6.1}{6.1 Aut\364mato celular}{chapter.6}% 28
-\BOOKMARK [1][-]{section.6.2}{6.2 EDA}{chapter.6}% 29
-\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 Deriva gen\351tica}{section.6.2}% 30
-\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 Fun\347\343o de fitness}{section.6.2}% 31
-\BOOKMARK [2][-]{subsection.6.2.3}{6.2.3 Sele\347\343o}{section.6.2}% 32
-\BOOKMARK [1][-]{section.6.3}{6.3 proteina?}{chapter.6}% 33
-\BOOKMARK [0][]{chapter.7}{7 Aprendizado das regras gerais}{part.3}% 34
-\BOOKMARK [0][]{chapter.8}{8 Aplica\347\343o das regras de transi\347\343o}{part.3}% 35
-\BOOKMARK [1][-]{section.8.1}{8.1 Aut\364mato celular determin\355stico}{chapter.8}% 36
-\BOOKMARK [1][-]{section.8.2}{8.2 Aut\364mato celular probabil\355stico}{chapter.8}% 37
-\BOOKMARK [-1][]{part.4}{Perspectivas futuras}{}% 38
-\BOOKMARK [0][]{chapter.9}{9 Perspectivas futuras}{part.4}% 39
-\BOOKMARK [1][-]{subsection.9.0.1}{9.0.1 Fun\347\343o de fitness}{chapter.9}% 40
-\BOOKMARK [2][-]{subsection.9.0.2}{9.0.2 CA probabil\355stico durante a otimiza\347\343o das regras pelo EDA}{subsection.9.0.1}% 41
-\BOOKMARK [2][-]{subsection.9.0.3}{9.0.3 Predi\347\343o de estados conformacionais dos res\355duos}{subsection.9.0.1}% 42
-\BOOKMARK [-1][]{part.5}{Appendix}{}% 43
-\BOOKMARK [0][]{dummy.6}{Bibliografia}{part.5}% 44
-\BOOKMARK [0][]{declaration.0}{Declaration}{part.5}% 45
-\BOOKMARK [0][]{colophon.0}{Colophon}{part.5}% 46
+\BOOKMARK [-1][]{part.1}{Fundamentos te\363ricos}{}% 6
+\BOOKMARK [0][]{chapter.1}{1 Introdu\347\343o}{part.1}% 7
+\BOOKMARK [1][-]{section.1.1}{1.1 M\351todos computacionais de modelagem estrutural}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.2}{1.2 Hip\363teses sobre o enovelamento}{chapter.1}% 9
+\BOOKMARK [0][]{chapter.2}{2 Objetivos}{part.1}% 10
+\BOOKMARK [1][-]{section.2.1}{2.1 Objetivos espec\355ficos}{chapter.2}% 11
+\BOOKMARK [0][]{chapter.3}{3 Justificativa}{part.1}% 12
+\BOOKMARK [-1][]{part.2}{Desenvolvimento}{}% 13
+\BOOKMARK [0][]{chapter.4}{4 Conjunto de Dados}{part.2}% 14
+\BOOKMARK [1][-]{section.4.1}{4.1 Conjunto de dados de prote\355nas diversas para treinamento}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.2}{4.2 Prote\355nas com alt\355ssima identidade sequ\352ncial e diferentes estruturas terci\341rias e secund\341rias}{chapter.4}% 16
+\BOOKMARK [0][]{chapter.5}{5 Implementa\347\343o}{part.2}% 17
+\BOOKMARK [1][-]{section.5.1}{5.1 Aut\364mato celular}{chapter.5}% 18
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Modelo inicial}{section.5.1}% 19
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Modelos extendidos}{section.5.1}% 20
+\BOOKMARK [1][-]{section.5.2}{5.2 Busca de regras de transi\347\343o utilizando Algoritmo de Estima\347\343o de Distribui\347\343o EDA}{chapter.5}% 21
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Fun\347\343o de pontua\347\343o dos indiv\355duos \(Fun\347\343o de fitness\)}{section.5.2}% 22
+\BOOKMARK [1][-]{section.5.3}{5.3 Implementa\347\343o}{chapter.5}% 23
+\BOOKMARK [-1][]{part.3}{Resultados}{}% 24
+\BOOKMARK [0][]{chapter.6}{6 Aprendizado de regras de transi\347\343o}{part.3}% 25
+\BOOKMARK [1][-]{section.6.1}{6.1 Aut\364mato celular}{chapter.6}% 26
+\BOOKMARK [1][-]{section.6.2}{6.2 EDA}{chapter.6}% 27
+\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 Deriva gen\351tica}{section.6.2}% 28
+\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 Fun\347\343o de fitness}{section.6.2}% 29
+\BOOKMARK [2][-]{subsection.6.2.3}{6.2.3 Sele\347\343o}{section.6.2}% 30
+\BOOKMARK [0][]{chapter.7}{7 Aplica\347\343o das regras de transi\347\343o}{part.3}% 31
+\BOOKMARK [1][-]{section.7.1}{7.1 Aut\364mato celular determin\355stico}{chapter.7}% 32
+\BOOKMARK [1][-]{section.7.2}{7.2 Aut\364mato celular probabil\355stico}{chapter.7}% 33
+\BOOKMARK [1][-]{section.7.3}{7.3 Aplica\347\343o da regra de transi\347\343o generalizada ao conjunto de prote\355nas com alta identidade sequencia e diferentes estruturas}{chapter.7}% 34
+\BOOKMARK [-1][]{part.4}{Perspectivas futuras}{}% 35
+\BOOKMARK [0][]{chapter.8}{8 Perspectivas futuras}{part.4}% 36
+\BOOKMARK [1][-]{subsection.8.0.1}{8.0.1 Fun\347\343o de fitness}{chapter.8}% 37
+\BOOKMARK [2][-]{subsection.8.0.2}{8.0.2 CA probabil\355stico durante a otimiza\347\343o das regras pelo EDA}{subsection.8.0.1}% 38
+\BOOKMARK [2][-]{subsection.8.0.3}{8.0.3 Predi\347\343o de estados conformacionais dos res\355duos}{subsection.8.0.1}% 39
+\BOOKMARK [-1][]{part.5}{Appendix}{}% 40
+\BOOKMARK [0][]{dummy.4}{Bibliografia}{part.5}% 41
+\BOOKMARK [0][]{declaration.0}{Declaration}{part.5}% 42
+\BOOKMARK [0][]{colophon.0}{Colophon}{part.5}% 43
