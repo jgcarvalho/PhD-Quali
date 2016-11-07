@@ -34,9 +34,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {6}{\ignorespaces Modelos estruturais das prote\IeC {\'\i }nas GB98 (PDB ID: 2LHD) e GB98-T25I,L20A (PDB ID: 2LHE) que apresentam a topologia de 4 fitas beta e h\IeC {\'e}lice alpha. As cores representam as frequ\IeC {\^e}ncias dos estados durante a evolu\IeC {\c c}\IeC {\~a}o do aut\IeC {\^o}mato celular num gradiente do vermelho, 100\%, ao azul, 0\%. Cada elemento de estrutura secund\IeC {\'a}ria (h\IeC {\'e}lice, fita e coil) corresponde a uma coluna da figura. Notamos que a h\IeC {\'e}lice demonstra alta frequ\IeC {\^e}ncia do estado de h\IeC {\'e}lice no aut\IeC {\^o}mato celular ap\IeC {\'o}s 10000 passos. As fitas apresentam uma frequ\IeC {\^e}ncia tanto estados de h\IeC {\'e}lices como de fitas, exceto a fita 1 que apresenta baixa frequ\IeC {\^e}ncia de h\IeC {\'e}lices e maior frequ\IeC {\^e}ncia de fitas. A regi\IeC {\~o}es de conex\IeC {\~a}o entre as fitas e da h\IeC {\'e}lice com as fitas apresentam maior frequ\IeC {\^e}ncia de coils. O aut\IeC {\^o}mato celular utilizado possui os estados HP+GP+Carregados.\relax }}{28}{figure.caption.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces Gr\IeC {\'a}fico que representa o fitness m\IeC {\'e}dio da popula\IeC {\c c}\IeC {\~a}o de regras candidatas e da melhor regra ao longo de 1000 gera\IeC {\c c}\IeC {\~o}es do EDA.\relax }}{30}{figure.caption.14}
+\contentsline {figure}{\numberline {7}{\ignorespaces Gr\IeC {\'a}fico que representa a pontua\IeC {\c c}\IeC {\~a}o (\textit {fitness}) m\IeC {\'e}dia da popula\IeC {\c c}\IeC {\~a}o de regras candidatas e da melhor regra ao longo de 1000 gera\IeC {\c c}\IeC {\~o}es do EDA.\relax }}{30}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8}{\ignorespaces Gr\IeC {\'a}fico que indica efeitos de deriva gen\IeC {\'e}tica atrav\IeC {\'e}s da amostragem de 38 elementos que n\IeC {\~a}o sofrem press\IeC {\~a}o seletiva proveniente do fitness. Na gera\IeC {\c c}\IeC {\~a}o 564, um desses elementos apresentou probabilidade igual a zero para uma das transi\IeC {\c c}\IeC {\~o}es. Ao final das 1000 gera\IeC {\c c}\IeC {\~o}es, 11 elementos apresentam probabilidade zero para ao menos um dos estados.\relax }}{31}{figure.caption.15}
+\contentsline {figure}{\numberline {8}{\ignorespaces Gr\IeC {\'a}fico que indica efeitos de deriva gen\IeC {\'e}tica atrav\IeC {\'e}s da amostragem de 38 elementos que n\IeC {\~a}o sofrem press\IeC {\~a}o seletiva proveniente do \textit {fitness}. Na gera\IeC {\c c}\IeC {\~a}o 564, um desses elementos apresentou probabilidade igual a zero para uma das transi\IeC {\c c}\IeC {\~o}es. Ao final das 1000 gera\IeC {\c c}\IeC {\~o}es, 11 elementos apresentam probabilidade zero para ao menos um dos estados.\relax }}{31}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {9}{\ignorespaces Desbalanceamento dos elementos de estrutura secund\IeC {\'a}ria no conjunto de dados.\relax }}{31}{figure.caption.16}
 \defcounter {refsection}{0}\relax 
@@ -46,26 +46,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {12}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o entre a propor\IeC {\c c}\IeC {\~a}o de uma trinca de amino\IeC {\'a}cidos em determinada estrutura secund\IeC {\'a}ria e a probabilidade resultante da otimiza\IeC {\c c}\IeC {\~a}o utilizando EDA.\relax }}{33}{figure.caption.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {13}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o propor\IeC {\c c}\IeC {\~a}o de acertos x probabilidade EDA\relax }}{34}{figure.caption.21}
+\contentsline {figure}{\numberline {13}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o entre o n\IeC {\'u}mero de ocorr\IeC {\^e}ncias das estruturas secund\IeC {\'a}rias por trincas em rela\IeC {\c c}\IeC {\~a}o a propor\IeC {\c c}\IeC {\~a}o de res\IeC {\'\i }duos corretamente classificados.\relax }}{34}{figure.caption.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {14}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o ocorrencias das ss por trincas x probabilidade EDA\relax }}{34}{figure.caption.22}
+\contentsline {figure}{\numberline {14}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o entre a propor\IeC {\c c}\IeC {\~a}o observada de cada estrutura secund\IeC {\'a}ria para as trincas e a propor\IeC {\c c}\IeC {\~a}o de res\IeC {\'\i }duos corretamente classificados.\relax }}{34}{figure.caption.22}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {15}{\ignorespaces q3\relax }}{36}{figure.caption.24}
+\contentsline {figure}{\numberline {15}{\ignorespaces q3\relax }}{38}{figure.caption.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {16}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para coils contru\IeC {\'\i }do a partir dos resultados do CA determin\IeC {\'\i }stico.\relax }}{37}{figure.caption.25}
+\contentsline {figure}{\numberline {16}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para coils contru\IeC {\'\i }do a partir dos resultados do CA determin\IeC {\'\i }stico.\relax }}{39}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {17}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para h\IeC {\'e}lices contru\IeC {\'\i }do a partir dos resultados do CA determin\IeC {\'\i }stico.\relax }}{37}{figure.caption.26}
+\contentsline {figure}{\numberline {17}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para h\IeC {\'e}lices contru\IeC {\'\i }do a partir dos resultados do CA determin\IeC {\'\i }stico.\relax }}{39}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {18}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para fitas contru\IeC {\'\i }do a partir dos resultados do CA determin\IeC {\'\i }stico.\relax }}{38}{figure.caption.27}
+\contentsline {figure}{\numberline {18}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para fitas contru\IeC {\'\i }do a partir dos resultados do CA determin\IeC {\'\i }stico.\relax }}{40}{figure.caption.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {19}{\ignorespaces q3 prob\relax }}{38}{figure.caption.28}
+\contentsline {figure}{\numberline {19}{\ignorespaces q3 prob\relax }}{40}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {20}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para coils contru\IeC {\'\i }do a partir dos resultados do CA probabil\IeC {\'\i }stico.\relax }}{39}{figure.caption.29}
+\contentsline {figure}{\numberline {20}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para coils contru\IeC {\'\i }do a partir dos resultados do CA probabil\IeC {\'\i }stico.\relax }}{41}{figure.caption.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {21}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para h\IeC {\'e}lices contru\IeC {\'\i }do a partir dos resultados do CA probabil\IeC {\'\i }stico.\relax }}{39}{figure.caption.30}
+\contentsline {figure}{\numberline {21}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para h\IeC {\'e}lices contru\IeC {\'\i }do a partir dos resultados do CA probabil\IeC {\'\i }stico.\relax }}{41}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {22}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para fitas contru\IeC {\'\i }do a partir dos resultados do CA probabil\IeC {\'\i }stico.\relax }}{40}{figure.caption.31}
+\contentsline {figure}{\numberline {22}{\ignorespaces Gr\IeC {\'a}fico da curva ROC para fitas contru\IeC {\'\i }do a partir dos resultados do CA probabil\IeC {\'\i }stico.\relax }}{42}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

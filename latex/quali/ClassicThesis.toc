@@ -18,6 +18,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Hip\IeC {\'o}teses sobre o enovelamento}{6}{section.1.2}
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Predi\IeC {\c c}\IeC {\~a}o de estruturas secund\IeC {\'a}rias}{7}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Aut\IeC {\^o}matos celulares}{7}{section.1.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Objetivos}}{9}{chapter.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Objetivos espec\IeC {\'\i }ficos}{9}{section.2.1}
@@ -56,30 +60,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.1}Deriva gen\IeC {\'e}tica}{29}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Fun\IeC {\c c}\IeC {\~a}o de fitness}{30}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.2}Fun\IeC {\c c}\IeC {\~a}o de pontua\IeC {\c c}\IeC {\~a}o dos indiv\IeC {\'\i }duos}{30}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.3}Fatores que influenciam no m\IeC {\'e}todo de sele\IeC {\c c}\IeC {\~a}o do EDA}{30}{subsection.6.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Aplica\IeC {\c c}\IeC {\~a}o das regras de transi\IeC {\c c}\IeC {\~a}o}}{35}{chapter.7}
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Aplica\IeC {\c c}\IeC {\~a}o das regras de transi\IeC {\c c}\IeC {\~a}o}}{37}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Aut\IeC {\^o}mato celular determin\IeC {\'\i }stico}{35}{section.7.1}
+\contentsline {section}{\numberline {7.1}Aut\IeC {\^o}mato celular determin\IeC {\'\i }stico}{37}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Aut\IeC {\^o}mato celular probabil\IeC {\'\i }stico}{36}{section.7.2}
+\contentsline {section}{\numberline {7.2}Aut\IeC {\^o}mato celular probabil\IeC {\'\i }stico}{38}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Aplica\IeC {\c c}\IeC {\~a}o da regra de transi\IeC {\c c}\IeC {\~a}o generalizada ao conjunto de prote\IeC {\'\i }nas com alta identidade sequencial e diferentes estruturas}{40}{section.7.3}
+\contentsline {section}{\numberline {7.3}Aplica\IeC {\c c}\IeC {\~a}o da regra de transi\IeC {\c c}\IeC {\~a}o generalizada ao conjunto de prote\IeC {\'\i }nas com alta identidade sequencial e diferentes estruturas}{42}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Perspectivas futuras}}{41}{part.4}
+\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Perspectivas futuras}}{43}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Perspectivas futuras}}{43}{chapter.8}
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Perspectivas futuras}}{45}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.0.1}Fun\IeC {\c c}\IeC {\~a}o de fitness}{43}{subsection.8.0.1}
+\contentsline {section}{\numberline {8.1}Fun\IeC {\c c}\IeC {\~a}o de pontua\IeC {\c c}\IeC {\~a}o dos indiv\IeC {\'\i }duos (\textit {fitness})}{45}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.0.2}CA probabil\IeC {\'\i }stico durante a otimiza\IeC {\c c}\IeC {\~a}o das regras pelo EDA}{43}{subsection.8.0.2}
+\contentsline {section}{\numberline {8.2}AC probabil\IeC {\'\i }stico durante a otimiza\IeC {\c c}\IeC {\~a}o das regras pelo EDA}{45}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.0.3}Predi\IeC {\c c}\IeC {\~a}o de estados conformacionais dos res\IeC {\'\i }duos}{44}{subsection.8.0.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Appendix}}{45}{part.5}
-\defcounter {refsection}{0}\relax 
-\vspace {\beforebibskip }
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliografia}}{47}{dummy.4}
+\contentsline {section}{\numberline {8.3}Predi\IeC {\c c}\IeC {\~a}o de estados conformacionais dos res\IeC {\'\i }duos}{46}{section.8.3}

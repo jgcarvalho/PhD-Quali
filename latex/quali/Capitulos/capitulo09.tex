@@ -4,15 +4,15 @@
 
 Neste capítulo discutiremos atividades que estão sendo planejadas para melhorar o método de predição de estruturas secundárias usando autômatos celulares. Essas alterações foram pensadas baseando-se nos resultados obtidos até o momento e nas possibilidades para melhorá-los.
 
-\subsection{Função de fitness}
+\section{Função de pontuação dos indivíduos (\textit{fitness})}
 
 %Os resultados obtidos até o momento indicam que a função de fitness precisa de modificada para cornseguirmos melhorar a acurácia da predição. A função utilizada até o momento não mostrou-se eficaz ao lidar com classes desbalanceadas como podemos notar pela menor acurácia obtida em fitas quando comparada a hélices e coils.
 
-Os resultados obtidos até o momento indicam que a função de fitness precisa ser modificada para conseguirmos melhorar a acurácia da predição. A função utilizada não mostrou-se eficaz ao lidar com classes desbalanceadas como podemos notar pela menor acurácia obtida em fitas quando comparada a hélices e coils.
+Os resultados obtidos até o momento indicam que a função de \textit{fitness} precisa ser modificada para conseguirmos melhorar a acurácia da predição. A função utilizada não mostrou-se eficaz ao lidar com classes desbalanceadas como podemos notar pela menor acurácia obtida em fitas quando comparada a hélices e coils.
 
-A ineficácia ao lidar com classes desbalanceadas, não prejudica somente a predição das classes menos numerosas, mas também a das classes mais frequentes, uma vez que essas tendem a ser superestimadas. Diversas abordagens podem ser utilizadas para em casos onde há desbalanceamento das classes como a re-amostragem através da remoção de dados da classe majoritária ou então a duplicação de dados da classe minoritária \cite{Kumar2012}. Outra alternativa seria a alteração da função de fitness para compensar o desbalanceamento.
+A ineficácia ao lidar com classes desbalanceadas, não prejudica somente a predição das classes menos numerosas, mas também a das classes mais frequentes, uma vez que essas tendem a serem superestimadas. Diversas abordagens podem ser utilizadas para casos onde há desbalanceamento das classes como a re-amostragem através da remoção de dados da classe majoritária ou então a duplicação de dados da classe minoritária \cite{Kumar2012}. Outra alternativa seria a alteração da função de pontuação para compensar o desbalanceamento.
 
-Acreditamos que a alteração da função de fitness será a estratégia mais adequada neste trabalho, pois evitaria a remoção ou a duplicação de informações do conjunto de dados. Entre as funções de fitness que planejamos testar estão o Coeficiente de Correlação de Matthews (MCC) \cite{Gorodkin2004} e a CBA (\textit{Class Balance Accuracy}) \cite{Mosley2013}.  
+Acreditamos que a alteração da função de \textit{fitness} será a estratégia mais adequada neste trabalho, pois evitaria a remoção ou a duplicação de informações do conjunto de dados. Entre as funções de \textit{fitness} que planejamos testar estão o Coeficiente de Correlação de Matthews (MCC) \cite{Gorodkin2004} e a CBA (\textit{Class Balance Accuracy}) \cite{Mosley2013}.  
 
 
 
@@ -26,11 +26,11 @@ Acreditamos que a alteração da função de fitness será a estratégia mais ad
 
 
 
-\subsection{CA probabilístico durante a otimização das regras pelo EDA}
+\section{AC probabilístico durante a otimização das regras pelo EDA}
 
 Como descrito anteriormente, durante a otimização, o EDA envia probabilidades para os nós de trabalho que irão gerar regras de transição candidatas que finalmente disputarão os torneios. Atualmente, estas regras de transição geradas nos nós de trabalho são determinísticas. 
  
-Uma alternativa que planejamos implementar é a modificação dos autômatos celulares utilizados durante a otimização das regras para autômatos celulares do tipo probabilísticos. Com isso, as probabilidades do EDA não representariam apenas as probabilidades das transições na população do EDA, mas sim a probabilidade de transição do elemento em si. Acreditamos que essa modificação aproximaria as regras de transição de um modelo físico, onde as probabilidades de transição teriam relação com a energia livre de uma transição da trinca de estados. 
+Uma alternativa que planejamos implementar é a modificação dos autômatos celulares utilizados durante a otimização das regras para autômatos celulares do tipo probabilísticos. Com isso, as probabilidades do EDA não representariam apenas as probabilidades das transições na população do EDA, mas sim a probabilidade de transição do elemento em si. Acreditamos que essa modificação aproximaria as regras de transição de um modelo físico, onde as probabilidades de transição teriam relação com a energia livre dos estados do autômato celular. 
 
 
 
@@ -38,17 +38,17 @@ Uma alternativa que planejamos implementar é a modificação dos autômatos cel
 
 % Para alterar as probabilidades, será necessário que probabilidades sofram variação durante a criação de um indivíduo. A variação não devera ser brusca (distribuiçao normal), para manter uma exploração local da regiao. Essa variação podera ser dependente de outros fatores, por exemplo, da propria variação de probabilidades ao longo da evolução do EDA 
 
-\subsection{Predição de estados conformacionais dos resíduos}
+\section{Predição de estados conformacionais dos resíduos}
 
-Uma possibilidade que está sendo avaliada é modificação do objetivo da predição. A predição de elementos da estrutura secundária por resíduo não apresenta uma correspondente física uma vez que um resíduo raramente compõe isoladamente uma estrutura secundária. Por exemplo, hélices e fitas são formadas pela repetição de resíduos que se encontram em estados conformacionais específicos. Logo, um resíduo isolado no estado conformacional de uma hélice, poderia fazer fazer parte outro elemento de estrutura secundária como um coil ou volta.
+Outra possibilidade que está sendo avaliada é modificação do objetivo da predição. A predição de elementos da estrutura secundária por resíduo não apresenta uma correspondente física uma vez que um resíduo raramente compõe isoladamente uma estrutura secundária. Por exemplo, hélices e fitas são formadas pela repetição de resíduos que se encontram em estados conformacionais específicos. Logo, um resíduo isolado no estado conformacional de uma hélice, poderia fazer fazer parte de outro elemento de estrutura secundária como um coil ou volta.
 
-Por sua vez, uma estrutura secundária poderia ser classificada pelo estado conformacional dos resíduos, sendo o estado conformacional representado por regiões de ângulos $\phi$ e $\psi$. Assim, ao invés do autômato celular predizer os elementos de estrutura secundária ele poderia predizer estados conformacionais referentes a regiões dos ângulos. 
+Por sua vez, uma estrutura secundária poderia ser classificada pelo estado conformacional dos resíduos, sendo o estado conformacional representado por regiões de ângulos $\phi$ e $\psi$. Assim, ao invés do autômato celular predizer os elementos de estrutura secundária ele poderia predizer estados conformacionais referentes às regiões dos ângulos da cadeia principal.
 
-Esta representação, combinada com o uso de um CA probabilístico, representaria as probabilidades dos estados conformacionais, fornecendo também as alterações de probabilidades que ocorrem ao longo da evolução do autômato celular. Assim, a evolução desse CA probabilístico resultaria na predição das probabilidades de cada aminoácido estar em cada estado conformacional.
+Esta representação, combinada com o uso de um AC probabilístico, representaria as probabilidades dos estados conformacionais, fornecendo também as alterações de probabilidades que ocorrem ao longo da evolução do autômato celular. Assim, a evolução desse AC probabilístico resultaria na predição das probabilidades de cada aminoácido estar em cada estado conformacional.
 
-Isso traria a vantagem de, além de ser possível descrever os elementos de estrutura secundária utilizando os estados conformacionais de cada resíduo, seria possível obter também informações da estrutura tridimensional das proteínas. Mesmo que essa abordagem diminuísse a acurácia na predição de elementos de estrutura secundária, o ganho de informação que poderíamos na conformação tridimensional, por exemplo, em coils, poderia compensar a mudança para a adoção dos estados conformacionais na predição.
+Isso traria a vantagem de, além de ser possível descrever os elementos de estrutura secundária utilizando os estados conformacionais de cada resíduo, seria possível obter informações da estrutura tridimensional das proteínas. Mesmo que essa abordagem diminuísse a acurácia na predição de elementos de estrutura secundária, o ganho de informação que poderíamos obter da conformação tridimensional, por exemplo, em coils, poderia compensar a mudança para a adoção dos estados conformacionais na predição.
 
-Por outro lado, o número de estados conformacionais depende da forma como regiões de ângulos $\phi$ e $\psi$ serão discretizadas uma vez que o CA exige estados discretos. A princípio, poderíamos optar por poucos estados como a região de hélices, região de fitas e outras regiões, sendo essa última, todas as não hélices e não fitas. A princípio, um número maior de estados conformacionais poderia ser usado permitindo identificar, por exemplo, regiões de volta. No entanto, isso aumentaria exponencialmente o tamanho da regra.
+Por outro lado, o número de estados conformacionais depende da forma como regiões de ângulos $\phi$ e $\psi$ serão discretizadas uma vez que o AC exige estados discretos. A princípio, poderíamos optar por poucos estados como a região de hélices, região de fitas e outras regiões, sendo essa última, todas as não hélices e não fitas. A princípio, um número maior de estados conformacionais poderia ser usado permitindo identificar, por exemplo, regiões de volta. No entanto, isso aumentaria exponencialmente o tamanho da regra.
 
 
 % Utilizar regiões de ângulos torcionais ao invés de estrutura secundária

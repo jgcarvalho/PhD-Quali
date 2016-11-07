@@ -6,7 +6,7 @@ Nas seções seguintes mostraremos resultados da capacidade de autômatos celula
 
 \section{Autômato celular}
 
-Os modelos de autômatos celulares foram testados, até o momento,  no conjunto de proteínas com alta identidade sequencial, mas com grandes diferenças de estrutura secundária, que o torna um problema desafiador. A escolha desse conjunto para os testes dos autômatos celulares baseou-se, também, na facilidade de analisar e visualizar a formação e propagação dos elementos de estruturas secundárias nessas proteínas, pelo fato de serem pequenas.
+Os modelos de autômatos celulares foram testados, até o momento, no conjunto de proteínas com alta identidade sequencial, mas com grandes diferenças de estrutura secundária, o que o torna um problema desafiador. A escolha desse conjunto para os testes dos autômatos celulares baseou-se, também, na facilidade de analisar e visualizar a formação e propagação dos elementos de estruturas secundárias nessas proteínas, pelo fato de serem pequenas.
 
 %A comparação entre os modelos de autômatos celulares foram realizadas primeiramente, e até o momento, apenas no conjunto de proteínas com alta identidade sequencial. A escolha desse conjunto para os testes dos autômatos celulares baseou-se na facilidade de observar e analisar a formação e propagação dos elementos de estruturas secundárias nessas proteínas. É importante ressaltar que ao otimizarmos as regras de transição para este conjunto restrito de proteínas, nosso objetivo é avaliar a capacidade dos modelos propostos de autômatos celulares em recuperar corretamente a estrutura secundária atribuída aos resíduos.   
 
@@ -42,7 +42,7 @@ Entre os quatro modelos testados, o número de estados para os elementos de estr
 
 \section{Análise do desempenho do EDA implementado}
 
-O aprendizado das regras realizado através de um algoritmo de EDA distribuído demonstrou-se eficiente dado a complexidade do problema. Utilizando sete nós (448 núcleos) no cluster de computação de alto desempenho EMU-2 (adquirido pelo "Programa de Equipamento  Multiusuário da FAPESP-2009", 2009/53853-5, localizado no Centro Internacional de Pesquisa e Ensino do Hospital A. C. Camargo em  São Paulo) foi possível evoluir o EDA por 1000 gerações com 10000 indivíduos em pouco menos de duas semanas.
+O aprendizado das regras realizado através de um algoritmo de EDA distribuído demonstrou-se eficiente dado a complexidade do problema. Utilizando sete nós (448 núcleos) no cluster de computação de alto desempenho EMU-2 (adquirido pelo "Programa de Equipamento  Multiusuário da FAPESP-2009", 2009/53853-5, localizado no Centro Internacional de Pesquisa e Ensino do Hospital A. C. Camargo em  São Paulo) foi possível evoluir o EDA com 10000 indivíduos por 1000 gerações em pouco menos de duas semanas.
 
 Cada nó de trabalho apresentou um uso de memória de 75\% (48 GB), e manteve o processamento próximo a 100\% por núcleo (1.6 GHz). O mecanismo de comunicação por RPC entre o nó mestre e os nós de trabalho não sobrecarregou a rede (1Gbs). Isso nos permite concluir que o algoritmo é escalável em clusters com maior número de nós e processadores de maior desempenho.
 
@@ -63,7 +63,7 @@ A escolha em realizar o torneio nos nós de trabalho demonstrou ser escalável, 
 \begin{figure}
   \centering
   \includegraphics[width=1\textwidth]{figures/evo_Eda.pdf}
-  \caption{Gráfico que representa o fitness médio da população de regras candidatas e da melhor regra ao longo de 1000 gerações do EDA.}
+  \caption{Gráfico que representa a pontuação (\textit{fitness}) média da população de regras candidatas e da melhor regra ao longo de 1000 gerações do EDA.}
         \label{fig:evo_eda}
 \end{figure}
 
@@ -71,7 +71,7 @@ A escolha em realizar o torneio nos nós de trabalho demonstrou ser escalável, 
 
 A evolução do EDA por 1000 gerações com torneio de dois (k=2) e população de 10000 indivíduos, demonstrou sinais de deriva genética a partir de 564 gerações. Tais sinais podem ser detectados observando-se as probabilidades dos 38 elementos de regra que não ocorrem no conjunto de proteínas. Esses elementos são do tipo [\#][\textit{x}][\#].
 
-O elementos [\#][\textit{x}][\#], onde o \textit{x} correponde a qualquer estado exceto [\#], não apresentam probabilidade fixa, mas também, por estar ausente nas proteínas, não sofrem pressão seletiva. Logo, suas variações são aleatórias.
+Os elementos [\#][\textit{x}][\#], onde o \textit{x} correponde a qualquer estado exceto [\#], não apresentam probabilidade fixa, mas também, por estarem ausentes nas proteínas, não sofrem pressão seletiva. Logo, suas variações são aleatórias.
 
 Na geração 564 um desses 38 elementos apresentou probabilidade zero ($p=0$), de transitar para um dos quatro estados possíveis, indicando a eliminação de um gene da população por deriva genética. Ao final das 1000 gerações 11 dos 38 elementos apresentavam probabilidade zero para uma das transições (Figura \ref{fig:deriva_genetica}).
 
@@ -80,16 +80,16 @@ Na geração 564 um desses 38 elementos apresentou probabilidade zero ($p=0$), d
 \begin{figure}
   \centering
   \includegraphics[width=1\textwidth]{figures/deriva_genetica.pdf}
-  \caption{Gráfico que indica efeitos de deriva genética através da amostragem de 38 elementos que não sofrem pressão seletiva proveniente do fitness. Na geração 564, um desses elementos apresentou probabilidade igual a zero para uma das transições. Ao final das 1000 gerações, 11 elementos apresentam probabilidade zero para ao menos um dos estados.}
+  \caption{Gráfico que indica efeitos de deriva genética através da amostragem de 38 elementos que não sofrem pressão seletiva proveniente do \textit{fitness}. Na geração 564, um desses elementos apresentou probabilidade igual a zero para uma das transições. Ao final das 1000 gerações, 11 elementos apresentam probabilidade zero para ao menos um dos estados.}
         \label{fig:deriva_genetica}
 \end{figure}
 
 % PSLO Zé vamos tentar usar uma tradução para fitness. Senão me engano no capítulo 5 sugeri função de pontuação dos individuos
 
 
-\subsection{Função de fitness}
+\subsection{Função de pontuação dos indivíduos}
 
-A simplicidade da equação de fitness (Equação \ref{eq:fitness}) demonstrou problemas que acreditamos serem solucionáveis na continuação deste trabalho. Um desses problemas é ocasionado pelo desbalanceamento dos dados de treinamento (Figura \ref{fig:occ_ss}). 
+A simplicidade da função de pontuação dos indivíduos (Equação \ref{eq:fitness}) demonstrou problemas que acreditamos serem solucionáveis na continuação deste trabalho. Um desses problemas é ocasionado pelo desbalanceamento dos dados de treinamento (Figura \ref{fig:occ_ss}). 
 
 \begin{figure}
   \centering
@@ -98,7 +98,7 @@ A simplicidade da equação de fitness (Equação \ref{eq:fitness}) demonstrou p
         \label{fig:occ_ss}
 \end{figure}
 
-Os resultados obtidos indicam uma maior acurácia para os elementos de estrutura secundária mais frequentes no conjunto de treinamento. Esse é um problema recorrente no aprendizado com classes desbalanceadas e costuma ser tratado na função de fitness (Figura \ref{fig:q3}), por exemplo, com funções que fazem uma média da acurácia por classes. As alterações na função de fitness para tratar este problema são preferiveis em relação à modificações no conjunto de dados para equibrar as classes, uma vez que modificações no conjunto de dados envolveriam a retirada de informação de classes mais frequentes ou a duplicação de informação das classes menos frequentes, ambas produzindo consequências distorcivas na informação presente no conjunto de treinamento.
+Os resultados obtidos indicam uma maior acurácia para os elementos de estrutura secundária mais frequentes no conjunto de treinamento. Esse é um problema recorrente no aprendizado com classes desbalanceadas e costuma ser tratado na função de pontuação (\textit{fitness}) (Figura \ref{fig:q3}), por exemplo, utilizando funções que considerem a acurácia por classes. As alterações na função de pontuação para tratar este problema são preferiveis em relação à modificações no conjunto de dados para equilibrar as classes, uma vez que modificações no conjunto de dados envolveriam a retirada de informação de classes mais frequentes ou a duplicação de informação das classes menos frequentes, ambas produzindo consequências distorcivas na informação presente no conjunto de treinamento.
 
 %\begin{figure}
 %  \centering
@@ -117,7 +117,7 @@ Os resultados obtidos indicam uma maior acurácia para os elementos de estrutura
 
 \subsection{Fatores que influenciam no método de seleção do EDA}
 
-As número de ocorrências de trincas de aminoácidos no conjunto de proteínas apresentou grande variação (Figura \ref{fig:histograma_occ}). Para avaliar a influência dessa variação no EDA nós procuramos por correlações entre fatores que poderiam influenciar na seleção.
+O número de ocorrências de trincas de aminoácidos no conjunto de proteínas apresentou grande variação (Figura \ref{fig:histograma_occ}). Para avaliar a influência dessa variação no EDA nós procuramos por correlações entre fatores que poderiam influenciar na seleção.
 
 \begin{figure}
   \centering
@@ -157,7 +157,7 @@ HHH & 6143\\
 
 
 
-A figura \ref{fig:probG999_occXprob} representa a distribuição das probabilidades máximas e mínimas dos elementos da regra em relação a frequência de ocorrência das trincas de aminoácidos no conjunto. O gráfico e o valor de correlação (Spearman = 0.09) entre as probabilidades e a frequência de ocorrência das trincas,  indica não haver uma grande influência da frequência das trincas durante a seleção. Essa influência também não foi encontrada durante a evolução do EDA (Anexo).  
+A figura \ref{fig:probG999_occXprob} representa a distribuição das probabilidades máximas e mínimas dos elementos da regra em relação a frequência de ocorrência das trincas de aminoácidos no conjunto. O gráfico e o valor de correlação (Spearman = 0.09) entre as probabilidades e a frequência de ocorrência das trincas, indica não haver uma grande influência da frequência das trincas durante a seleção.	
 
 %incluir as figuras do anexo
 
@@ -173,9 +173,11 @@ Outros fatores que poderiam influenciar a evolução do EDA seriam: \textit{(1)}
 
 %ta estranho essa parte    
 
-As probabilidades de transição dos elementos da regra, não apresentam aparente relação com as proporções encontradas para cada estrutura secundária nas trincas (Figura \ref{fig:relacao_prob_propss}). Assim como não apresentaram relação com a frequência de ocorrências de determinada estrutura para uma trinca e com a proporção de trincas corretamente classificadas por estrutura secundária. Essas duas últimas relações não eram mesmo esperadas (Anexo Figuras H E C e figuras H E C). Contudo, foi interessante observar que a primeira relação aparentemente não ocorria.
+As probabilidades de transição dos elementos da regra (EDA), não apresentam aparente relação com as proporções encontradas para cada estrutura secundária nas trincas (Figura \ref{fig:relacao_prob_propss}). Assim como não apresentaram relação com a frequência de ocorrências de determinada estrutura para uma trinca ou com a proporção de trincas corretamente classificadas por estrutura secundária. 
 
 %PSLO Para uma taxa de acertos maior eu deveria esperar que acontece uma correlação alta entre a probabilidade gerada pelo EDA para uma dada regra para uma certa estrutura secundaria específica.   
+
+
 
 \begin{figure}
   \centering
@@ -184,24 +186,25 @@ As probabilidades de transição dos elementos da regra, não apresentam aparent
         \label{fig:relacao_prob_propss}
 \end{figure}
 
-A ausência da primeira relação pode indicar que as probabilidades de transição dos demais elementos da regra e sua aplicação ao longo da evolução do CA estão propagando as probabilidades e sofrendo influência da vizinhança na busca de produzir estruturas secundárias mais próximas as reais. 
+A ausência da primeira relação (probabilidade do EDA x propensão de estruturas secundárias por trinca) pode indicar que as probabilidades de transição dos demais elementos da regra e sua aplicação ao longo da evolução do CA estão propagando as probabilidades e sofrendo influência da vizinhança na busca por produzir estruturas secundárias mais próximas as reais. 
 
-Entretanto, observamos uma relação entre a proporção de elementos de estruturas secundárias para um trinca e a proporção de acertos da trinca para a mesma estrutura secundária. Acreditamos que isso seja um indício que o aprendizado, ou otimização da regra, precisa ser melhorado para que elementos de estruturas secundárias menos comuns a determinadas trincas possam ser corretamente preditos (Figura \ref{fig:prop_acerto} e Tabela \ref{tab:corr_acertos}).  
+Entretanto, observamos uma relação entre a proporção de elementos de estruturas secundárias para um trinca e a proporção de acertos da trinca para a mesma estrutura secundária. Acreditamos que isso seja um indício que o aprendizado, ou otimização da regra, precisa ser melhorado para que elementos de estruturas secundárias menos comuns a determinadas trincas possam ser corretamente preditos (Figura  \ref{fig:prop_acerto} e Tabela \ref{tab:corr_acertos}).  
 
-\begin{figure}
-  \centering
-  \includegraphics[width=1\textwidth]{figures/prop_acerto.pdf}
-  \caption{Relação proporção de acertos x probabilidade EDA}
-        \label{fig:prop_acerto}
-\end{figure}
 
-Há também uma relação menos influente entre o número de ocorrências de uma determinada estrutura secundária nas trincas e a proporção de acertos dessa trinca para a mesma estrutura secundária (Figura \ref{fig:occ_acerto} e Tabela \ref{tab:corr_acertos}).
+Há também uma relação menos influente entre o número de ocorrências de uma determinada estrutura secundária nas trincas e a proporção de acertos dessa trinca para a mesma estrutura secundária ((Figura \ref{fig:occ_acerto}) e Tabela \ref{tab:corr_acertos}).
 
 \begin{figure}
   \centering
   \includegraphics[width=1\textwidth]{figures/occ_acerto.pdf}
-  \caption{Relação ocorrencias das ss por trincas x probabilidade EDA}
+  \caption{Relação entre o número de ocorrências das estruturas secundárias por trincas em relação a proporção de resíduos corretamente classificados.}
         \label{fig:occ_acerto}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]{figures/prop_acerto.pdf}
+	\caption{Relação entre a proporção observada de cada estrutura secundária para as trincas e a proporção de resíduos corretamente classificados.}
+	\label{fig:prop_acerto}
 \end{figure}
 
 \begin{table}
@@ -219,7 +222,7 @@ Há também uma relação menos influente entre o número de ocorrências de uma
   \caption{Correlação (Spearman) entre a proporção de acertos na predição e: (1) proporção das trincas nas estruturas secundárias, (2) número de ocorrências das trincas nas estruturas secundárias}
 \end{table}
 
-Ambas as relações encontradas eram esperadas pois indicam uma tendência do método a privilegiar o aprendizado, ou otimização, de elementos capazes de influenciar com maior intensidade a função de fitness. Isso mostra a importância de manter um variabilidade alta na população e reduzir efeitos de deriva genética para que a otimização escape de mínimos locais e consiga aprender, também, as probabilidades para trincas menos frequentes nas proteínas e/ou com proporções pequenas para determinadas estruturas secundárias.
+Ambas as relações encontradas eram esperadas, pois indicam uma tendência do método a privilegiar o aprendizado, ou otimização, de elementos capazes de influenciar com maior intensidade a função de \textit{fitness}. Isso mostra a importância de manter um variabilidade alta na população e reduzir efeitos de deriva genética para que a otimização escape de mínimos locais e consiga aprender, também, as probabilidades para trincas menos frequentes nas proteínas e/ou com proporções pequenas para determinadas estruturas secundárias.
 
 %\chapter{Aprendizado das regras gerais}
 
